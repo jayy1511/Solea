@@ -3,10 +3,5 @@ node_modules/
  
 # Environment variables
 .env
-.env.test
-.env.production
- 
-# Compiled output
-/dist
-/build
-/out
+dist/
+.vite/
