@@ -1,16 +1,15 @@
 const express = require('express');
 const router = express.Router();
+const { hashPassword } = require('../middlewares/passencrypt');
 
-// @route   POST /api/auth/register
-// @desc    Register a new user
-router.post('/register', (req, res) => {
-  res.send('Register route hit (controller not implemented yet)');
-});
-
-// @route   POST /api/auth/login
-// @desc    Login a user and return JWT
-router.post('/login', (req, res) => {
-  res.send('Login route hit (controller not implemented yet)');
+// TEMP: Test password encryption directly via route
+router.post('/register', hashPassword, (req, res) => {
+  const { email, password } = req.body;
+  res.json({
+    email,
+    hashedPassword: password,
+    msg: 'User registration simulation with password encryption'
+  });
 });
 
 module.exports = router;
