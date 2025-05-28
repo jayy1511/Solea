@@ -5,7 +5,7 @@ Welcome to the **Solea** backend API — a RESTful Node.js + Express.js server w
 ## 📦 Tech Stack
 
 - Node.js + Express
-- MongoDB + Mongoose
+- MongoDB + Mongoose + Neo4j + Redis
 - JWT Authentication
 - CORS + Bcrypt
 - RESTful API architecture
