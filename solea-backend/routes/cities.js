@@ -1,19 +1,18 @@
 const express = require('express');
 const router = express.Router();
+const {
+  getAllCities,
+  getCitiesByContinent,
+  getCityById,
+} = require('../controllers/cityController');
 
 // Get all cities
-router.get('/', (req, res) => {
-  res.send('Fetch all cities (to be implemented)');
-});
+router.get('/', getAllCities);
 
 // Get cities by continent
-router.get('/continent/:continent', (req, res) => {
-  res.send(`Fetch cities in ${req.params.continent} (to be implemented)`);
-});
+router.get('/continent/:continent', getCitiesByContinent);
 
 // Get detailed info for a single city
-router.get('/:cityId', (req, res) => {
-  res.send(`Get full details of city ${req.params.cityId} (to be implemented)`);
-});
+router.get('/:cityId', getCityById);
 
 module.exports = router;
