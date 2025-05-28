@@ -1,29 +1,19 @@
 const express = require('express');
 const router = express.Router();
+const {
+  createTrip,
+  addCityToTrip,
+  addHotelToTrip,
+  getTripById,
+  confirmTrip
+} = require('../controllers/tripController');
+const verifyToken = require('../middlewares/authMiddleware');
 
-// Create a new trip
-router.post('/create', (req, res) => {
-  res.send('Create a new trip (to be implemented)');
-});
-
-// Add a city to an existing trip
-router.post('/:tripId/add-city', (req, res) => {
-  res.send(`Add city to trip ${req.params.tripId} (to be implemented)`);
-});
-
-// Add a hotel to a city inside a trip
-router.post('/:tripId/add-hotel', (req, res) => {
-  res.send(`Add hotel to trip ${req.params.tripId} (to be implemented)`);
-});
-
-// View trip details
-router.get('/:tripId', (req, res) => {
-  res.send(`View details for trip ${req.params.tripId} (to be implemented)`);
-});
-
-// Confirm and finalize trip
-router.post('/:tripId/confirm', (req, res) => {
-  res.send(`Confirm trip ${req.params.tripId} (to be implemented)`);
-});
+// 🛡️ Protect all trip routes
+router.post('/', verifyToken, createTrip);
+router.post('/:tripId/cities', verifyToken, addCityToTrip);
+router.post('/:tripId/hotels', verifyToken, addHotelToTrip);
+router.get('/:tripId', verifyToken, getTripById);
+router.post('/:tripId/confirm', verifyToken, confirmTrip);
 
 module.exports = router;

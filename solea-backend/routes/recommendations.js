@@ -1,14 +1,16 @@
 const express = require('express');
 const router = express.Router();
+const {
+  getRecommendationsByCity,
+  getRecommendationsByUser
+} = require('../controllers/recommendationController');
 
-// Get city-based recommendations
-router.get('/city/:cityId', (req, res) => {
-  res.send(`Get recommendations based on city ${req.params.cityId} (to be implemented)`);
-});
+// @route   GET /api/recommendations/city/:cityId
+// @desc    Get recommendations based on a city
+router.get('/city/:cityId', getRecommendationsByCity);
 
-// Get personalized user recommendations
-router.get('/user/:userId', (req, res) => {
-  res.send(`Get recommendations for user ${req.params.userId} (to be implemented)`);
-});
+// @route   GET /api/recommendations/user/:userId
+// @desc    Get personalized recommendations for a user
+router.get('/user/:userId', getRecommendationsByUser);
 
 module.exports = router;
