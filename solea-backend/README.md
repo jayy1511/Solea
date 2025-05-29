@@ -1,6 +1,6 @@
 # 🌍 Solea Travel Planner — Backend
 
-Welcome to the **Solea** backend API — a RESTful travel planning server built with Node.js, Express.js, MongoDB, Neo4j, and Redis. This backend powers everything from user authentication and trip planning to recommendations and session-based caching.
+Welcome to the **Solea** backend API — a RESTful travel planning server built with Node.js, Express.js, MongoDB, Neo4j, and Redis. This backend powers everything from user authentication and trip planning to graph-based recommendations and session-based caching.
 
 ---
 
@@ -8,8 +8,8 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 - **Node.js + Express** — API server
 - **MongoDB + Mongoose** — Core data storage
-- **Neo4j** — Graph-based city & recommendation system
-- **Redis** — Session caching and draft trip storage
+- **Neo4j (AuraDB)** — Graph-based city & recommendation system
+- **Redis (Redis Cloud)** — Session caching and draft trip storage
 - **JWT Authentication** — Secure user sessions
 - **Bcrypt** — Password hashing
 - **CORS + Dotenv + Nodemon** — Dev & security helpers
@@ -57,37 +57,48 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 ## 🤖 Recommendation Routes (Neo4j)
 
-- `GET /api/recommendations/city/:cityId` — Get similar city recommendations
-- `GET /api/recommendations/user/:userId` — Personalized suggestions
+Neo4j is used to model cities, tags, and relationships for smarter travel suggestions.
+
+- `GET /api/recommendations/city/:cityId` — Get similar city recommendations based on tags and relationships
+- `GET /api/recommendations/user/:userId` — Get personalized suggestions based on user's trip history
+
+Neo4j is connected via the official Neo4j JavaScript driver using a secure `neo4j+s://` AuraDB URI.
+
+Graph structure:
+- `City` nodes with `TAGGED_AS` relationships to `Tag`
+- `User` connected to `City` through `VISITED` relationship
 
 ---
 
 ## 🧠 Redis Routes (Trip Draft Caching)
 
-Used for saving temporary draft trip data per user (like a trip cart).
+Redis is used to temporarily store in-progress trip drafts per user.
 
 - `POST /api/redis/draft/:userId` — Save a draft trip
 - `GET /api/redis/draft/:userId` — Load a saved draft
 - `DELETE /api/redis/draft/:userId` — Clear a saved draft
 
-Backend uses `cacheService.js` to interact with Redis.
+The backend uses `cacheService.js` to interact with Redis using the `tripDraft:<userId>` key format.
 
 ---
 
 ## 🧪 Testing with Postman
 
 - Use `/api/auth/login` to obtain a JWT.
-- Copy token into headers of protected requests: Authorization: Bearer <your_token_here>
-- Test Redis by saving/loading trips to `/api/redis/draft/:userId`.
+- Add `Authorization: Bearer <token>` to headers for protected endpoints.
+- Test:
+  - Personalized suggestions via `/api/recommendations/user/:userId`
+  - Draft caching via `/api/redis/draft/:userId`
 
 ---
 
 ## 🚀 Deployment
 
-- MongoDB via MongoDB Atlas
-- Redis via Redis Cloud
-- Deployed backend on Render
-- Uses `.env` for environment variables
+- MongoDB hosted on MongoDB Atlas
+- Redis hosted on Redis Cloud
+- Neo4j hosted on Neo4j AuraDB
+- Backend deployed on Render
+- `.env` used to manage secure secrets
 
 ---
 
