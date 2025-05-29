@@ -1,65 +1,96 @@
 # 🌍 Solea Travel Planner — Backend
 
-Welcome to the **Solea** backend API — a RESTful Node.js + Express.js server with MongoDB, Neo4j and Redis, built to power a modern travel planning experience. Users can register, log in, manage trips, view city data, fetch blog articles, and get personalized recommendations.
+Welcome to the **Solea** backend API — a RESTful travel planning server built with Node.js, Express.js, MongoDB, Neo4j, and Redis. This backend powers everything from user authentication and trip planning to recommendations and session-based caching.
+
+---
 
 ## 📦 Tech Stack
 
-- Node.js + Express
-- MongoDB + Mongoose + Neo4j + Redis
-- JWT Authentication
-- CORS + Bcrypt
-- RESTful API architecture
+- **Node.js + Express** — API server
+- **MongoDB + Mongoose** — Core data storage
+- **Neo4j** — Graph-based city & recommendation system
+- **Redis** — Session caching and draft trip storage
+- **JWT Authentication** — Secure user sessions
+- **Bcrypt** — Password hashing
+- **CORS + Dotenv + Nodemon** — Dev & security helpers
 
-## 📁 Folder Structure
-
-```
-solea-backend/
-├── controllers/       # Business logic
-├── middlewares/       # Auth and encryption
-├── models/            # Mongoose models
-├── routes/            # Express route handlers
-├── db.js              # MongoDB connection
-├── index.js           # Entry point
-```
+---
 
 ## 🔐 Auth Routes
 
 - `POST /api/auth/register` — Register a new user
-- `POST /api/auth/login` — Login with email/password
+- `POST /api/auth/login` — Login and receive JWT token
+
+---
 
 ## 👤 User Routes
 
-- `GET /api/users/profile` — Get logged-in user profile
-- `PUT /api/users/preferences` — Update user preferences
-- `GET /api/users/:id/trips` — Get trips of a user
+- `GET /api/users/profile` — Get logged-in user profile (🔒 JWT required)
+- `PUT /api/users/preferences` — Update preferences
+- `GET /api/users/:id/trips` — Fetch user's trips
+
+---
 
 ## ✈️ Trip Routes
 
-- `POST /api/trips` — Create new trip
+- `POST /api/trips` — Create a trip
 - `POST /api/trips/:tripId/cities` — Add city to trip
 - `POST /api/trips/:tripId/hotels` — Add hotel to trip
-- `GET /api/trips/:tripId` — Get trip details
-- `POST /api/trips/:tripId/confirm` — Confirm trip
+- `GET /api/trips/:tripId` — Trip details
+- `POST /api/trips/:tripId/confirm` — Confirm and finalize
+
+---
 
 ## 🏙️ City Routes
 
 - `GET /api/cities` — All cities
-- `GET /api/cities/continent/:continent` — Cities by continent
-- `GET /api/cities/:cityId` — Single city details
+- `GET /api/cities/continent/:continent` — Cities in a continent
+- `GET /api/cities/:cityId` — Details of a city
+
+---
 
 ## 📝 Blog Routes
 
-- `GET /api/blogs` — Fetch blog posts
+- `GET /api/blogs` — Fetch all blog posts
 
-## 🤖 Recommendation Routes
+---
 
-- `GET /api/recommendations/city/:cityId` — Based on city
-- `GET /api/recommendations/user/:userId` — Based on user
+## 🤖 Recommendation Routes (Neo4j)
 
-## 🧪 Testing
+- `GET /api/recommendations/city/:cityId` — Get similar city recommendations
+- `GET /api/recommendations/user/:userId` — Personalized suggestions
 
-Use Postman to test routes. Auth-protected routes require a valid `Authorization: Bearer <token>` header.
+---
 
-## 📄 License
+## 🧠 Redis Routes (Trip Draft Caching)
 
-MIT
+Used for saving temporary draft trip data per user (like a trip cart).
+
+- `POST /api/redis/draft/:userId` — Save a draft trip
+- `GET /api/redis/draft/:userId` — Load a saved draft
+- `DELETE /api/redis/draft/:userId` — Clear a saved draft
+
+Backend uses `cacheService.js` to interact with Redis.
+
+---
+
+## 🧪 Testing with Postman
+
+- Use `/api/auth/login` to obtain a JWT.
+- Copy token into headers of protected requests: Authorization: Bearer <your_token_here>
+- Test Redis by saving/loading trips to `/api/redis/draft/:userId`.
+
+---
+
+## 🚀 Deployment
+
+- MongoDB via MongoDB Atlas
+- Redis via Redis Cloud
+- Deployed backend on Render
+- Uses `.env` for environment variables
+
+---
+
+## 🧾 Author
+
+Made with 💙 for Solea Project — *Your next-level travel companion.*
