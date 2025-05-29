@@ -1,16 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const {
-  getRecommendationsByCity,
-  getRecommendationsByUser
+  getCityRecommendations,
+  getUserRecommendations
 } = require('../controllers/recommendationController');
 
-// @route   GET /api/recommendations/city/:cityId
-// @desc    Get recommendations based on a city
-router.get('/city/:cityId', getRecommendationsByCity);
-
-// @route   GET /api/recommendations/user/:userId
-// @desc    Get personalized recommendations for a user
-router.get('/user/:userId', getRecommendationsByUser);
+router.get('/city/:cityId', getCityRecommendations);
+router.get('/user/:userId', getUserRecommendations);
 
 module.exports = router;
