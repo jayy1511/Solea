@@ -1,0 +1,1984 @@
+[
+  {
+    "continent": "Europe",
+    "country": "France",
+    "city": "Paris",
+    "tags": ["romantic", "art", "fashion", "historic"],
+    "attractions": [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Notre-Dame Cathedral",
+      "Arc de Triomphe",
+      "Sacré-Cœur Basilica",
+      "Champs-Élysées",
+      "Palace of Versailles",
+      "Musée d'Orsay",
+      "Montmartre",
+      "Seine River Cruise"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hôtel Ritz Paris", "price_per_night": 2200 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel George V", "price_per_night": 2100 },
+        { "name": "Shangri-La Hotel Paris", "price_per_night": 1400 },
+        { "name": "Le Meurice", "price_per_night": 1200 }
+      ],
+      "4_star": [
+        { "name": "Hotel Regina Louvre", "price_per_night": 600 },
+        { "name": "Castille Paris - Starhotels Collezione", "price_per_night": 500 },
+        { "name": "L'Hotel du Collectionneur", "price_per_night": 400 }
+      ],
+      "3_star": [
+        { "name": "Hotel Eiffel Seine", "price_per_night": 200 },
+        { "name": "Hotel Le Petit Belloy", "price_per_night": 180 },
+        { "name": "Hotel de la Porte Dorée", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "France",
+    "city": "Lyon",
+    "tags": ["gastronomy", "history", "riverside"],
+    "attractions": [
+      "Basilica of Notre-Dame de Fourvière",
+      "Parc de la Tête d'Or",
+      "Old Lyon",
+      "Traboules",
+      "Place Bellecour",
+      "Musée des Confluences",
+      "Fourvière Roman Theatre",
+      "Croix-Rousse",
+      "Lyon Cathedral",
+      "Museum of Fine Arts"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Villa Florentine", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "Cour des Loges", "price_per_night": 500 },
+        { "name": "Hotel Carlton Lyon – MGallery", "price_per_night": 450 },
+        { "name": "Hotel Le Royal Lyon – MGallery", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Hotel Mercure Lyon Centre Château Perrache", "price_per_night": 300 },
+        { "name": "Hotel Silky by HappyCulture", "price_per_night": 280 },
+        { "name": "Hotel Globe et Cecil", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel des Artistes", "price_per_night": 180 },
+        { "name": "Hotel du Simplon", "price_per_night": 160 },
+        { "name": "Hotel Vaubecour", "price_per_night": 150 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "France",
+    "city": "Nice",
+    "tags": ["beach", "riviera", "sunshine"],
+    "attractions": [
+      "Promenade des Anglais",
+      "Castle Hill",
+      "Old Town",
+      "Place Masséna",
+      "Matisse Museum",
+      "Russian Orthodox Cathedral",
+      "Nice Port",
+      "Phoenix Park",
+      "Cimiez Monastery",
+      "Marc Chagall Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Negresco", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Hyatt Regency Nice Palais de la Méditerranée", "price_per_night": 500 },
+        { "name": "Boscolo Exedra Nice", "price_per_night": 450 },
+        { "name": "Hotel Le Palais de la Méditerranée", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Hotel Beau Rivage", "price_per_night": 300 },
+        { "name": "Hotel La Pérouse", "price_per_night": 280 },
+        { "name": "Hotel Aston La Scala", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Rossetti", "price_per_night": 180 },
+        { "name": "Hotel du Centre", "price_per_night": 160 },
+        { "name": "Hotel Florence Nice", "price_per_night": 150 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Italy",
+    "city": "Venice",
+    "tags": ["canals", "romantic", "historic"],
+    "attractions": [
+      "St. Mark's Basilica",
+      "Doge's Palace",
+      "Grand Canal",
+      "Rialto Bridge",
+      "Murano Island",
+      "Burano Island",
+      "Gallerie dell'Accademia",
+      "Peggy Guggenheim Collection",
+      "Bridge of Sighs",
+      "Lido di Venezia"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Aman Venice", "price_per_night": 1500 }
+      ],
+      "5_star": [
+        { "name": "The Gritti Palace", "price_per_night": 1200 },
+        { "name": "Belmond Hotel Cipriani", "price_per_night": 1000 },
+        { "name": "Bauer Palazzo", "price_per_night": 900 }
+      ],
+      "4_star": [
+        { "name": "Hotel Ai Reali", "price_per_night": 400 },
+        { "name": "Hotel Saturnia & International", "price_per_night": 350 },
+        { "name": "Hotel Antiche Figure", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Hotel Olimpia Venice", "price_per_night": 200 },
+        { "name": "Hotel Al Ponte Mocenigo", "price_per_night": 180 },
+        { "name": "Hotel Canal", "price_per_night": 150 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Italy",
+    "city": "Florence",
+    "tags": ["art", "renaissance", "historic"],
+    "attractions": [
+      "Cathedral of Santa Maria del Fiore (Duomo)",
+      "Uffizi Gallery",
+      "Ponte Vecchio",
+      "Palazzo Pitti",
+      "Boboli Gardens",
+      "Basilica of Santa Croce",
+      "Piazza della Signoria",
+      "Palazzo Vecchio",
+      "Galleria dell'Accademia (David by Michelangelo)",
+      "Piazzale Michelangelo"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Il Salviatino", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel Firenze", "price_per_night": 900 },
+        { "name": "Hotel Savoy", "price_per_night": 800 },
+        { "name": "Portrait Firenze", "price_per_night": 750 }
+      ],
+      "4_star": [
+        { "name": "Hotel L'Orologio", "price_per_night": 300 },
+        { "name": "Hotel Brunelleschi", "price_per_night": 350 },
+        { "name": "Hotel Santa Maria Novella", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Davanzati", "price_per_night": 200 },
+        { "name": "Hotel Pendini", "price_per_night": 180 },
+        { "name": "Hotel Casci", "price_per_night": 150 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Italy",
+    "city": "Milan",
+    "tags": ["fashion", "business", "modern"],
+    "attractions": [
+      "Milan Cathedral (Duomo di Milano)",
+      "Galleria Vittorio Emanuele II",
+      "Sforza Castle (Castello Sforzesco)",
+      "The Last Supper (Il Cenacolo)",
+      "La Scala Opera House",
+      "Brera Art Gallery",
+      "Navigli District",
+      "San Siro Stadium",
+      "Piazza del Duomo",
+      "Parco Sempione"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "TownHouse Galleria", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Hotel Principe di Savoia", "price_per_night": 900 },
+        { "name": "Armani Hotel Milano", "price_per_night": 1000 },
+        { "name": "Bulgari Hotel Milano", "price_per_night": 1100 }
+      ],
+      "4_star": [
+        { "name": "Hotel Spadari al Duomo", "price_per_night": 300 },
+        { "name": "Hotel Berna", "price_per_night": 250 },
+        { "name": "Hotel Cavour", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Garda", "price_per_night": 150 },
+        { "name": "Hotel Canada", "price_per_night": 130 },
+        { "name": "Hotel Ritter", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Italy",
+    "city": "Naples",
+    "tags": ["historic", "coastal", "archeological"],
+    "attractions": [
+      "Naples National Archaeological Museum",
+      "Pompeii Archaeological Site",
+      "Castel dell'Ovo",
+      "Spaccanapoli Street",
+      "San Carlo Theatre",
+      "Royal Palace of Naples",
+      "Piazza del Plebiscito",
+      "Catacombs of San Gennaro",
+      "Naples Underground (Napoli Sotterranea)",
+      "Mount Vesuvius"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Romeo Hotel", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Grand Hotel Vesuvio", "price_per_night": 800 },
+        { "name": "Hotel Excelsior", "price_per_night": 750 },
+        { "name": "Palazzo Caracciolo Napoli – MGallery", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Hotel Piazza Bellini", "price_per_night": 300 },
+        { "name": "Hotel Royal Continental", "price_per_night": 350 },
+        { "name": "Hotel San Francesco al Monte", "price_per_night": 320 }
+      ],
+      "3_star": [
+        { "name": "Hotel Il Convento", "price_per_night": 180 },
+        { "name": "Hotel Europeo & Flowers", "price_per_night": 150 },
+        { "name": "Hotel Correra 241", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Spain",
+    "city": "Madrid",
+    "tags": ["capital", "art", "vibrant"],
+    "attractions": [
+      "Royal Palace of Madrid",
+      "Prado Museum",
+      "Retiro Park",
+      "Puerta del Sol",
+      "Plaza Mayor",
+      "Thyssen-Bornemisza Museum",
+      "Gran Vía",
+      "Temple of Debod",
+      "Santiago Bernabéu Stadium",
+      "Reina Sofía Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Ritz Madrid", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Hotel Villa Magna", "price_per_night": 800 },
+        { "name": "Gran Meliá Palacio de los Duques", "price_per_night": 750 },
+        { "name": "URSO Hotel & Spa", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Only YOU Hotel Atocha", "price_per_night": 300 },
+        { "name": "Hotel Preciados", "price_per_night": 250 },
+        { "name": "Hotel Paseo del Arte", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Regina", "price_per_night": 180 },
+        { "name": "Hotel Europa", "price_per_night": 150 },
+        { "name": "Hotel Ganivet", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Spain",
+    "city": "Barcelona",
+    "tags": ["modernist", "beach", "cosmopolitan"],
+    "attractions": [
+      "Sagrada Família",
+      "Park Güell",
+      "La Rambla",
+      "Gothic Quarter",
+      "Casa Batlló",
+      "Casa Milà (La Pedrera)",
+      "Montjuïc Hill",
+      "Magic Fountain of Montjuïc",
+      "Barceloneta Beach",
+      "Camp Nou Stadium"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Arts Barcelona", "price_per_night": 1100 }
+      ],
+      "5_star": [
+        { "name": "Mandarin Oriental Barcelona", "price_per_night": 950 },
+        { "name": "W Barcelona", "price_per_night": 900 },
+        { "name": "Majestic Hotel & Spa", "price_per_night": 850 }
+      ],
+      "4_star": [
+        { "name": "Hotel 1898", "price_per_night": 350 },
+        { "name": "Hotel Jazz", "price_per_night": 300 },
+        { "name": "Hotel Barcelona Center", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Curious", "price_per_night": 180 },
+        { "name": "Hotel Constanza", "price_per_night": 160 },
+        { "name": "Hotel Acta Antibes", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Spain",
+    "city": "Seville",
+    "tags": ["flamenco", "historic", "andalusian"],
+    "attractions": [
+      "Seville Cathedral",
+      "Royal Alcázar of Seville",
+      "Plaza de España",
+      "Metropol Parasol",
+      "Barrio Santa Cruz",
+      "Torre del Oro",
+      "Casa de Pilatos",
+      "Museum of Fine Arts of Seville",
+      "Triana District",
+      "Archivo General de Indias"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Alfonso XIII", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Gran Meliá Colón", "price_per_night": 800 },
+        { "name": "EME Catedral Hotel", "price_per_night": 750 },
+        { "name": "Hospes Las Casas del Rey de Baeza", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Hotel Becquer", "price_per_night": 300 },
+        { "name": "Hotel Amadeus & La Musica", "price_per_night": 280 },
+        { "name": "Hotel Casa 1800 Sevilla", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Patio de las Cruces", "price_per_night": 180 },
+        { "name": "Hotel Abril", "price_per_night": 160 },
+        { "name": "Hotel Zaida", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Spain",
+    "city": "Valencia",
+    "tags": ["futuristic", "paella", "coastal"],
+    "attractions": [
+      "City of Arts and Sciences",
+      "Oceanogràfic",
+      "La Lonja de la Seda",
+      "Valencia Cathedral",
+      "Plaza de la Virgen",
+      "Turia Gardens",
+      "Barrio del Carmen",
+      "Albufera Natural Park",
+      "Malvarrosa Beach",
+      "Central Market"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Las Arenas Balneario Resort", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "The Westin Valencia", "price_per_night": 800 },
+        { "name": "Caro Hotel", "price_per_night": 750 },
+        { "name": "Hospes Palau de la Mar", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Vincci Lys", "price_per_night": 300 },
+        { "name": "Hotel Dimar", "price_per_night": 280 },
+        { "name": "Hotel Malcom and Barret", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Mediterraneo", "price_per_night": 180 },
+        { "name": "Hotel Sorolla Centro", "price_per_night": 160 },
+        { "name": "Hotel Malcom and Barret", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Berlin",
+    "tags": ["capital", "historic", "cosmopolitan"],
+    "attractions": [
+      "Brandenburg Gate",
+      "Reichstag Building",
+      "Berlin Wall Memorial",
+      "Museum Island",
+      "East Side Gallery",
+      "Checkpoint Charlie",
+      "Berlin Cathedral",
+      "Charlottenburg Palace",
+      "Potsdamer Platz",
+      "Holocaust Memorial"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Adlon Kempinski Berlin", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "The Ritz-Carlton, Berlin", "price_per_night": 800 },
+        { "name": "Grand Hyatt Berlin", "price_per_night": 750 },
+        { "name": "The Mandala Hotel", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Radisson Collection Hotel, Berlin", "price_per_night": 300 },
+        { "name": "Hotel NH Collection Berlin Mitte", "price_per_night": 280 },
+        { "name": "Hotel Berlin, Berlin", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel ZOE by AMANO", "price_per_night": 180 },
+        { "name": "Hotel Ludwig Van Beethoven", "price_per_night": 160 },
+        { "name": "Hotel Amano East Side", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Munich",
+    "tags": ["beer", "historic", "alpine"],
+    "attractions": [
+      "Marienplatz",
+      "Nymphenburg Palace",
+      "English Garden",
+      "BMW Museum",
+      "Olympiapark",
+      "Deutsches Museum",
+      "Viktualienmarkt",
+      "Residenz Museum",
+      "Allianz Arena",
+      "Hofbräuhaus München"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Bayerischer Hof", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Mandarin Oriental, Munich", "price_per_night": 950 },
+        { "name": "The Charles Hotel", "price_per_night": 900 },
+        { "name": "Kempinski Hotel Vier Jahreszeiten", "price_per_night": 850 }
+      ],
+      "4_star": [
+        { "name": "Hotel Torbräu", "price_per_night": 350 },
+        { "name": "Platzl Hotel", "price_per_night": 320 },
+        { "name": "Hotel München Palace", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Hotel Metropol by Maier Privathotels", "price_per_night": 180 },
+        { "name": "Hotel Jedermann", "price_per_night": 160 },
+        { "name": "Hotel Amba", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Greece",
+    "city": "Athens",
+    "tags": ["ancient", "historic", "coastal"],
+    "attractions": [
+      "Acropolis and Parthenon",
+      "Acropolis Museum",
+      "Ancient Agora",
+      "Plaka District",
+      "Temple of Olympian Zeus",
+      "National Archaeological Museum",
+      "Mount Lycabettus",
+      "Panathenaic Stadium",
+      "Roman Agora",
+      "Monastiraki Flea Market"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Grande Bretagne", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "King George Hotel", "price_per_night": 900 },
+        { "name": "Electra Metropolis", "price_per_night": 850 },
+        { "name": "NJV Athens Plaza", "price_per_night": 800 }
+      ],
+      "4_star": [
+        { "name": "Herodion Hotel", "price_per_night": 300 },
+        { "name": "Athens Gate Hotel", "price_per_night": 280 },
+        { "name": "A for Athens", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Plaka Hotel", "price_per_night": 180 },
+        { "name": "Hotel Attalos", "price_per_night": 160 },
+        { "name": "Athens Center Square Hotel", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Greece",
+    "city": "Thessaloniki",
+    "tags": ["byzantine", "coastal", "cultural"],
+    "attractions": [
+      "White Tower",
+      "Archaeological Museum",
+      "Church of Agios Dimitrios",
+      "Rotunda of Galerius",
+      "Arch of Galerius",
+      "Ano Poli (Upper Town)",
+      "Byzantine Walls",
+      "Museum of Byzantine Culture",
+      "Ladadika District",
+      "Modiano Market"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Met Hotel", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Electra Palace Thessaloniki", "price_per_night": 800 },
+        { "name": "Makedonia Palace", "price_per_night": 750 },
+        { "name": "Daios Luxury Living", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "City Hotel Thessaloniki", "price_per_night": 300 },
+        { "name": "Anatolia Hotel", "price_per_night": 280 },
+        { "name": "The Excelsior", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Olympia", "price_per_night": 180 },
+        { "name": "Hotel Luxembourg", "price_per_night": 160 },
+        { "name": "Hotel El Greco", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Greece",
+    "city": "Heraklion (Crete)",
+    "tags": ["ancient", "island", "coastal"],
+    "attractions": [
+      "Palace of Knossos",
+      "Heraklion Archaeological Museum",
+      "Koules Fortress",
+      "Morosini Lions Fountain",
+      "Venetian Walls",
+      "Historical Museum of Crete",
+      "Church of Agios Titos",
+      "Natural History Museum of Crete",
+      "El Greco Museum",
+      "Cretaquarium"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Galaxy Iraklio Hotel", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "GDM Megaron Hotel", "price_per_night": 800 },
+        { "name": "Aquila Atlantis Hotel", "price_per_night": 750 },
+        { "name": "Legacy Gastro Suites", "price_per_night": 700 }
+      ],
+      "4_star": [
+        { "name": "Lato Boutique Hotel", "price_per_night": 300 },
+        { "name": "Olive Green Hotel", "price_per_night": 280 },
+        { "name": "Ibis Styles Heraklion Central", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Irini", "price_per_night": 180 },
+        { "name": "Hotel Lena", "price_per_night": 160 },
+        { "name": "Hotel Rea", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Belgium",
+    "city": "Brussels",
+    "tags": ["capital", "european", "chocolate"],
+    "attractions": [
+      "Grand Place",
+      "Manneken Pis",
+      "Atomium",
+      "Royal Palace of Brussels",
+      "Belgian Comic Strip Center",
+      "Magritte Museum",
+      "Saint Michael and Gudula Cathedral",
+      "Mont des Arts",
+      "Parc du Cinquantenaire",
+      "Galeries Royales Saint-Hubert"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Amigo", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Steigenberger Wiltcher's", "price_per_night": 900 },
+        { "name": "The Dominican", "price_per_night": 850 },
+        { "name": "Warwick Brussels", "price_per_night": 800 }
+      ],
+      "4_star": [
+        { "name": "NH Collection Brussels Centre", "price_per_night": 300 },
+        { "name": "Thon Hotel EU", "price_per_night": 280 },
+        { "name": "Radisson RED Brussels", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Agora Brussels Grand Place", "price_per_night": 180 },
+        { "name": "Hotel La Legende", "price_per_night": 160 },
+        { "name": "Hotel Saint-Géry", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Belgium",
+    "city": "Bruges",
+    "tags": ["medieval", "canals", "chocolate"],
+    "attractions": [
+      "Belfry of Bruges",
+      "Market Square (Markt)",
+      "Basilica of the Holy Blood",
+      "Church of Our Lady",
+      "Groeningemuseum",
+      "Beguinage (Begijnhof)",
+      "Rozenhoedkaai",
+      "Gruuthuse Museum",
+      "Minnewater Lake",
+      "Choco-Story Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Dukes' Palace Bruges", "price_per_night": 1100 }
+      ],
+      "5_star": [
+        { "name": "Hotel Heritage", "price_per_night": 900 },
+        { "name": "The Pand Hotel", "price_per_night": 850 },
+        { "name": "Relais Bourgondisch Cruyce", "price_per_night": 800 }
+      ],
+      "4_star": [
+        { "name": "Hotel de Orangerie", "price_per_night": 300 },
+        { "name": "Hotel Jan Brito", "price_per_night": 280 },
+        { "name": "Hotel Navarra Brugge", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Fevery", "price_per_night": 180 },
+        { "name": "Hotel Adornes", "price_per_night": 160 },
+        { "name": "Hotel Patritius", "price_per_night": 140 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Belgium",
+    "city": "Ghent",
+    "tags": ["medieval", "historic", "cultural"],
+    "attractions": [
+      "Gravensteen Castle",
+      "St. Bavo's Cathedral",
+      "Belfry of Ghent",
+      "Graslei and Korenlei",
+      "St. Nicholas' Church",
+      "Museum of Fine Arts",
+      "STAM Ghent City Museum",
+      "Patershol District",
+      "Design Museum Ghent",
+      "Ghent City Hall"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "De Waterzooi Suites", "price_per_night": 180 }
+      ],
+      "5_star": [
+        { "name": "B&B The Verhaegen", "price_per_night": 830 },
+        { "name": "B&B Au Grenier", "price_per_night": 135 },
+        { "name": "Marcel de Gand Business & Travel", "price_per_night": 175 }
+      ],
+      "4_star": [
+        { "name": "Pillows Grand Boutique Hotel Reylof Ghent", "price_per_night": 140 },
+        { "name": "Van der Valk Hotel Gent", "price_per_night": 125 },
+        { "name": "NH Collection Gent", "price_per_night": 85 }
+      ],
+      "3_star": [
+        { "name": "Hotel Astoria Gent", "price_per_night": 85 },
+        { "name": "Hotel Chamade", "price_per_night": 95 },
+        { "name": "Hotel Carlton", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "tags": ["hilly", "historic", "coastal"],
+    "attractions": [
+      "Belém Tower",
+      "Jerónimos Monastery",
+      "Alfama District",
+      "São Jorge Castle",
+      "Lisbon Oceanarium",
+      "Praça do Comércio",
+      "Tram 28 Ride",
+      "Time Out Market",
+      "Calouste Gulbenkian Museum",
+      "LX Factory"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Olissippo Lapa Palace", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel Ritz Lisbon", "price_per_night": 650 },
+        { "name": "Pestana Palace Lisboa", "price_per_night": 600 },
+        { "name": "Altis Belém Hotel & Spa", "price_per_night": 580 }
+      ],
+      "4_star": [
+        { "name": "Hotel Lisboa Plaza", "price_per_night": 300 },
+        { "name": "Hotel Avenida Palace", "price_per_night": 280 },
+        { "name": "Hotel Santa Justa", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Ibis Lisboa Centro", "price_per_night": 150 },
+        { "name": "Hotel Gat Rossio", "price_per_night": 140 },
+        { "name": "Hotel Dom Sancho I", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Portugal",
+    "city": "Porto",
+    "tags": ["riverside", "wine", "historic"],
+    "attractions": [
+      "Dom Luís I Bridge",
+      "Ribeira District",
+      "Livraria Lello Bookstore",
+      "Clérigos Tower",
+      "São Bento Railway Station",
+      "Port Wine Cellars",
+      "Palácio da Bolsa",
+      "Sé do Porto (Porto Cathedral)",
+      "Serralves Museum & Gardens"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Luxurious wine-themed", "price_per_night": null }
+      ],
+      "5_star": [
+        { "name": "InterContinental Porto – Palácio das Cardosas", "price_per_night": 500 },
+        { "name": "Artsy boutique hotel overlooking the Douro River", "price_per_night": 460 },
+        { "name": "Baroque palace turned luxury hotel on the riverside", "price_per_night": 430 }
+      ],
+      "4_star": [
+        { "name": "Hotel Carris Porto Ribeira", "price_per_night": 250 },
+        { "name": "Vincci Porto", "price_per_night": 240 },
+        { "name": "HF Fénix Porto", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Moov Hotel Porto Centro", "price_per_night": 140 },
+        { "name": "Hotel da Bolsa", "price_per_night": 130 },
+        { "name": "Hotel Star Inn Porto", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Portugal",
+    "city": "Faro",
+    "tags": ["coastal", "historic", "algarve"],
+    "attractions": [
+      "Faro Old Town (Cidade Velha)",
+      "Arco da Vila",
+      "Faro Cathedral (Sé)",
+      "Igreja do Carmo (with Bone Chapel)",
+      "Ria Formosa Natural Park",
+      "Faro Municipal Museum",
+      "Palácio de Estoi",
+      "Ilha Deserta (Deserted Island)",
+      "Faro Marina",
+      "Praia de Faro"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "3HB Faro", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Hotel Faro & Beach Club", "price_per_night": 590 },
+        { "name": "Eva Senses Hotel", "price_per_night": 560 },
+        { "name": "Pousada Palácio de Estoi", "price_per_night": 540 }
+      ],
+      "4_star": [
+        { "name": "Best Western Hotel Dom Bernardo", "price_per_night": 320 },
+        { "name": "AP Eva Senses", "price_per_night": 300 },
+        { "name": "Hotel Monaco", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Stay Hotel Faro Centro", "price_per_night": 200 },
+        { "name": "Hotel Sol Algarve", "price_per_night": 180 },
+        { "name": "Hotel Afonso III", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Austria",
+    "city": "Vienna",
+    "tags": ["imperial", "music", "cultural"],
+    "attractions": [
+      "Schönbrunn Palace",
+      "Hofburg Imperial Palace",
+      "St. Stephen's Cathedral",
+      "Belvedere Palace",
+      "Vienna State Opera",
+      "Kunsthistorisches Museum",
+      "Albertina Museum",
+      "Prater Park & Giant Ferris Wheel",
+      "Naschmarkt",
+      "MuseumsQuartier"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Sacher Wien", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "The Ritz-Carlton Vienna", "price_per_night": 650 },
+        { "name": "Palais Hansen Kempinski", "price_per_night": 600 },
+        { "name": "Park Hyatt Vienna", "price_per_night": 580 }
+      ],
+      "4_star": [
+        { "name": "Hotel Das Tigra", "price_per_night": 350 },
+        { "name": "Hotel Am Stephansplatz", "price_per_night": 330 },
+        { "name": "Hotel Beethoven Wien", "price_per_night": 310 }
+      ],
+      "3_star": [
+        { "name": "Hotel Austria", "price_per_night": 200 },
+        { "name": "Hotel Graf Stadion", "price_per_night": 180 },
+        { "name": "Hotel Post Wien", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Austria",
+    "city": "Salzburg",
+    "tags": ["mozart", "alpine", "historic"],
+    "attractions": [
+      "Hohensalzburg Fortress",
+      "Mirabell Palace and Gardens",
+      "Mozart's Birthplace",
+      "Salzburg Cathedral",
+      "Getreidegasse Shopping Street",
+      "Hellbrunn Palace",
+      "St. Peter's Abbey",
+      "Residenzplatz Square",
+      "Mozartplatz",
+      "Salzburger Freilichtmuseum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Sacher Salzburg", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Hotel Goldener Hirsch", "price_per_night": 600 },
+        { "name": "Sheraton Grand Salzburg", "price_per_night": 580 },
+        { "name": "Hotel Bristol Salzburg", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Hotel Elefant", "price_per_night": 320 },
+        { "name": "Hotel am Mirabellplatz", "price_per_night": 300 },
+        { "name": "Hotel Wolf-Dietrich", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Mozart", "price_per_night": 200 },
+        { "name": "Hotel Jedermann", "price_per_night": 180 },
+        { "name": "Hotel Drei Kreuz", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "tags": ["archipelago", "modern", "scandinavian"],
+    "attractions": [
+      "Vasa Museum",
+      "Gamla Stan (Old Town)",
+      "Skansen Open-Air Museum",
+      "Royal Palace",
+      "ABBA The Museum",
+      "Fotografiska Museum",
+      "Djurgården Island",
+      "Stockholm City Hall",
+      "Moderna Museet",
+      "Nobel Prize Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Grand Hôtel Stockholm", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Lydmar Hotel", "price_per_night": 550 },
+        { "name": "Nobis Hotel", "price_per_night": 500 },
+        { "name": "Bank Hotel", "price_per_night": 480 }
+      ],
+      "4_star": [
+        { "name": "Hotel Diplomat", "price_per_night": 350 },
+        { "name": "Hotel Rival", "price_per_night": 320 },
+        { "name": "Clarion Hotel Sign", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Hotel C Stockholm", "price_per_night": 200 },
+        { "name": "Scandic No. 53", "price_per_night": 180 },
+        { "name": "Hotel Hellsten", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "tags": ["coastal", "cultural", "scandinavian"],
+    "attractions": [
+      "Liseberg Amusement Park",
+      "Gothenburg Botanical Garden",
+      "Slottsskogen Park",
+      "Universeum Science Center",
+      "Haga District",
+      "Gothenburg Museum of Art",
+      "Feskekörka Fish Market",
+      "Archipelago Boat Tours",
+      "Skansen Kronan Fortress",
+      "Avenyn Boulevard"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Upper House", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Hotel Pigalle", "price_per_night": 450 },
+        { "name": "Dorsia Hotel & Restaurant", "price_per_night": 430 },
+        { "name": "Radisson Blu Riverside Hotel", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Clarion Hotel Post", "price_per_night": 300 },
+        { "name": "Elite Park Avenue Hotel", "price_per_night": 280 },
+        { "name": "Scandic Rubinen", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Royal", "price_per_night": 180 },
+        { "name": "Hotel Vanilla", "price_per_night": 160 },
+        { "name": "Hotel Flora", "price_per_night": 150 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Norway",
+    "city": "Oslo",
+    "tags": ["fjords", "modern", "scandinavian"],
+    "attractions": [
+      "Vigeland Sculpture Park",
+      "Akershus Fortress",
+      "Fram Museum",
+      "Holmenkollen Ski Museum & Tower",
+      "MUNCH Museum",
+      "Norwegian Folk Museum",
+      "Royal Palace",
+      "Oslofjord",
+      "National Museum",
+      "Oslo Opera House"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Thief", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Grand Hotel Oslo by Scandic", "price_per_night": 600 },
+        { "name": "Hotel Continental", "price_per_night": 580 },
+        { "name": "Sommerro", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Thon Hotel Rosenkrantz Oslo", "price_per_night": 320 },
+        { "name": "Clarion Hotel Oslo", "price_per_night": 300 },
+        { "name": "Radisson RED Oslo Økern", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Comfort Hotel Xpress Central Station", "price_per_night": 200 },
+        { "name": "Citybox Oslo", "price_per_night": 180 },
+        { "name": "Anker Hotel", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Norway",
+    "city": "Bergen",
+    "tags": ["fjords", "historic", "coastal"],
+    "attractions": [
+      "Bryggen Hanseatic Wharf",
+      "Fløibanen Funicular",
+      "Mount Ulriken",
+      "Bergen Fish Market",
+      "Troldhaugen (Edvard Grieg Museum)",
+      "Bergenhus Fortress",
+      "KODE Art Museums",
+      "Fantoft Stave Church",
+      "Old Bergen Museum",
+      "Hardangerfjord Day Trip"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Norge by Scandic", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Opus XVI", "price_per_night": 600 },
+        { "name": "Clarion Hotel Admiral", "price_per_night": 580 },
+        { "name": "Thon Hotel Rosenkrantz Bergen", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Zander K Hotel", "price_per_night": 320 },
+        { "name": "Radisson Blu Royal Hotel", "price_per_night": 300 },
+        { "name": "Scandic Ørnen", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Citybox Bergen", "price_per_night": 200 },
+        { "name": "Magic Hotel Korskirken", "price_per_night": 180 },
+        { "name": "Augustin Hotel", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Norway",
+    "city": "Stavanger",
+    "tags": ["fjords", "oil", "outdoors"],
+    "attractions": [
+      "Preikestolen (Pulpit Rock)",
+      "Old Stavanger (Gamle Stavanger)",
+      "Norwegian Petroleum Museum",
+      "Stavanger Cathedral",
+      "Flor & Fjære Gardens",
+      "Swords in Rock (Sverd i fjell)",
+      "Stavanger Art Museum",
+      "Lysefjord Cruise",
+      "Breidablikk Museum",
+      "Ullandhaug Tower"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Eilert Smith Hotel", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Hotel Victoria", "price_per_night": 600 },
+        { "name": "Radisson Blu Atlantic Hotel", "price_per_night": 580 },
+        { "name": "Clarion Hotel Stavanger", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Scandic Royal Stavanger", "price_per_night": 320 },
+        { "name": "Thon Hotel Maritim", "price_per_night": 300 },
+        { "name": "Clarion Collection Hotel Skagen Brygge", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Comfort Hotel Square", "price_per_night": 200 },
+        { "name": "Hotel Alstor", "price_per_night": 180 },
+        { "name": "Stavanger Bed & Breakfast", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "England",
+    "city": "Manchester",
+    "tags": ["industrial", "football", "cultural"],
+    "attractions": [
+      "Manchester Museum",
+      "Science and Industry Museum",
+      "Manchester Art Gallery",
+      "John Rylands Library",
+      "Old Trafford Stadium",
+      "Etihad Stadium",
+      "Heaton Park",
+      "The Lowry",
+      "Castlefield Urban Heritage Park",
+      "National Football Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Gotham", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "The Edwardian Manchester", "price_per_night": 600 },
+        { "name": "King Street Townhouse", "price_per_night": 580 },
+        { "name": "The Lowry Hotel", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "INNSiDE by Meliá Manchester", "price_per_night": 320 },
+        { "name": "Malmaison Manchester", "price_per_night": 300 },
+        { "name": "DoubleTree by Hilton Manchester Piccadilly", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Holiday Inn Express Manchester City Centre", "price_per_night": 200 },
+        { "name": "ibis Manchester Centre 96 Portland Street", "price_per_night": 180 },
+        { "name": "Travelodge Manchester Central", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "England",
+    "city": "Liverpool",
+    "tags": ["music", "maritime", "football"],
+    "attractions": [
+      "The Beatles Story",
+      "Royal Albert Dock",
+      "Liverpool Cathedral",
+      "Anfield Stadium",
+      "Walker Art Gallery",
+      "Merseyside Maritime Museum",
+      "Tate Liverpool",
+      "St. George's Hall",
+      "Museum of Liverpool",
+      "Sefton Park"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hope Street Hotel", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "The Shankly Hotel", "price_per_night": 600 },
+        { "name": "Titanic Hotel Liverpool", "price_per_night": 580 },
+        { "name": "Pullman Liverpool", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Hotel Indigo Liverpool", "price_per_night": 320 },
+        { "name": "Malmaison Liverpool", "price_per_night": 300 },
+        { "name": "Jurys Inn Liverpool", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Holiday Inn Express Liverpool – Albert Dock", "price_per_night": 200 },
+        { "name": "ibis Styles Liverpool Centre Dale Street", "price_per_night": 180 },
+        { "name": "The Liner Hotel", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "tags": ["historic", "festival", "castle"],
+    "attractions": [
+      "Edinburgh Castle",
+      "Royal Mile",
+      "Arthur's Seat",
+      "Palace of Holyroodhouse",
+      "St Giles' Cathedral",
+      "Calton Hill",
+      "Scott Monument",
+      "Princes Street Gardens",
+      "The Real Mary King's Close",
+      "Dean Village"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Balmoral Hotel", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Waldorf Astoria Edinburgh – The Caledonian", "price_per_night": 600 },
+        { "name": "The Scotsman Hotel", "price_per_night": 580 },
+        { "name": "Cheval The Edinburgh Grand", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Apex Waterloo Place Hotel", "price_per_night": 320 },
+        { "name": "Radisson Blu Hotel, Edinburgh City Centre", "price_per_night": 300 },
+        { "name": "Ten Hill Place Hotel", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Holiday Inn Express Edinburgh – Royal Mile", "price_per_night": 200 },
+        { "name": "Ibis Edinburgh Centre South Bridge", "price_per_night": 180 },
+        { "name": "Travelodge Edinburgh Central", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "tags": ["financial", "lakeside", "cosmopolitan"],
+    "attractions": [
+      "Old Town (Altstadt)",
+      "Lake Zurich",
+      "Bahnhofstrasse",
+      "Kunsthaus Zürich",
+      "Grossmünster Church",
+      "Uetliberg Mountain",
+      "Swiss National Museum",
+      "Lindenhof Hill",
+      "Zurich Zoo",
+      "Fraumünster Church"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Dolder Grand", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Baur au Lac", "price_per_night": 950 },
+        { "name": "Park Hyatt Zurich", "price_per_night": 900 },
+        { "name": "Widder Hotel", "price_per_night": 850 }
+      ],
+      "4_star": [
+        { "name": "Hotel Glockenhof Zurich", "price_per_night": 400 },
+        { "name": "Hotel St. Gotthard", "price_per_night": 380 },
+        { "name": "Hotel Opera Zurich", "price_per_night": 360 }
+      ],
+      "3_star": [
+        { "name": "Hotel Marta", "price_per_night": 200 },
+        { "name": "Hotel Bristol Zurich", "price_per_night": 180 },
+        { "name": "Hotel Limmathof", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "tags": ["international", "lakeside", "luxury"],
+    "attractions": [
+      "Jet d'Eau Fountain",
+      "Old Town (Vieille Ville)",
+      "St. Pierre Cathedral",
+      "Palais des Nations (UN Headquarters)",
+      "Lake Geneva Cruises",
+      "Patek Philippe Museum",
+      "English Garden and Flower Clock",
+      "Museum of Natural History",
+      "Reformation Wall",
+      "Carouge District"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel President Wilson", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel des Bergues", "price_per_night": 950 },
+        { "name": "Mandarin Oriental Geneva", "price_per_night": 900 },
+        { "name": "Hotel d'Angleterre", "price_per_night": 850 }
+      ],
+      "4_star": [
+        { "name": "Hotel Bristol Geneva", "price_per_night": 400 },
+        { "name": "Hotel Rotary Geneva – MGallery", "price_per_night": 380 },
+        { "name": "Hotel N'vY", "price_per_night": 360 }
+      ],
+      "3_star": [
+        { "name": "Hotel Kipling Manotel", "price_per_night": 200 },
+        { "name": "Hotel ibis Geneve Centre Nations", "price_per_night": 180 },
+        { "name": "Hotel Cristal Design", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Switzerland",
+    "city": "Lucerne",
+    "tags": ["lakeside", "alpine", "historic"],
+    "attractions": [
+      "Chapel Bridge (Kapellbrücke)",
+      "Old Town (Altstadt)",
+      "Lake Lucerne",
+      "Lion Monument (Löwendenkmal)",
+      "Mount Pilatus",
+      "Swiss Transport Museum",
+      "Musegg Wall",
+      "Richard Wagner Museum",
+      "Jesuit Church",
+      "Glacier Garden (Gletschergarten)"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Mandarin Oriental Palace, Luzern", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "Art Deco Hotel Montana", "price_per_night": 400 },
+        { "name": "Cascada Boutique Hotel", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Art Deco Hotel Montana", "price_per_night": 400 },
+        { "name": "Cascada Boutique Hotel", "price_per_night": 380 }
+      ],
+      "3_star": [
+        { "name": "Hotel Anker", "price_per_night": 200 },
+        { "name": "Hotel Wilden Mann", "price_per_night": 180 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "tags": ["green", "historic", "riverside"],
+    "attractions": [
+      "Ljubljana Castle",
+      "Triple Bridge",
+      "Prešeren Square",
+      "Dragon Bridge",
+      "Tivoli Park",
+      "Central Market",
+      "National & University Library",
+      "Metelkova Art Center",
+      "Cathedral of St. Nicholas",
+      "Museum of Illusions"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "InterContinental Ljubljana by IHG", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Grand Plaza Hotel & Congress Center", "price_per_night": 600 },
+        { "name": "Zlata Ladjica Boutique Hotel", "price_per_night": 580 },
+        { "name": "AS Boutique Hotel", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Austria Trend Hotel Ljubljana", "price_per_night": 320 },
+        { "name": "City Hotel Ljubljana", "price_per_night": 300 },
+        { "name": "Occidental Ljubljana", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Emonec", "price_per_night": 200 },
+        { "name": "Hotel Meksiko", "price_per_night": 180 },
+        { "name": "Art Hotel", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Slovenia",
+    "city": "Maribor",
+    "tags": ["wine", "historic", "riverside"],
+    "attractions": [
+      "Maribor Castle",
+      "Old Bridge (Stari Most)",
+      "Maribor Water Tower",
+      "Maribor Synagogue",
+      "Maribor Pohorje Ski Resort"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Habakuk", "price_per_night": 416 }
+      ],
+      "5_star": [
+        { "name": "Hotel Habakuk", "price_per_night": 150 }
+      ],
+      "4_star": [
+        { "name": "Hotel Park", "price_per_night": 180 },
+        { "name": "Hotel Lovec", "price_per_night": 160 }
+      ],
+      "3_star": [
+        { "name": "Hotel Triglav Bled", "price_per_night": 140 },
+        { "name": "Penzion Berc", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Slovenia",
+    "city": "Bled",
+    "tags": ["lake", "alpine", "picturesque"],
+    "attractions": [
+      "Lake Bled",
+      "Bled Castle",
+      "Ojstrica Viewpoint",
+      "Pletna Boat Ride to Bled Island",
+      "Vintgar Gorge"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Barceló Brno Palace", "price_per_night": 200 }
+      ],
+      "5_star": [
+        { "name": "Grand Hotel Toplice", "price_per_night": 250 }
+      ],
+      "4_star": [
+        { "name": "Hotel Park", "price_per_night": 180 },
+        { "name": "Hotel Lovec", "price_per_night": 160 }
+      ],
+      "3_star": [
+        { "name": "Hotel Triglav Bled", "price_per_night": 140 },
+        { "name": "Penzion Berc", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "city": "Brno",
+    "tags": ["historic", "cultural", "university"],
+    "attractions": [
+      "Špilberk Castle",
+      "Villa Tugendhat",
+      "Zelný trh (Cabbage Market)",
+      "Brno Ossuary",
+      "Cathedral of St. Peter and Paul"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Grand Hotel Toplice", "price_per_night": 249 }
+      ],
+      "5_star": [
+        { "name": "Grandezza Hotel Luxury Palace", "price_per_night": 190 },
+        { "name": "Hotel Royal Ricc", "price_per_night": 170 },
+        { "name": "Hotel Passage", "price_per_night": 160 }
+      ],
+      "4_star": [
+        { "name": "Hotel International Brno", "price_per_night": 150 },
+        { "name": "Hotel Continental Brno", "price_per_night": 140 },
+        { "name": "Courtyard by Marriott Brno", "price_per_night": 135 }
+      ],
+      "3_star": [
+        { "name": "Hotel Slavia", "price_per_night": 100 },
+        { "name": "Hotel Europa", "price_per_night": 95 },
+        { "name": "Penzion Dvořákova", "price_per_night": 85 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "tags": ["historic", "bohemian", "riverside"],
+    "attractions": [
+      "Prague Castle",
+      "Charles Bridge",
+      "Old Town Square & Astronomical Clock",
+      "St. Vitus Cathedral",
+      "Wenceslas Square",
+      "Jewish Quarter (Josefov)",
+      "Lennon Wall",
+      "Petrin Hill & Observation Tower",
+      "Dancing House",
+      "National Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Four Seasons Hotel Prague", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Andaz Prague", "price_per_night": 1000 },
+        { "name": "The Mozart Prague", "price_per_night": 950 },
+        { "name": "BoHo Prague Hotel", "price_per_night": 900 }
+      ],
+      "4_star": [
+        { "name": "Hotel Kings Court", "price_per_night": 400 },
+        { "name": "Hotel Paris Prague", "price_per_night": 380 },
+        { "name": "Hotel Majestic Plaza Prague", "price_per_night": 360 }
+      ],
+      "3_star": [
+        { "name": "Hotel Residence Agnes", "price_per_night": 200 },
+        { "name": "Hotel Salvator", "price_per_night": 180 },
+        { "name": "Hotel Ibis Praha Old Town", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "city": "Ostrava",
+    "tags": ["industrial", "cultural", "modern"],
+    "attractions": [
+      "Antonín Dvořák Theatre",
+      "Lower Vítkovice Industrial Complex",
+      "Ostrava Zoo",
+      "New City Hall Viewing Tower",
+      "Landek Park Mining Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Imperial Hotel Ostrava", "price_per_night": 160 }
+      ],
+      "5_star": [
+        { "name": "Hotel Mercure Ostrava Center", "price_per_night": 150 },
+        { "name": "Jan Maria Hotel", "price_per_night": 145 },
+        { "name": "Hotel City Ostrava", "price_per_night": 140 }
+      ],
+      "4_star": [
+        { "name": "Hotel Brioni Boutique", "price_per_night": 120 },
+        { "name": "Clarion Congress Hotel Ostrava", "price_per_night": 110 },
+        { "name": "Best Western Hotel Vista", "price_per_night": 100 }
+      ],
+      "3_star": [
+        { "name": "Hotel Ruby Blue", "price_per_night": 90 },
+        { "name": "Hotel Maria", "price_per_night": 80 },
+        { "name": "Hotel Veronika", "price_per_night": 75 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Poland",
+    "city": "Warsaw",
+    "tags": ["capital", "historic", "modern"],
+    "attractions": [
+      "Old Town Market Square",
+      "Royal Castle",
+      "Łazienki Park & Palace",
+      "Wilanów Palace",
+      "Palace of Culture and Science",
+      "POLIN Museum of the History of Polish Jews",
+      "Warsaw Uprising Museum",
+      "Copernicus Science Centre",
+      "Neon Museum",
+      "Vistula Boulevards"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Raffles Europejski Warsaw", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Hotel Bristol, a Luxury Collection Hotel", "price_per_night": 600 },
+        { "name": "InterContinental Warsaw", "price_per_night": 580 },
+        { "name": "Sofitel Warsaw Victoria", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Hotel Polonia Palace", "price_per_night": 320 },
+        { "name": "Mercure Warszawa Grand", "price_per_night": 300 },
+        { "name": "Radisson Blu Sobieski Hotel", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Metropol", "price_per_night": 200 },
+        { "name": "Campanile Varsovie / Warsaw", "price_per_night": 180 },
+        { "name": "Ibis Warszawa Centrum", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Poland",
+    "city": "Kraków",
+    "tags": ["historic", "cultural", "royal"],
+    "attractions": [
+      "Wawel Royal Castle",
+      "Main Market Square (Rynek Główny)",
+      "St. Mary's Basilica",
+      "Kazimierz (Jewish Quarter)",
+      "Schindler's Factory Museum",
+      "Wieliczka Salt Mine",
+      "Cloth Hall (Sukiennice)",
+      "Planty Park",
+      "Kraków Barbican",
+      "National Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Bachleda Luxury Hotel Krakow", "price_per_night": 620 }
+      ],
+      "5_star": [
+        { "name": "Hotel Copernicus", "price_per_night": 600 },
+        { "name": "Sheraton Grand Krakow", "price_per_night": 580 },
+        { "name": "Hotel Stary", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Hotel Grodek", "price_per_night": 320 },
+        { "name": "Queen Boutique Hotel", "price_per_night": 300 },
+        { "name": "INX Design Hotel", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Wyspiański", "price_per_night": 200 },
+        { "name": "Campanile Kraków", "price_per_night": 180 },
+        { "name": "ibis Krakow Stare Miasto", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Poland",
+    "city": "Gdańsk",
+    "tags": ["maritime", "historic", "baltic"],
+    "attractions": [
+      "Long Market (Długi Targ)",
+      "Neptune's Fountain",
+      "Gdańsk Crane",
+      "St. Mary's Church",
+      "Artus Court",
+      "Museum of the Second World War",
+      "Westerplatte",
+      "Oliwa Cathedral",
+      "Golden Gate",
+      "European Solidarity Centre"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Radisson Blu Hotel Gdańsk (Premium Suite)", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Hilton Gdańsk", "price_per_night": 580 },
+        { "name": "Hotel Podewils", "price_per_night": 560 },
+        { "name": "Hotel Gdańsk Boutique", "price_per_night": 530 }
+      ],
+      "4_star": [
+        { "name": "PURO Gdańsk", "price_per_night": 310 },
+        { "name": "Hotel Almond Business & SPA", "price_per_night": 290 },
+        { "name": "Mercure Gdańsk Stare Miasto", "price_per_night": 270 }
+      ],
+      "3_star": [
+        { "name": "Hotel Bonum", "price_per_night": 200 },
+        { "name": "Novotel Gdańsk Centrum", "price_per_night": 180 },
+        { "name": "Focus Hotel Gdańsk", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Hungary",
+    "city": "Budapest",
+    "tags": ["thermal", "historic", "danube"],
+    "attractions": [
+      "Buda Castle",
+      "Parliament Building",
+      "Fisherman's Bastion",
+      "Széchenyi Thermal Bath",
+      "Chain Bridge",
+      "St. Stephen's Basilica",
+      "Heroes' Square",
+      "Gellért Hill & Citadel",
+      "Central Market Hall",
+      "Hungarian State Opera House"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Matild Palace, a Luxury Collection Hotel", "price_per_night": 620 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel Gresham Palace", "price_per_night": 600 },
+        { "name": "Aria Hotel Budapest", "price_per_night": 580 },
+        { "name": "Kempinski Hotel Corvinus", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Hotel Moments Budapest", "price_per_night": 320 },
+        { "name": "Prestige Hotel", "price_per_night": 300 },
+        { "name": "Bo33 Hotel Family & Suites", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "D8 Hotel", "price_per_night": 200 },
+        { "name": "Hotel Erzsébet City Center", "price_per_night": 180 },
+        { "name": "Ibis Styles Budapest City", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Hungary",
+    "city": "Debrecen",
+    "tags": ["cultural", "historic", "thermal"],
+    "attractions": [
+      "Great Reformed Church",
+      "Déri Museum",
+      "Nagyerdei Park",
+      "Debrecen Zoo and Amusement Park",
+      "Agora Science Center",
+      "Aquaticum Thermal Baths",
+      "Hortobágy National Park (nearby)",
+      "MODEM Modern Art Museum",
+      "Kossuth Square",
+      "Csokonai Theatre"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Divinus", "price_per_night": 520 }
+      ],
+      "5_star": [
+        { "name": "Hotel Lycium", "price_per_night": 500 },
+        { "name": "Mercure Debrecen", "price_per_night": 480 },
+        { "name": "Malom Hotel", "price_per_night": 450 }
+      ],
+      "4_star": [
+        { "name": "Centrum Hotel", "price_per_night": 300 },
+        { "name": "Aquaticum Thermal & Wellness", "price_per_night": 280 },
+        { "name": "Boutique Hotel Régi Posta", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Obester", "price_per_night": 190 },
+        { "name": "Grand Hotel Aranybika", "price_per_night": 180 },
+        { "name": "Sport Hotel", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Hungary",
+    "city": "Pécs",
+    "tags": ["cultural", "historic", "mediterranean"],
+    "attractions": [
+      "Pécs Cathedral",
+      "Zsolnay Cultural Quarter",
+      "Mosque of Pasha Qasim",
+      "Pécs TV Tower",
+      "Early Christian Mausoleum",
+      "Csontváry Museum",
+      "Vasarely Museum",
+      "Jakovali Hassan Mosque",
+      "Király Street",
+      "Barbakán Bastion"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Corso Hotel Pécs", "price_per_night": 510 }
+      ],
+      "5_star": [
+        { "name": "Adele Boutique Hotel", "price_per_night": 490 },
+        { "name": "Hotel Palatinus", "price_per_night": 470 },
+        { "name": "Szinbád Hotel", "price_per_night": 450 }
+      ],
+      "4_star": [
+        { "name": "Hotel Laterum", "price_per_night": 300 },
+        { "name": "Hotel Makár Sport & Wellness", "price_per_night": 280 },
+        { "name": "Hotel Millennium", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Hotel Barbakan", "price_per_night": 190 },
+        { "name": "Bagolyvár Guesthouse", "price_per_night": 170 },
+        { "name": "Centrum Apartments", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "tags": ["scandinavian", "historic", "modern"],
+    "attractions": [
+      "Tivoli Gardens",
+      "The Little Mermaid",
+      "Nyhavn",
+      "Rosenborg Castle",
+      "Christiansborg Palace",
+      "Amalienborg Palace",
+      "National Museum of Denmark",
+      "Copenhagen Opera House",
+      "Round Tower",
+      "Stroget Shopping Street"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Nimb Hotel", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "Hotel d'Angleterre", "price_per_night": 620 },
+        { "name": "Villa Copenhagen", "price_per_night": 600 },
+        { "name": "Copenhagen Marriott Hotel", "price_per_night": 580 }
+      ],
+      "4_star": [
+        { "name": "Hotel SKT. PETRI", "price_per_night": 350 },
+        { "name": "Scandic Palace Hotel", "price_per_night": 320 },
+        { "name": "71 Nyhavn Hotel", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Hotel Bethel", "price_per_night": 200 },
+        { "name": "Wakeup Copenhagen Borgergade", "price_per_night": 180 },
+        { "name": "Comfort Hotel Vesterbro", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Denmark",
+    "city": "Aarhus",
+    "tags": ["cultural", "coastal", "scandinavian"],
+    "attractions": [
+      "ARoS Aarhus Art Museum",
+      "Den Gamle By (Old Town)",
+      "Moesgaard Museum",
+      "Marselisborg Palace",
+      "Aarhus Cathedral",
+      "Botanical Garden",
+      "Tivoli Friheden",
+      "Dokk1 Library",
+      "Mindeparken",
+      "Latin Quarter"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hotel Royal Aarhus", "price_per_night": 570 }
+      ],
+      "5_star": [
+        { "name": "Radisson Blu Scandinavia", "price_per_night": 550 },
+        { "name": "Comwell Aarhus Dolce", "price_per_night": 520 },
+        { "name": "Scandic Aarhus City", "price_per_night": 490 }
+      ],
+      "4_star": [
+        { "name": "Hotel Oasia Aarhus", "price_per_night": 300 },
+        { "name": "Milling Hotel Ritz", "price_per_night": 280 },
+        { "name": "Hotel Atlantic", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Wakeup Aarhus", "price_per_night": 190 },
+        { "name": "Zleep Hotel Aarhus Viby", "price_per_night": 170 },
+        { "name": "Hotel Faber", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Denmark",
+    "city": "Aalborg",
+    "tags": ["cultural", "coastal", "scandinavian"],
+    "attractions": [
+      "Aalborg Zoo",
+      "Aalborg Tower",
+      "Kunsten Museum of Modern Art",
+      "Utzon Center",
+      "Aalborghus Castle",
+      "Jomfru Ane Gade",
+      "House of Music",
+      "Budolfi Cathedral",
+      "Springeren Maritime Museum",
+      "Lindholm Høje Museum"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Radisson Blu Limfjord Hotel", "price_per_night": 540 }
+      ],
+      "5_star": [
+        { "name": "Comwell Hvide Hus Aalborg", "price_per_night": 510 },
+        { "name": "Helnan Phønix Hotel", "price_per_night": 490 },
+        { "name": "Hotel Jomfru Ane", "price_per_night": 460 }
+      ],
+      "4_star": [
+        { "name": "Zleep Hotel Aalborg", "price_per_night": 300 },
+        { "name": "Pier 5 Hotel", "price_per_night": 280 },
+        { "name": "Scandic Aalborg City", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Cabinn Aalborg", "price_per_night": 190 },
+        { "name": "Aalborg Hotel Apartments", "price_per_night": 170 },
+        { "name": "KOMPAS Hotel", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Ireland",
+    "city": "Dublin",
+    "tags": ["historic", "literary", "vibrant"],
+    "attractions": [
+      "Trinity College & The Book of Kells",
+      "Dublin Castle",
+      "Guinness Storehouse",
+      "St. Patrick's Cathedral",
+      "Temple Bar",
+      "Phoenix Park",
+      "National Gallery of Ireland",
+      "Kilmainham Gaol",
+      "Ha'penny Bridge",
+      "Grafton Street"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Merrion Hotel", "price_per_night": 650 }
+      ],
+      "5_star": [
+        { "name": "The Shelbourne", "price_per_night": 630 },
+        { "name": "InterContinental Dublin", "price_per_night": 600 },
+        { "name": "The Westbury Hotel", "price_per_night": 580 }
+      ],
+      "4_star": [
+        { "name": "Brooks Hotel", "price_per_night": 320 },
+        { "name": "The Alex", "price_per_night": 300 },
+        { "name": "Ashling Hotel", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Drury Court Hotel", "price_per_night": 200 },
+        { "name": "Jurys Inn Dublin", "price_per_night": 180 },
+        { "name": "Moxy Dublin City", "price_per_night": 170 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Ireland",
+    "city": "Galway",
+    "tags": ["cultural", "coastal", "vibrant"],
+    "attractions": [
+      "Eyre Square",
+      "Spanish Arch",
+      "Galway Cathedral",
+      "Galway City Museum",
+      "Salthill Promenade",
+      "Quay Street",
+      "Lynch's Castle",
+      "St. Nicholas' Church",
+      "Galway Market",
+      "Aran Islands (day trip)"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The G Hotel & Spa", "price_per_night": 580 }
+      ],
+      "5_star": [
+        { "name": "Glenlo Abbey Hotel", "price_per_night": 550 },
+        { "name": "Park House Hotel", "price_per_night": 530 },
+        { "name": "The Galmont Hotel", "price_per_night": 500 }
+      ],
+      "4_star": [
+        { "name": "Jurys Inn Galway", "price_per_night": 300 },
+        { "name": "The House Hotel", "price_per_night": 280 },
+        { "name": "Maldron Hotel Sandy Road", "price_per_night": 260 }
+      ],
+      "3_star": [
+        { "name": "Western Hotel", "price_per_night": 190 },
+        { "name": "Travelodge Galway", "price_per_night": 170 },
+        { "name": "Nox Hotel", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Europe",
+    "country": "Ireland",
+    "city": "Limerick",
+    "tags": ["historic", "riverside", "cultural"],
+    "attractions": [
+      "King John's Castle",
+      "Hunt Museum",
+      "St. Mary's Cathedral",
+      "Limerick City Gallery of Art",
+      "The Treaty Stone",
+      "People's Park",
+      "Milk Market",
+      "Frank McCourt Museum",
+      "River Shannon Walk",
+      "Thomond Park Stadium"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Savoy Hotel", "price_per_night": 620 }
+      ],
+      "5_star": [
+        { "name": "Absolute Hotel Limerick", "price_per_night": 590 },
+        { "name": "No. 1 Pery Square Hotel & Spa", "price_per_night": 560 },
+        { "name": "Limerick Strand Hotel", "price_per_night": 540 }
+      ],
+      "4_star": [
+        { "name": "George Limerick Hotel", "price_per_night": 320 },
+        { "name": "Clayton Hotel Limerick", "price_per_night": 300 },
+        { "name": "Maldron Hotel Limerick", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Pery's Hotel", "price_per_night": 200 },
+        { "name": "Travelodge Limerick", "price_per_night": 180 },
+        { "name": "South Court Hotel", "price_per_night": 170 }
+      ]
+    }
+  }
+]
