@@ -1,0 +1,183 @@
+[
+  {
+    "continent": "South America",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "tags": ["beaches", "carnival", "landmarks"],
+    "attractions": [
+      "Christ the Redeemer",
+      "Sugarloaf Mountain",
+      "Copacabana Beach",
+      "Ipanema Beach",
+      "Tijuca Forest",
+      "Selarón Steps",
+      "Maracanã Stadium",
+      "Santa Teresa Neighborhood",
+      "Botafogo Bay",
+      "Rio de Janeiro Cathedral"
+    ],
+    "hotels": {
+      "7_star": [
+        {"name": "Belmond Copacabana Palace", "price_per_night": 1200}
+      ],
+      "5_star": [
+        {"name": "Fasano Rio de Janeiro", "price_per_night": 600},
+        {"name": "Hotel Arpoador", "price_per_night": 550},
+        {"name": "Fairmont Rio de Janeiro", "price_per_night": 500}
+      ],
+      "4_star": [
+        {"name": "Windsor Excelsior Copacabana", "price_per_night": 250},
+        {"name": "PortoBay Rio Internacional", "price_per_night": 230},
+        {"name": "Arena Copacabana Hotel", "price_per_night": 200}
+      ],
+      "3_star": [
+        {"name": "Orla Copacabana Hotel", "price_per_night": 120},
+        {"name": "Atlantis Copacabana Hotel", "price_per_night": 100},
+        {"name": "Rio Design Hotel", "price_per_night": 90}
+      ]
+    }
+  },
+  {
+    "continent": "South America",
+    "country": "Peru",
+    "city": "Cusco",
+    "tags": ["historic", "inca", "andes"],
+    "attractions": [
+      "Machu Picchu",
+      "Sacred Valley",
+      "Sacsayhuamán",
+      "Qorikancha",
+      "Cusco Cathedral",
+      "San Pedro Market",
+      "Rainbow Mountain",
+      "Moray Ruins",
+      "Pisac Market",
+      "Plaza de Armas"
+    ],
+    "hotels": {
+      "5_star": [
+        {"name": "Palacio del Inka, a Luxury Collection Hotel", "price_per_night": 400},
+        {"name": "JW Marriott El Convento Cusco", "price_per_night": 450},
+        {"name": "Belmond Hotel Monasterio", "price_per_night": 500}
+      ],
+      "4_star": [
+        {"name": "Costa del Sol Ramada Cusco", "price_per_night": 200},
+        {"name": "Sonesta Hotel Cusco", "price_per_night": 180},
+        {"name": "Tierra Viva Cusco Plaza", "price_per_night": 150}
+      ],
+      "3_star": [
+        {"name": "Hotel Rumi Punku", "price_per_night": 80},
+        {"name": "Casa Andina Standard Cusco", "price_per_night": 70},
+        {"name": "Taypikala Hotel Cusco", "price_per_night": 60}
+      ]
+    }
+  },
+  {
+    "continent": "South America",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "tags": ["tango", "european-style", "cultural"],
+    "attractions": [
+      "La Boca Neighborhood",
+      "Recoleta Cemetery",
+      "Teatro Colón",
+      "Palermo Soho",
+      "Puerto Madero",
+      "Plaza de Mayo",
+      "San Telmo Market",
+      "Obelisco",
+      "Casa Rosada",
+      "El Ateneo Grand Splendid"
+    ],
+    "hotels": {
+      "7_star": [
+        {"name": "Alvear Palace Hotel", "price_per_night": 800}
+      ],
+      "5_star": [
+        {"name": "Four Seasons Hotel Buenos Aires", "price_per_night": 500},
+        {"name": "Park Hyatt Buenos Aires", "price_per_night": 550},
+        {"name": "Faena Hotel Buenos Aires", "price_per_night": 600}
+      ],
+      "4_star": [
+        {"name": "Palacio Duhau - Park Hyatt", "price_per_night": 300},
+        {"name": "Hilton Buenos Aires", "price_per_night": 250},
+        {"name": "Sofitel Buenos Aires Recoleta", "price_per_night": 280}
+      ],
+      "3_star": [
+        {"name": "NH Buenos Aires City", "price_per_night": 120},
+        {"name": "Hotel Madero", "price_per_night": 110},
+        {"name": "725 Continental Hotel", "price_per_night": 90}
+      ]
+    }
+  },
+  {
+    "continent": "South America",
+    "country": "Colombia",
+    "city": "Cartagena",
+    "tags": ["colonial", "caribbean", "walled-city"],
+    "attractions": [
+      "Old Town Cartagena",
+      "Castillo San Felipe de Barajas",
+      "Getsemaní Neighborhood",
+      "Rosario Islands",
+      "Playa Blanca",
+      "Palace of the Inquisition",
+      "Bazurto Market",
+      "San Pedro Claver Church",
+      "Las Bóvedas",
+      "La Popa Monastery"
+    ],
+    "hotels": {
+      "5_star": [
+        {"name": "Sofitel Legend Santa Clara Cartagena", "price_per_night": 500},
+        {"name": "Hotel Casa San Agustín", "price_per_night": 450},
+        {"name": "Hyatt Regency Cartagena", "price_per_night": 400}
+      ],
+      "4_star": [
+        {"name": "Hotel Dann Cartagena", "price_per_night": 250},
+        {"name": "Hilton Cartagena", "price_per_night": 220},
+        {"name": "InterContinental Cartagena", "price_per_night": 200}
+      ],
+      "3_star": [
+        {"name": "Hotel Cartagena Plaza", "price_per_night": 100},
+        {"name": "Hotel Boutique Casa del Coliseo", "price_per_night": 90},
+        {"name": "Hotel Villa Colonial", "price_per_night": 80}
+      ]
+    }
+  },
+  {
+    "continent": "South America",
+    "country": "Chile",
+    "city": "Santiago",
+    "tags": ["modern", "wine", "andine"],
+    "attractions": [
+      "San Cristóbal Hill",
+      "Plaza de Armas",
+      "La Moneda Palace",
+      "Santa Lucía Hill",
+      "Barrio Lastarria",
+      "Central Market",
+      "Cajón del Maipo",
+      "Museo Nacional de Bellas Artes",
+      "Concha y Toro Winery",
+      "Sky Costanera"
+    ],
+    "hotels": {
+      "5_star": [
+        {"name": "The Ritz-Carlton Santiago", "price_per_night": 450},
+        {"name": "W Santiago", "price_per_night": 400},
+        {"name": "Hotel Magnolia", "price_per_night": 350}
+      ],
+      "4_star": [
+        {"name": "Santiago Marriott Hotel", "price_per_night": 200},
+        {"name": "Novotel Santiago Providencia", "price_per_night": 180},
+        {"name": "Hotel Plaza San Francisco", "price_per_night": 160}
+      ],
+      "3_star": [
+        {"name": "Hotel Boutique Castillo Rojo", "price_per_night": 90},
+        {"name": "Hotel Altiplanico Bellas Artes", "price_per_night": 80},
+        {"name": "Hotel Orly", "price_per_night": 70}
+      ]
+    }
+  }
+]
