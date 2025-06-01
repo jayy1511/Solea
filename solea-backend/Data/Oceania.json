@@ -1,0 +1,263 @@
+[
+  {
+    "continent": "Oceania",
+    "country": "Australia",
+    "city": "Sydney",
+    "tags": ["harbour", "beaches", "iconic"],
+    "attractions": [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach",
+      "Royal Botanic Garden",
+      "Taronga Zoo",
+      "The Rocks",
+      "Darling Harbour",
+      "Blue Mountains (day trip)",
+      "Manly Beach",
+      "Queen Victoria Building"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Crown Sydney", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Park Hyatt Sydney", "price_per_night": 800 },
+        { "name": "Four Seasons Hotel Sydney", "price_per_night": 600 },
+        { "name": "Shangri-La Sydney", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Sofitel Sydney Darling Harbour", "price_per_night": 300 },
+        { "name": "Meriton Suites Pitt Street", "price_per_night": 250 },
+        { "name": "Hyatt Regency Sydney", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Travelodge Hotel Sydney", "price_per_night": 150 },
+        { "name": "Great Southern Hotel Sydney", "price_per_night": 120 },
+        { "name": "Ibis Sydney World Square", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "Australia",
+    "city": "Melbourne",
+    "tags": ["cultural", "coffee", "sports"],
+    "attractions": [
+      "Federation Square",
+      "Royal Botanic Gardens Victoria",
+      "National Gallery of Victoria",
+      "Melbourne Cricket Ground",
+      "Queen Victoria Market",
+      "Great Ocean Road (day trip)",
+      "Brighton Bathing Boxes",
+      "Eureka Skydeck",
+      "Hosier Lane Street Art",
+      "Phillip Island Penguin Parade"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Langham Melbourne", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "Crown Towers Melbourne", "price_per_night": 600 },
+        { "name": "The Westin Melbourne", "price_per_night": 500 },
+        { "name": "Park Hyatt Melbourne", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "QT Melbourne", "price_per_night": 280 },
+        { "name": "Ovolo Laneways", "price_per_night": 250 },
+        { "name": "Pegasus Apart'Hotel", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Ibis Melbourne Little Bourke Street", "price_per_night": 140 },
+        { "name": "Travelodge Hotel Melbourne Docklands", "price_per_night": 120 },
+        { "name": "Punthill Little Bourke", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "tags": ["harbour", "volcanic", "sailing"],
+    "attractions": [
+      "Sky Tower",
+      "Waiheke Island",
+      "Auckland War Memorial Museum",
+      "Rangitoto Island",
+      "Auckland Harbour Bridge Climb",
+      "Piha Beach",
+      "Viadoom Street",
+      "Auckland Zoo",
+      "Mission Bay",
+      "Kelly Tarlton's Sea Life Aquarium"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Lodge at Kauri Cliffs", "price_per_night": 1500 }
+      ],
+      "5_star": [
+        { "name": "Sofitel Auckland Viaduct Harbour", "price_per_night": 400 },
+        { "name": "Park Hyatt Auckland", "price_per_night": 450 },
+        { "name": "Cordis Auckland", "price_per_night": 350 }
+      ],
+      "4_star": [
+        { "name": "Hilton Auckland", "price_per_night": 250 },
+        { "name": "The Grand by SkyCity", "price_per_night": 220 },
+        { "name": "M Social Auckland", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Ibis Auckland Ellerslie", "price_per_night": 120 },
+        { "name": "Jet Park Airport Hotel", "price_per_night": 110 },
+        { "name": "Quest Auckland Serviced Apartments", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "city": "Queenstown",
+    "tags": ["adventure", "alpine", "scenic"],
+    "attractions": [
+      "Skyline Queenstown",
+      "Milford Sound (day trip)",
+      "Shotover Jet",
+      "The Remarkables",
+      "Queenstown Gardens",
+      "Arrowtown Historic Village",
+      "Wakatipu Lake",
+      "Bungee Jumping (Kawarau Bridge)",
+      "Glenorchy (Lord of the Rings sites)",
+      "Ski Fields (winter)"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Eichardt's Private Hotel", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Matakauri Lodge", "price_per_night": 800 },
+        { "name": "The Rees Hotel", "price_per_night": 500 },
+        { "name": "Hilton Queenstown Resort", "price_per_night": 450 }
+      ],
+      "4_star": [
+        { "name": "Novotel Queenstown Lakeside", "price_per_night": 300 },
+        { "name": "Crowne Plaza Queenstown", "price_per_night": 280 },
+        { "name": "Heritage Queenstown", "price_per_night": 250 }
+      ],
+      "3_star": [
+        { "name": "Scenic Suites Queenstown", "price_per_night": 180 },
+        { "name": "Blue Peaks Lodge", "price_per_night": 150 },
+        { "name": "Pounamu Apartments", "price_per_night": 160 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "Fiji",
+    "city": "Nadi",
+    "tags": ["beach", "resorts", "tropical"],
+    "attractions": [
+      "Garden of the Sleeping Giant",
+      "Sabeto Hot Springs",
+      "Denarau Island",
+      "Malamala Beach Club",
+      "Sri Siva Subramaniya Temple",
+      "Cloud 9 Floating Platform",
+      "Nadi Market",
+      "Natadola Beach",
+      "Vuda Lookout",
+      "Fiji Culture Village"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Wakaya Club & Spa", "price_per_night": 1500 }
+      ],
+      "5_star": [
+        { "name": "Sofitel Fiji Resort & Spa", "price_per_night": 500 },
+        { "name": "Hilton Fiji Beach Resort", "price_per_night": 450 },
+        { "name": "The Westin Denarau Island", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Radisson Blu Resort Fiji", "price_per_night": 300 },
+        { "name": "Sheraton Fiji Resort", "price_per_night": 280 },
+        { "name": "Fiji Marriott Resort Momi Bay", "price_per_night": 350 }
+      ],
+      "3_star": [
+        { "name": "Tanoa Skylodge Hotel", "price_per_night": 150 },
+        { "name": "Novotel Nadi", "price_per_night": 130 },
+        { "name": "Smugglers Cove Beach Resort", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "French Polynesia",
+    "city": "Papeete",
+    "tags": ["lagoon", "overwater-bungalows", "exotic"],
+    "attractions": [
+      "Marché de Papeete (Market)",
+      "Arahoho Blowhole",
+      "Papenoo Valley",
+      "Marae Arahurahu",
+      "Tahiti Pearl Museum",
+      "Point Venus Lighthouse",
+      "Lagoonarium",
+      "Jardins de Paofai",
+      "Museum of Tahiti",
+      "Fautaua Waterfall"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Brando Resort", "price_per_night": 2500 }
+      ],
+      "5_star": [
+        { "name": "InterContinental Tahiti Resort", "price_per_night": 600 },
+        { "name": "Manava Suite Resort Tahiti", "price_per_night": 500 },
+        { "name": "Le Méridien Tahiti", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Royal Tahitien Hotel", "price_per_night": 300 },
+        { "name": "Tahiti Ia Ora Beach Resort", "price_per_night": 350 },
+        { "name": "Te Moana Tahiti Resort", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Hotel Sarah Nui", "price_per_night": 180 },
+        { "name": "Fare Suisse Tahiti", "price_per_night": 150 },
+        { "name": "Mahana Lodge", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Oceania",
+    "country": "Samoa",
+    "city": "Apia",
+    "tags": ["cultural", "rainforest", "coastal"],
+    "attractions": [
+      "Robert Louis Stevenson Museum",
+      "Palolo Deep Marine Reserve",
+      "Papaseea Sliding Rocks",
+      "Piula Cave Pool",
+      "Samoa Cultural Village",
+      "To Sua Ocean Trench",
+      "Falealupo Rainforest Canopy Walk",
+      "Aggie Grey's Hotel & Cultural Show",
+      "O Le Pupu-Pue National Park",
+      "Apia Fish Market"
+    ],
+    "hotels": {
+      "5_star": [
+        { "name": "Sheraton Samoa Beach Resort", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Taumeasina Island Resort", "price_per_night": 300 },
+        { "name": "Le Manumea Resort", "price_per_night": 250 },
+        { "name": "Tanoa Tusitala Hotel", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Aggie Grey's Hotel", "price_per_night": 150 },
+        { "name": "Samoa Tradition Resort", "price_per_night": 120 },
+        { "name": "Hotel Millenia", "price_per_night": 100 }
+      ]
+    }
+  }
+]
