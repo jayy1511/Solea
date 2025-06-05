@@ -1,0 +1,1522 @@
+[
+  {
+    "continent": "Asia",
+    "country": "Japan",
+    "city": "Tokyo",
+    "tags": ["modern", "traditional", "technology", "culinary"],
+    "attractions": [
+      "Shibuya Crossing",
+      "Meiji Shrine",
+      "Tokyo Skytree",
+      "Senso-ji Temple",
+      "Tsukiji Outer Market",
+      "Shinjuku Gyoen National Garden",
+      "Akihabara District",
+      "Harajuku (Takeshita Street)",
+      "Imperial Palace East Gardens",
+      "Odaiba"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Aman Tokyo", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "The Ritz-Carlton, Tokyo", "price_per_night": 800 },
+        { "name": "Park Hotel Tokyo", "price_per_night": 600 },
+        { "name": "Mandarin Oriental, Tokyo", "price_per_night": 900 }
+      ],
+      "4_star": [
+        { "name": "Hotel Gracery Shinjuku", "price_per_night": 300 },
+        { "name": "The Prince Park Tower Tokyo", "price_per_night": 350 },
+        { "name": "Shinjuku Washington Hotel", "price_per_night": 250 }
+      ],
+      "3_star": [
+        { "name": "Ibis Tokyo Shinjuku", "price_per_night": 150 },
+        { "name": "Hotel Sunroute Plaza Shinjuku", "price_per_night": 180 },
+        { "name": "Tokyu Stay Shinjuku", "price_per_night": 200 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Japan",
+    "city": "Kyoto",
+    "tags": ["historic", "temples", "traditional", "zen"],
+    "attractions": [
+      "Fushimi Inari Shrine",
+      "Kinkaku-ji (Golden Pavilion)",
+      "Kiyomizu-dera Temple",
+      "Arashiyama Bamboo Forest",
+      "Gion District",
+      "Nijo Castle",
+      "Ryoan-ji Temple",
+      "Philosopher's Path",
+      "Nishiki Market",
+      "Sanjusangendo Temple"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Hoshinoya Kyoto", "price_per_night": 1000 }
+      ],
+      "5_star": [
+        { "name": "The Ritz-Carlton, Kyoto", "price_per_night": 850 },
+        { "name": "Four Seasons Hotel Kyoto", "price_per_night": 750 },
+        { "name": "Hyatt Regency Kyoto", "price_per_night": 500 }
+      ],
+      "4_star": [
+        { "name": "Hotel Granvia Kyoto", "price_per_night": 300 },
+        { "name": "The Thousand Kyoto", "price_per_night": 350 },
+        { "name": "Kyoto Tokyu Hotel", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Kyoto Station", "price_per_night": 150 },
+        { "name": "Hotel Resol Kyoto Kawaramachi", "price_per_night": 180 },
+        { "name": "Kyoto Traveler's Inn", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "South Korea",
+    "city": "Seoul",
+    "tags": ["k-pop", "historic", "shopping", "technology"],
+    "attractions": [
+      "Gyeongbokgung Palace",
+      "Bukchon Hanok Village",
+      "N Seoul Tower",
+      "Myeongdong Shopping Street",
+      "Dongdaemun Design Plaza",
+      "Insadong Cultural Street",
+      "Lotte World Tower",
+      "Changdeokgung Palace",
+      "Hongdae District",
+      "War Memorial of Korea"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Signiel Seoul", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Hotel Seoul", "price_per_night": 700 },
+        { "name": "The Shilla Seoul", "price_per_night": 650 },
+        { "name": "Park Hyatt Seoul", "price_per_night": 600 }
+      ],
+      "4_star": [
+        { "name": "Lotte Hotel Seoul", "price_per_night": 350 },
+        { "name": "GLAD Mapo Hotel", "price_per_night": 300 },
+        { "name": "Nine Tree Premier Hotel Myeongdong", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Ambassador Seoul", "price_per_night": 180 },
+        { "name": "Hotel Skypark Myeongdong", "price_per_night": 150 },
+        { "name": "S.A. Seoul", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "South Korea",
+    "city": "Busan",
+    "tags": ["coastal", "beaches", "film festival", "seafood"],
+    "attractions": [
+      "Haeundae Beach",
+      "Gamcheon Culture Village",
+      "Jagalchi Fish Market",
+      "Taejongdae Resort Park",
+      "Busan Tower",
+      "Gwangalli Beach",
+      "Beomeosa Temple",
+      "Haedong Yonggungsa Temple",
+      "BIFF Square",
+      "Dongbaekseom Island"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Park Hyatt Busan", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "The Westin Chosun Busan", "price_per_night": 500 },
+        { "name": "Paradise Hotel Busan", "price_per_night": 450 },
+        { "name": "Ananti Cove", "price_per_night": 600 }
+      ],
+      "4_star": [
+        { "name": "Hotel Nongshim", "price_per_night": 300 },
+        { "name": "Lotte Hotel Busan", "price_per_night": 350 },
+        { "name": "Shilla Stay Haeundae", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Budget Ambassador Busan", "price_per_night": 150 },
+        { "name": "Aventree Hotel Busan", "price_per_night": 180 },
+        { "name": "Arban Hotel", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "tags": ["buddhist", "street food", "shopping", "nightlife"],
+    "attractions": [
+      "Grand Palace",
+      "Wat Pho (Reclining Buddha)",
+      "Wat Arun",
+      "Chatuchak Weekend Market",
+      "Khao San Road",
+      "Chinatown (Yaowarat)",
+      "Lumpini Park",
+      "Asiatique The Riverfront",
+      "Jim Thompson House",
+      "MBK Center"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Siam Hotel", "price_per_night": 800 }
+      ],
+      "5_star": [
+        { "name": "Mandarin Oriental, Bangkok", "price_per_night": 600 },
+        { "name": "The Peninsula Bangkok", "price_per_night": 550 },
+        { "name": "Anantara Siam Bangkok Hotel", "price_per_night": 500 }
+      ],
+      "4_star": [
+        { "name": "Avani+ Riverside Bangkok Hotel", "price_per_night": 250 },
+        { "name": "Novotel Bangkok Sukhumvit 20", "price_per_night": 200 },
+        { "name": "Amari Watergate Bangkok", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Ibis Bangkok Siam", "price_per_night": 100 },
+        { "name": "Bangkok Loft Inn", "price_per_night": 80 },
+        { "name": "The Berkeley Hotel Pratunam", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "tags": ["mountains", "temples", "elephants", "cultural"],
+    "attractions": [
+      "Wat Phra That Doi Suthep",
+      "Old City Temples",
+      "Sunday Night Market",
+      "Elephant Nature Park",
+      "Doi Inthanon National Park",
+      "Bua Thong Sticky Waterfalls",
+      "Chiang Mai Night Bazaar",
+      "Wat Chedi Luang",
+      "Mae Sa Valley",
+      "Huay Tung Tao Lake"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "137 Pillars House", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Resort Chiang Mai", "price_per_night": 700 },
+        { "name": "Anantara Chiang Mai Resort", "price_per_night": 450 },
+        { "name": "Dhara Dhevi Chiang Mai", "price_per_night": 600 }
+      ],
+      "4_star": [
+        { "name": "Akyra Manor Chiang Mai", "price_per_night": 250 },
+        { "name": "RatiLanna Riverside Spa Resort", "price_per_night": 300 },
+        { "name": "Shangri-La Hotel, Chiang Mai", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Chiang Mai", "price_per_night": 100 },
+        { "name": "Buri Siri Hotel", "price_per_night": 80 },
+        { "name": "Holiday Inn Chiang Mai", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Thailand",
+    "city": "Phuket",
+    "tags": ["beaches", "islands", "diving", "luxury"],
+    "attractions": [
+      "Patong Beach",
+      "Phi Phi Islands",
+      "Big Buddha Phuket",
+      "Old Phuket Town",
+      "James Bond Island",
+      "Similan Islands",
+      "Phang Nga Bay",
+      "Kata Noi Beach",
+      "Wat Chalong",
+      "Bangla Road Nightlife"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Trisara", "price_per_night": 900 }
+      ],
+      "5_star": [
+        { "name": "The Naka Island, a Luxury Collection Resort", "price_per_night": 700 },
+        { "name": "Banyan Tree Phuket", "price_per_night": 650 },
+        { "name": "Rosewood Phuket", "price_per_night": 800 }
+      ],
+      "4_star": [
+        { "name": "The Slate", "price_per_night": 350 },
+        { "name": "Novotel Phuket Vintage Park", "price_per_night": 300 },
+        { "name": "Holiday Inn Resort Phuket", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Phuket Patong", "price_per_night": 150 },
+        { "name": "The Kee Resort & Spa", "price_per_night": 180 },
+        { "name": "Patong Mansion", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Indonesia",
+    "city": "Bali",
+    "tags": ["beaches", "spiritual", "rice terraces", "wellness"],
+    "attractions": [
+      "Uluwatu Temple",
+      "Tegallalang Rice Terraces",
+      "Ubud Monkey Forest",
+      "Tanah Lot Temple",
+      "Mount Batur Sunrise Trek",
+      "Seminyak Beach",
+      "Tirta Empul Temple",
+      "Nusa Penida Island",
+      "Ubud Art Market",
+      "Sekumpul Waterfall"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Mulia, Nusa Dua", "price_per_night": 800 }
+      ],
+      "5_star": [
+        { "name": "Four Seasons Resort Bali at Sayan", "price_per_night": 700 },
+        { "name": "The St. Regis Bali Resort", "price_per_night": 750 },
+        { "name": "Bulgari Resort Bali", "price_per_night": 900 }
+      ],
+      "4_star": [
+        { "name": "Alila Ubud", "price_per_night": 350 },
+        { "name": "The Kayon Resort", "price_per_night": 400 },
+        { "name": "Padma Resort Ubud", "price_per_night": 380 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Bali Benoa", "price_per_night": 150 },
+        { "name": "The Bene Hotel", "price_per_night": 180 },
+        { "name": "Puri Garden Hotel & Hostel", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Indonesia",
+    "city": "Yogyakarta",
+    "tags": ["cultural", "historic", "temples", "traditional"],
+    "attractions": [
+      "Borobudur Temple",
+      "Prambanan Temple",
+      "Kraton Yogyakarta",
+      "Taman Sari Water Castle",
+      "Mount Merapi",
+      "Malioboro Street",
+      "Jomblang Cave",
+      "Ratu Boko Palace",
+      "Ullen Sentalu Museum",
+      "Parangtritis Beach"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Phoenix Hotel Yogyakarta", "price_per_night": 300 }
+      ],
+      "5_star": [
+        { "name": "Hyatt Regency Yogyakarta", "price_per_night": 250 },
+        { "name": "Royal Ambarrukmo Yogyakarta", "price_per_night": 280 },
+        { "name": "The Alana Hotel", "price_per_night": 220 }
+      ],
+      "4_star": [
+        { "name": "Hotel Santika Premiere Yogyakarta", "price_per_night": 150 },
+        { "name": "Greenhost Boutique Hotel", "price_per_night": 180 },
+        { "name": "Jambuluwuk Malioboro", "price_per_night": 160 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Yogyakarta", "price_per_night": 80 },
+        { "name": "Dafam Fortuna Hotel", "price_per_night": 70 },
+        { "name": "Hotel Neo Malioboro", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "tags": ["modern", "shopping", "culinary", "cultural"],
+    "attractions": [
+      "Petronas Twin Towers",
+      "Batu Caves",
+      "Merdeka Square",
+      "KL Tower",
+      "Bukit Bintang",
+      "Chinatown (Petaling Street)",
+      "Perdana Botanical Gardens",
+      "Thean Hou Temple",
+      "National Mosque of Malaysia",
+      "Sunway Lagoon Theme Park"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The St. Regis Kuala Lumpur", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Mandarin Oriental, Kuala Lumpur", "price_per_night": 500 },
+        { "name": "The Majestic Hotel Kuala Lumpur", "price_per_night": 450 },
+        { "name": "Four Seasons Hotel Kuala Lumpur", "price_per_night": 550 }
+      ],
+      "4_star": [
+        { "name": "Grand Hyatt Kuala Lumpur", "price_per_night": 300 },
+        { "name": "The Face Suites", "price_per_night": 250 },
+        { "name": "Pullman Kuala Lumpur Bangsar", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Kuala Lumpur City Centre", "price_per_night": 120 },
+        { "name": "Hotel Stripes Kuala Lumpur", "price_per_night": 150 },
+        { "name": "Sunway Putra Hotel", "price_per_night": 130 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Malaysia",
+    "city": "Penang",
+    "tags": ["street art", "street food", "colonial", "beaches"],
+    "attractions": [
+      "George Town UNESCO Site",
+      "Penang Hill",
+      "Kek Lok Si Temple",
+      "Batu Ferringhi Beach",
+      "Penang Peranakan Mansion",
+      "Street Art in George Town",
+      "Penang National Park",
+      "Khoo Kongsi Clan House",
+      "Entopia by Penang Butterfly Farm",
+      "Penang Floating Mosque"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Eastern & Oriental Hotel", "price_per_night": 400 }
+      ],
+      "5_star": [
+        { "name": "Shangri-La's Rasa Sayang Resort & Spa", "price_per_night": 350 },
+        { "name": "The Prestige Hotel", "price_per_night": 300 },
+        { "name": "G Hotel Kelawai", "price_per_night": 280 }
+      ],
+      "4_star": [
+        { "name": "Lexis Suites Penang", "price_per_night": 200 },
+        { "name": "DoubleTree Resort by Hilton Penang", "price_per_night": 220 },
+        { "name": "Bayview Hotel Georgetown", "price_per_night": 180 }
+      ],
+      "3_star": [
+        { "name": "Ibis Georgetown Penang", "price_per_night": 100 },
+        { "name": "Hotel Jen Penang", "price_per_night": 120 },
+        { "name": "Chulia Heritage Hotel", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "tags": ["historic", "street food", "colonial", "cultural"],
+    "attractions": [
+      "Hoan Kiem Lake",
+      "Old Quarter",
+      "Temple of Literature",
+      "Ho Chi Minh Mausoleum",
+      "Hoa Lo Prison",
+      "West Lake",
+      "Thang Long Imperial Citadel",
+      "Dong Xuan Market",
+      "Long Bien Bridge",
+      "Vietnam Museum of Ethnology"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Sofitel Legend Metropole Hanoi", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "JW Marriott Hotel Hanoi", "price_per_night": 400 },
+        { "name": "InterContinental Hanoi Westlake", "price_per_night": 350 },
+        { "name": "Hilton Hanoi Opera", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Mövenpick Hotel Hanoi", "price_per_night": 250 },
+        { "name": "Pan Pacific Hanoi", "price_per_night": 280 },
+        { "name": "La Siesta Premium Hang Be", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Ibis Hanoi Old Quarter", "price_per_night": 120 },
+        { "name": "Hanoi La Siesta Hotel & Spa", "price_per_night": 150 },
+        { "name": "Golden Cyclo Hotel", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "tags": ["historic", "war history", "street food", "vibrant"],
+    "attractions": [
+      "War Remnants Museum",
+      "Cu Chi Tunnels",
+      "Notre-Dame Cathedral Basilica",
+      "Central Post Office",
+      "Ben Thanh Market",
+      "Bitexco Financial Tower",
+      "Jade Emperor Pagoda",
+      "Saigon Opera House",
+      "Mekong Delta Day Trip",
+      "Independence Palace"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Reverie Saigon", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Park Hyatt Saigon", "price_per_night": 450 },
+        { "name": "Hotel des Arts Saigon", "price_per_night": 500 },
+        { "name": "InterContinental Saigon", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "The Myst Dong Khoi", "price_per_night": 250 },
+        { "name": "Silverland Central Hotel", "price_per_night": 220 },
+        { "name": "Grand Hotel Saigon", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Saigon South", "price_per_night": 120 },
+        { "name": "Alagon Central Hotel & Spa", "price_per_night": 150 },
+        { "name": "Blue Diamond Luxury Hotel", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Vietnam",
+    "city": "Hoi An",
+    "tags": ["ancient town", "tailoring", "lanterns", "riverside"],
+    "attractions": [
+      "Hoi An Ancient Town",
+      "Japanese Covered Bridge",
+      "An Bang Beach",
+      "Tra Que Vegetable Village",
+      "My Son Sanctuary",
+      "Hoi An Night Market",
+      "Thu Bon River Boat Ride",
+      "Thanh Ha Pottery Village",
+      "Cua Dai Beach",
+      "Hoi An Lantern Festival"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Four Seasons Resort The Nam Hai", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "Anantara Hoi An Resort", "price_per_night": 400 },
+        { "name": "Allegro Hoi An - Little Luxury Hotel", "price_per_night": 350 },
+        { "name": "La Siesta Hoi An Resort & Spa", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Hoi An Silk Marina Resort & Spa", "price_per_night": 200 },
+        { "name": "Little Hoi An Boutique Hotel", "price_per_night": 180 },
+        { "name": "Belle Maison Hadana Hoi An Resort", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hoi An Chic Hotel", "price_per_night": 100 },
+        { "name": "Vinh Hung Riverside Resort", "price_per_night": 120 },
+        { "name": "Hoi An Sincerity Hotel", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Cambodia",
+    "city": "Siem Reap",
+    "tags": ["ancient", "temples", "cultural", "historic"],
+    "attractions": [
+      "Angkor Wat",
+      "Angkor Thom",
+      "Bayon Temple",
+      "Ta Prohm",
+      "Banteay Srei",
+      "Tonlé Sap Lake",
+      "Phare, The Cambodian Circus",
+      "Angkor National Museum",
+      "Preah Khan",
+      "Pub Street"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Amansara", "price_per_night": 1200 }
+      ],
+      "5_star": [
+        { "name": "Park Hyatt Siem Reap", "price_per_night": 400 },
+        { "name": "Raffles Grand Hotel d'Angkor", "price_per_night": 500 },
+        { "name": "Belmond La Résidence d'Angkor", "price_per_night": 450 }
+      ],
+      "4_star": [
+        { "name": "Heritage Suites Hotel", "price_per_night": 250 },
+        { "name": "Shinta Mani Angkor", "price_per_night": 280 },
+        { "name": "Jaya House River Park", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Ibis Styles Siem Reap", "price_per_night": 100 },
+        { "name": "Tara Angkor Hotel", "price_per_night": 120 },
+        { "name": "Golden Temple Hotel", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Philippines",
+    "city": "Manila",
+    "tags": ["historic", "shopping", "cultural", "nightlife"],
+    "attractions": [
+      "Intramuros",
+      "Rizal Park",
+      "Fort Santiago",
+      "National Museum Complex",
+      "Binondo (Chinatown)",
+      "Manila Ocean Park",
+      "Ayala Museum",
+      "San Agustin Church",
+      "SM Mall of Asia",
+      "Bonifacio Global City"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Peninsula Manila", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Shangri-La at the Fort, Manila", "price_per_night": 400 },
+        { "name": "Raffles Makati", "price_per_night": 450 },
+        { "name": "Okada Manila", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Solaire Resort & Casino", "price_per_night": 250 },
+        { "name": "Dusit Thani Manila", "price_per_night": 280 },
+        { "name": "Joy~Nostalg Hotel & Suites Manila", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Ibis Manila Araneta City", "price_per_night": 100 },
+        { "name": "Red Planet Manila Binondo", "price_per_night": 80 },
+        { "name": "Go Hotels Ermita", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Philippines",
+    "city": "Cebu",
+    "tags": ["beaches", "historic", "islands", "diving"],
+    "attractions": [
+      "Magellan's Cross",
+      "Basilica Minore del Santo Niño",
+      "Taoist Temple",
+      "Kawasan Falls",
+      "Oslob Whale Shark Watching",
+      "Mactan Island Resorts",
+      "Cebu Safari and Adventure Park",
+      "Sirao Flower Garden",
+      "Tops Lookout",
+      "Moalboal Sardine Run"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Shangri-La's Mactan Resort & Spa", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Crimson Resort & Spa Mactan", "price_per_night": 400 },
+        { "name": "Radisson Blu Cebu", "price_per_night": 350 },
+        { "name": "Jpark Island Resort & Waterpark", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Quest Hotel & Conference Center Cebu", "price_per_night": 200 },
+        { "name": "Bayfront Hotel Cebu", "price_per_night": 180 },
+        { "name": "Waterfront Cebu City Hotel & Casino", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Ibis Cebu", "price_per_night": 100 },
+        { "name": "Harolds Hotel", "price_per_night": 120 },
+        { "name": "Sampaguita Suites Plaza Garcia", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Philippines",
+    "city": "Boracay",
+    "tags": ["beaches", "island", "water sports", "luxury"],
+    "attractions": [
+      "White Beach",
+      "Puka Shell Beach",
+      "Mount Luho Viewpoint",
+      "Bulabog Beach",
+      "Crystal Cove Island",
+      "Ariel's Point Cliff Diving",
+      "Diniwid Beach",
+      "Paraw Sailing",
+      "Helmet Diving",
+      "Sunset Cruise"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Lind Boracay", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "Shangri-La's Boracay Resort & Spa", "price_per_night": 600 },
+        { "name": "Discovery Shores Boracay", "price_per_night": 550 },
+        { "name": "Crimson Resort and Spa Boracay", "price_per_night": 500 }
+      ],
+      "4_star": [
+        { "name": "Henann Lagoon Resort", "price_per_night": 300 },
+        { "name": "The Tides Hotel Boracay", "price_per_night": 280 },
+        { "name": "Le Soleil de Boracay", "price_per_night": 250 }
+      ],
+      "3_star": [
+        { "name": "Boracay Uptown", "price_per_night": 150 },
+        { "name": "The District Boracay", "price_per_night": 180 },
+        { "name": "Ferra Hotel Boracay", "price_per_night": 120 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Delhi",
+    "tags": ["historic", "cultural", "street food", "bazaars"],
+    "attractions": [
+      "Red Fort",
+      "Qutub Minar",
+      "India Gate",
+      "Humayun's Tomb",
+      "Lotus Temple",
+      "Akshardham Temple",
+      "Chandni Chowk",
+      "Jama Masjid",
+      "National Museum",
+      "Lodi Gardens"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Leela Palace New Delhi", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "The Imperial New Delhi", "price_per_night": 400 },
+        { "name": "Taj Palace, New Delhi", "price_per_night": 450 },
+        { "name": "The Oberoi, New Delhi", "price_per_night": 480 }
+      ],
+      "4_star": [
+        { "name": "The Claridges New Delhi", "price_per_night": 250 },
+        { "name": "The Park New Delhi", "price_per_night": 280 },
+        { "name": "Radisson Blu Plaza Delhi Airport", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Ibis New Delhi Aerocity", "price_per_night": 120 },
+        { "name": "The Connaught", "price_per_night": 150 },
+        { "name": "Hotel Palace Heights", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Mumbai",
+    "tags": ["bollywood", "beaches", "shopping", "street food"],
+    "attractions": [
+      "Gateway of India",
+      "Chhatrapati Shivaji Terminus",
+      "Marine Drive",
+      "Elephanta Caves",
+      "Haji Ali Dargah",
+      "Juhu Beach",
+      "Colaba Causeway",
+      "Sanjay Gandhi National Park",
+      "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+      "Bandra-Worli Sea Link"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Taj Mahal Palace", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "The St. Regis Mumbai", "price_per_night": 500 },
+        { "name": "Four Seasons Hotel Mumbai", "price_per_night": 550 },
+        { "name": "The Oberoi, Mumbai", "price_per_night": 520 }
+      ],
+      "4_star": [
+        { "name": "Trident, Nariman Point", "price_per_night": 300 },
+        { "name": "The Lalit Mumbai", "price_per_night": 280 },
+        { "name": "JW Marriott Mumbai Sahar", "price_per_night": 350 }
+      ],
+      "3_star": [
+        { "name": "Ibis Mumbai Airport", "price_per_night": 120 },
+        { "name": "Hotel Suba Palace", "price_per_night": 150 },
+        { "name": "The Gordon House Hotel", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Jaipur",
+    "tags": ["royal", "historic", "forts", "shopping"],
+    "attractions": [
+      "Amber Fort",
+      "Hawa Mahal",
+      "City Palace",
+      "Jantar Mantar",
+      "Nahargarh Fort",
+      "Jaigarh Fort",
+      "Jal Mahal",
+      "Albert Hall Museum",
+      "Bapu Bazaar",
+      "Galta Ji Temple"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Rambagh Palace", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "The Oberoi Rajvilas", "price_per_night": 450 },
+        { "name": "Taj Jai Mahal Palace", "price_per_night": 400 },
+        { "name": "Fairmont Jaipur", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Holiday Inn Jaipur City Centre", "price_per_night": 200 },
+        { "name": "Radisson Blu Jaipur", "price_per_night": 220 },
+        { "name": "Clarks Amer", "price_per_night": 180 }
+      ],
+      "3_star": [
+        { "name": "Ibis Jaipur", "price_per_night": 100 },
+        { "name": "Hotel Pearl Palace", "price_per_night": 120 },
+        { "name": "Hotel Royal Orchid", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Ladakh",
+    "tags": ["himalayan", "adventure", "buddhist", "high-altitude"],
+    "attractions": [
+      "Pangong Tso Lake",
+      "Nubra Valley",
+      "Leh Palace",
+      "Khardung La Pass",
+      "Tso Moriri Lake",
+      "Hemis Monastery",
+      "Magnetic Hill",
+      "Shanti Stupa",
+      "Zanskar Valley",
+      "Lamayuru Monastery"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Grand Dragon Ladakh", "price_per_night": 400 }
+      ],
+      "5_star": [
+        { "name": "Ladakh Sarai Resort", "price_per_night": 300 },
+        { "name": "The Zen Ladakh", "price_per_night": 280 },
+        { "name": "Nimmu House", "price_per_night": 350 }
+      ],
+      "4_star": [
+        { "name": "Hotel Yak Tail", "price_per_night": 180 },
+        { "name": "Hotel Kaal", "price_per_night": 200 },
+        { "name": "The Auspicious Hotel", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Singge Palace", "price_per_night": 120 },
+        { "name": "Hotel Omasila", "price_per_night": 100 },
+        { "name": "Hotel Moonland", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Sikkim",
+    "tags": ["himalayan", "buddhist", "tea gardens", "nature"],
+    "attractions": [
+      "Tsomgo Lake",
+      "Nathula Pass",
+      "Rumtek Monastery",
+      "Yumthang Valley",
+      "Gangtok Ropeway",
+      "Pelling Skywalk",
+      "Baba Harbhajan Singh Temple",
+      "Khecheopalri Lake",
+      "Teesta River",
+      "Namchi Char Dham"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Mayfair Spa Resort & Casino", "price_per_night": 450 }
+      ],
+      "5_star": [
+        { "name": "The Elgin Nor-Khill", "price_per_night": 350 },
+        { "name": "Lemon Tree Hotel", "price_per_night": 300 },
+        { "name": "The Royal Plaza", "price_per_night": 320 }
+      ],
+      "4_star": [
+        { "name": "Hotel Tashi Delek", "price_per_night": 200 },
+        { "name": "Hotel Golden Star", "price_per_night": 180 },
+        { "name": "Hotel Tibet", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Cherry Guest House", "price_per_night": 100 },
+        { "name": "Hotel Sonam Delek", "price_per_night": 120 },
+        { "name": "Hotel Green Heights", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Kutch",
+    "tags": ["desert", "cultural", "handicrafts", "wildlife"],
+    "attractions": [
+      "White Rann of Kutch",
+      "Kutch Desert Wildlife Sanctuary",
+      "Dholavira (Harappan Site)",
+      "Mandvi Beach",
+      "Aina Mahal",
+      "Kalo Dungar (Black Hill)",
+      "Prag Mahal",
+      "Kutch Museum",
+      "Vijay Vilas Palace",
+      "Great Indian Bustard Sanctuary"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Gateway Hotel Rann of Kutch", "price_per_night": 350 }
+      ],
+      "5_star": [
+        { "name": "Rann Riders Resort", "price_per_night": 250 },
+        { "name": "Shaam-e-Sarhad Village Resort", "price_per_night": 220 },
+        { "name": "Toran Resort", "price_per_night": 280 }
+      ],
+      "4_star": [
+        { "name": "Hotel Prince", "price_per_night": 150 },
+        { "name": "Hotel Ilark", "price_per_night": 180 },
+        { "name": "Hotel The Grand Bhagwati", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Hotel Sun Plaza", "price_per_night": 100 },
+        { "name": "Hotel President", "price_per_night": 90 },
+        { "name": "Hotel Regent", "price_per_night": 80 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Manali",
+    "tags": ["himalayan", "honeymoon", "adventure", "hill station"],
+    "attractions": [
+      "Solang Valley",
+      "Rohtang Pass",
+      "Hadimba Temple",
+      "Old Manali",
+      "Jogini Waterfall",
+      "Bhrigu Lake",
+      "Manu Temple",
+      "Vashisht Hot Water Springs",
+      "Great Himalayan National Park",
+      "Beas Kund Trek"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Himalayan", "price_per_night": 400 }
+      ],
+      "5_star": [
+        { "name": "Span Resort & Spa", "price_per_night": 300 },
+        { "name": "The Orchard Greens", "price_per_night": 280 },
+        { "name": "Snow Valley Resorts", "price_per_night": 320 }
+      ],
+      "4_star": [
+        { "name": "Hotel Apple Flower", "price_per_night": 180 },
+        { "name": "Hotel Himgiri", "price_per_night": 200 },
+        { "name": "Hotel Sunshine", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Snow Park", "price_per_night": 120 },
+        { "name": "Hotel Kunzam", "price_per_night": 100 },
+        { "name": "Hotel Mountain Top", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Darjeeling",
+    "tags": ["tea", "himalayan", "hill station", "toy train"],
+    "attractions": [
+      "Tiger Hill Sunrise View",
+      "Darjeeling Himalayan Railway",
+      "Batasia Loop",
+      "Peace Pagoda",
+      "Padmaja Naidu Himalayan Zoological Park",
+      "Happy Valley Tea Estate",
+      "Japanese Temple",
+      "Rock Garden",
+      "Ghoom Monastery",
+      "Observatory Hill"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Mayfair Darjeeling", "price_per_night": 380 }
+      ],
+      "5_star": [
+        { "name": "Windamere Hotel", "price_per_night": 300 },
+        { "name": "Elgin Darjeeling", "price_per_night": 280 },
+        { "name": "Cedar Inn", "price_per_night": 250 }
+      ],
+      "4_star": [
+        { "name": "Hotel Lunar Darjeeling", "price_per_night": 180 },
+        { "name": "Hotel Dekeling", "price_per_night": 200 },
+        { "name": "Hotel Seven Seventeen", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Pineridge", "price_per_night": 120 },
+        { "name": "Hotel Anand Palace", "price_per_night": 100 },
+        { "name": "Hotel Seven Oaks", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Goa",
+    "tags": ["beaches", "party", "portuguese", "relaxation"],
+    "attractions": [
+      "Calangute Beach",
+      "Baga Beach",
+      "Anjuna Flea Market",
+      "Basilica of Bom Jesus",
+      "Dudhsagar Falls",
+      "Fort Aguada",
+      "Chapora Fort",
+      "Palolem Beach",
+      "Spice Plantations",
+      "Cruise on Mandovi River"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Leela Goa", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Taj Exotica Resort & Spa", "price_per_night": 400 },
+        { "name": "W Goa", "price_per_night": 450 },
+        { "name": "Grand Hyatt Goa", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Novotel Goa Resort & Spa", "price_per_night": 250 },
+        { "name": "Holiday Inn Resort Goa", "price_per_night": 280 },
+        { "name": "Alila Diwa Goa", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "Ibis Goa", "price_per_night": 150 },
+        { "name": "Hotel Fidalgo", "price_per_night": 120 },
+        { "name": "The Crown Goa", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Agra",
+    "tags": ["historic", "monument", "mughal", "taj mahal"],
+    "attractions": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Fatehpur Sikri",
+      "Mehtab Bagh",
+      "Itmad-ud-Daulah's Tomb",
+      "Akbar's Tomb",
+      "Jama Masjid",
+      "Chini Ka Rauza",
+      "Mariam's Tomb",
+      "Soami Bagh Samadhi"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "The Oberoi Amarvilas", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "ITC Mughal", "price_per_night": 400 },
+        { "name": "Jaypee Palace Hotel", "price_per_night": 350 },
+        { "name": "Radisson Blu Agra", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Hotel Clarks Shiraz", "price_per_night": 200 },
+        { "name": "Crystal Sarovar Premiere", "price_per_night": 220 },
+        { "name": "Howard Plaza The Fern", "price_per_night": 180 }
+      ],
+      "3_star": [
+        { "name": "Ibis Agra", "price_per_night": 120 },
+        { "name": "Hotel Atulyaa Taj", "price_per_night": 100 },
+        { "name": "Hotel Taj Resorts", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Jaisalmer",
+    "tags": ["desert", "fort", "golden city", "cultural"],
+    "attractions": [
+      "Jaisalmer Fort",
+      "Patwon Ki Haveli",
+      "Sam Sand Dunes",
+      "Gadisar Lake",
+      "Salim Singh Ki Haveli",
+      "Desert National Park",
+      "Nathmal Ki Haveli",
+      "Bada Bagh",
+      "Kuldhara Abandoned Village",
+      "Tanot Mata Temple"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Suryagarh Jaisalmer", "price_per_night": 450 }
+      ],
+      "5_star": [
+        { "name": "The Serai Jaisalmer", "price_per_night": 350 },
+        { "name": "Fort Rajwada", "price_per_night": 300 },
+        { "name": "Hotel Gorbandh Palace", "price_per_night": 320 }
+      ],
+      "4_star": [
+        { "name": "Hotel Pleasant Haveli", "price_per_night": 180 },
+        { "name": "Hotel Tokyo Palace", "price_per_night": 200 },
+        { "name": "Hotel Desert Springs", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Killa Bhawan", "price_per_night": 120 },
+        { "name": "Hotel Golden Haveli", "price_per_night": 100 },
+        { "name": "Hotel Renuka", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Udaipur",
+    "tags": ["lakes", "royal", "romantic", "palaces"],
+    "attractions": [
+      "City Palace",
+      "Lake Pichola",
+      "Jag Mandir",
+      "Jagdish Temple",
+      "Fateh Sagar Lake",
+      "Sajjangarh (Monsoon Palace)",
+      "Saheliyon Ki Bari",
+      "Bagore Ki Haveli",
+      "Shilpgram",
+      "Ahar Cenotaphs"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Taj Lake Palace", "price_per_night": 700 }
+      ],
+      "5_star": [
+        { "name": "The Oberoi Udaivilas", "price_per_night": 600 },
+        { "name": "The Leela Palace Udaipur", "price_per_night": 550 },
+        { "name": "JW Marriott Udaipur", "price_per_night": 500 }
+      ],
+      "4_star": [
+        { "name": "Radisson Blu Udaipur", "price_per_night": 300 },
+        { "name": "Trident Udaipur", "price_per_night": 280 },
+        { "name": "Ramada Udaipur Resort", "price_per_night": 250 }
+      ],
+      "3_star": [
+        { "name": "Ibis Udaipur", "price_per_night": 150 },
+        { "name": "Hotel Lakend", "price_per_night": 120 },
+        { "name": "Hotel The Tiger", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Lakshadweep",
+    "tags": ["islands", "beaches", "marine life", "pristine"],
+    "attractions": [
+      "Agatti Island",
+      "Bangaram Atoll",
+      "Kadmat Island",
+      "Minicoy Island Lighthouse",
+      "Kavaratti Marine Aquarium",
+      "Kalpeni Islands",
+      "Scuba Diving",
+      "Snorkeling",
+      "Kayaking",
+      "Island Hopping"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Bangaram Island Resort", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Agatti Island Beach Resort", "price_per_night": 400 },
+        { "name": "Kadmat Beach Resort", "price_per_night": 350 },
+        { "name": "Minicoy Island Beach Resort", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Coral Beach Resort", "price_per_night": 250 },
+        { "name": "Island Holiday Home", "price_per_night": 220 },
+        { "name": "Pellucid Holiday Resort", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Seashells Beach Resort", "price_per_night": 150 },
+        { "name": "Wave Holiday Home", "price_per_night": 120 },
+        { "name": "Blue Marine Guest House", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Andaman and Nicobar Islands",
+    "tags": ["islands", "beaches", "colonial", "marine life"],
+    "attractions": [
+      "Radhanagar Beach",
+      "Cellular Jail",
+      "Ross Island",
+      "Elephant Beach",
+      "Baratang Island (Limestone Caves)",
+      "North Bay Island",
+      "Chidiya Tapu",
+      "Mahatma Gandhi Marine National Park",
+      "Scuba Diving",
+      "Snorkeling"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Taj Exotica Resort & Spa", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Barefoot at Havelock", "price_per_night": 450 },
+        { "name": "Symphony Palms Beach Resort", "price_per_night": 400 },
+        { "name": "SeaShell Port Blair", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Peerless Resort", "price_per_night": 250 },
+        { "name": "Holiday Inn Resort", "price_per_night": 280 },
+        { "name": "SilverSand Beach Resort", "price_per_night": 300 }
+      ],
+      "3_star": [
+        { "name": "TSG Emerald View", "price_per_night": 150 },
+        { "name": "Hotel Sentinel", "price_per_night": 120 },
+        { "name": "Hotel Shompen", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "India",
+    "city": "Rishikesh",
+    "tags": ["spiritual", "yoga", "adventure", "ganges"],
+    "attractions": [
+      "Laxman Jhula",
+      "Ram Jhula",
+      "Triveni Ghat",
+      "Beatles Ashram",
+      "Neelkanth Mahadev Temple",
+      "River Rafting",
+      "Yoga Classes",
+      "Ganga Aarti",
+      "Jumpin Heights (Bungee Jumping)",
+      "Kunjapuri Temple Trek"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Ananda in the Himalayas", "price_per_night": 800 }
+      ],
+      "5_star": [
+        { "name": "Aloha on the Ganges", "price_per_night": 400 },
+        { "name": "The Glasshouse on the Ganges", "price_per_night": 350 },
+        { "name": "Ganga Kinare", "price_per_night": 300 }
+      ],
+      "4_star": [
+        { "name": "Divine Resort", "price_per_night": 200 },
+        { "name": "Hotel Ganga View", "price_per_night": 180 },
+        { "name": "The V Resort", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Ishan", "price_per_night": 120 },
+        { "name": "Hotel Hari Om", "price_per_night": 100 },
+        { "name": "Hotel Ganga Yamuna", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+  "continent": "Asia",
+  "country": "India",
+  "city": "Varanasi",
+  "tags": ["spiritual", "ganges", "historic", "cultural"],
+  "attractions": [
+    "Dashashwamedh Ghat",
+    "Kashi Vishwanath Temple",
+    "Assi Ghat",
+    "Sarnath (Buddhist Site)",
+    "Manikarnika Ghat",
+    "Ganga Aarti Ceremony",
+    "Ramnagar Fort",
+    "Tulsi Manas Temple",
+    "Bharat Kala Bhavan Museum",
+    "Banaras Hindu University"
+  ],
+  "hotels": {
+    "7_star": [
+      { "name": "Taj Ganges Varanasi", "price_per_night": 450 }
+    ],
+    "5_star": [
+      { "name": "BrijRama Palace", "price_per_night": 350 },
+      { "name": "Radisson Hotel Varanasi", "price_per_night": 300 },
+      { "name": "Ramada Plaza by Wyndham", "price_per_night": 280 }
+    ],
+    "4_star": [
+      { "name": "Hotel Surya", "price_per_night": 180 },
+      { "name": "Hotel Alka", "price_per_night": 200 },
+      { "name": "Hotel Pradeep", "price_per_night": 160 }
+    ],
+    "3_star": [
+      { "name": "Hotel Buddha", "price_per_night": 100 },
+      { "name": "Hotel Temple on Ganges", "price_per_night": 90 },
+      { "name": "Hotel Ganga View", "price_per_night": 80 }
+    ]
+  }
+},
+  {
+    "continent": "Asia",
+    "country": "Sri Lanka",
+    "city": "Colombo",
+    "tags": ["colonial", "cultural", "beaches", "shopping"],
+    "attractions": [
+      "Gangaramaya Temple",
+      "Galle Face Green",
+      "National Museum of Colombo",
+      "Viharamahadevi Park",
+      "Independence Memorial Hall",
+      "Pettah Floating Market",
+      "Seema Malakaya Temple",
+      "Mount Lavinia Beach",
+      "Colombo Fort",
+      "Dutch Hospital Shopping Precinct"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Shangri-La Colombo", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "The Kingsbury", "price_per_night": 400 },
+        { "name": "Cinnamon Grand Colombo", "price_per_night": 350 },
+        { "name": "Taj Samudra Colombo", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Galle Face Hotel", "price_per_night": 250 },
+        { "name": "Marino Beach Colombo", "price_per_night": 220 },
+        { "name": "Cinnamon Lakeside Colombo", "price_per_night": 280 }
+      ],
+      "3_star": [
+        { "name": "Ibis Colombo", "price_per_night": 120 },
+        { "name": "Hotel Renuka", "price_per_night": 150 },
+        { "name": "Clock Inn Colombo", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Sri Lanka",
+    "city": "Kandy",
+    "tags": ["sacred", "hills", "cultural", "tea"],
+    "attractions": [
+      "Temple of the Sacred Tooth Relic",
+      "Royal Botanical Gardens",
+      "Kandy Lake",
+      "Udawatta Kele Sanctuary",
+      "Bahiravokanda Vihara Buddha Statue",
+      "Kandy Cultural Show",
+      "Tea Museum",
+      "Peradeniya University",
+      "Knuckles Mountain Range",
+      "Ambuluwawa Tower"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Theva Residency", "price_per_night": 400 }
+      ],
+      "5_star": [
+        { "name": "Earl's Regency", "price_per_night": 300 },
+        { "name": "Cinnamon Citadel Kandy", "price_per_night": 250 },
+        { "name": "Mahaweli Reach Hotel", "price_per_night": 280 }
+      ],
+      "4_star": [
+        { "name": "Hotel Suisse", "price_per_night": 180 },
+        { "name": "OZO Kandy", "price_per_night": 200 },
+        { "name": "The Golden Crown Hotel", "price_per_night": 150 }
+      ],
+      "3_star": [
+        { "name": "Hotel Topaz", "price_per_night": 100 },
+        { "name": "Hotel Senani", "price_per_night": 120 },
+        { "name": "Nature Walk Resort", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Nepal",
+    "city": "Kathmandu",
+    "tags": ["himalayan", "spiritual", "historic", "temples"],
+    "attractions": [
+      "Boudhanath Stupa",
+      "Pashupatinath Temple",
+      "Swayambhunath (Monkey Temple)",
+      "Kathmandu Durbar Square",
+      "Patan Durbar Square",
+      "Bhaktapur Durbar Square",
+      "Garden of Dreams",
+      "Kopan Monastery",
+      "Thamel District",
+      "Chandragiri Hills"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Dwarika's Hotel", "price_per_night": 400 }
+      ],
+      "5_star": [
+        { "name": "Hyatt Regency Kathmandu", "price_per_night": 300 },
+        { "name": "The Soaltee Kathmandu", "price_per_night": 250 },
+        { "name": "Yak & Yeti Hotel", "price_per_night": 280 }
+      ],
+      "4_star": [
+        { "name": "Hotel Shambala", "price_per_night": 180 },
+        { "name": "Hotel Tibet International", "price_per_night": 200 },
+        { "name": "Radisson Hotel Kathmandu", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Thamel House", "price_per_night": 100 },
+        { "name": "Kantipur Temple House", "price_per_night": 120 },
+        { "name": "Hotel Ganesh Himal", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Nepal",
+    "city": "Pokhara",
+    "tags": ["lakes", "mountains", "adventure", "peaceful"],
+    "attractions": [
+      "Phewa Lake",
+      "World Peace Pagoda",
+      "Sarangkot Sunrise View",
+      "Devi's Fall",
+      "Gupteshwor Cave",
+      "International Mountain Museum",
+      "Begnas Lake",
+      "Seti River Gorge",
+      "Annapurna Mountain Views",
+      "Paragliding"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Tiger Mountain Pokhara Lodge", "price_per_night": 350 }
+      ],
+      "5_star": [
+        { "name": "The Pavilions Himalayas", "price_per_night": 300 },
+        { "name": "Hotel Barahi", "price_per_night": 250 },
+        { "name": "Temple Tree Resort & Spa", "price_per_night": 280 }
+      ],
+      "4_star": [
+        { "name": "Pokhara Grande Hotel", "price_per_night": 180 },
+        { "name": "Atithi Resort & Spa", "price_per_night": 200 },
+        { "name": "Hotel Middle Path", "price_per_night": 150 }
+      ],
+      "3_star": [
+        { "name": "Hotel Lake Star", "price_per_night": 100 },
+        { "name": "Hotel Karuna", "price_per_night": 120 },
+        { "name": "Hotel Landmark Pokhara", "price_per_night": 90 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Bhutan",
+    "city": "Thimphu",
+    "tags": ["himalayan", "cultural", "peaceful", "traditional"],
+    "attractions": [
+      "Tashichho Dzong",
+      "Buddha Dordenma Statue",
+      "National Memorial Chorten",
+      "Motithang Takin Preserve",
+      "Folk Heritage Museum",
+      "Changangkha Lhakhang",
+      "Weekend Market",
+      "Simtokha Dzong",
+      "Dochula Pass",
+      "Royal Textile Academy"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Taj Tashi", "price_per_night": 500 }
+      ],
+      "5_star": [
+        { "name": "Le Meridien Thimphu", "price_per_night": 400 },
+        { "name": "Druk Hotel", "price_per_night": 350 },
+        { "name": "Terma Linca Resort & Spa", "price_per_night": 380 }
+      ],
+      "4_star": [
+        { "name": "Hotel Pedling", "price_per_night": 250 },
+        { "name": "Hotel Kisa", "price_per_night": 220 },
+        { "name": "Hotel Jumolhari", "price_per_night": 200 }
+      ],
+      "3_star": [
+        { "name": "Hotel Galingkha", "price_per_night": 150 },
+        { "name": "Hotel Norbuling", "price_per_night": 120 },
+        { "name": "Hotel Khamsum", "price_per_night": 100 }
+      ]
+    }
+  },
+  {
+    "continent": "Asia",
+    "country": "Bhutan",
+    "city": "Paro",
+    "tags": ["himalayan", "sacred", "valley", "cultural"],
+    "attractions": [
+      "Tiger's Nest Monastery",
+      "Rinpung Dzong",
+      "National Museum of Bhutan",
+      "Drukgyel Dzong",
+      "Kyichu Lhakhang",
+      "Paro Valley Viewpoint",
+      "Dumtse Lhakhang",
+      "Tachog Lhakhang",
+      "Chele La Pass",
+      "Farmhouse Experience"
+    ],
+    "hotels": {
+      "7_star": [
+        { "name": "Uma by COMO, Paro", "price_per_night": 600 }
+      ],
+      "5_star": [
+        { "name": "Le Meridien Paro, Riverfront", "price_per_night": 450 },
+        { "name": "Zhiwa Ling Heritage", "price_per_night": 500 },
+        { "name": "Naksel Boutique Hotel & Spa", "price_per_night": 400 }
+      ],
+      "4_star": [
+        { "name": "Hotel Olathang", "price_per_night": 250 },
+        { "name": "The Village Lodge Paro", "price_per_night": 280 },
+        { "name": "Hotel Tashi Namgay", "price_per_night": 220 }
+      ],
+      "3_star": [
+        { "name": "Hotel Sonam Trophel", "price_per_night": 150 },
+        { "name": "Hotel Janka", "price_per_night": 120 },
+        { "name": "Hotel Khamsum", "price_per_night": 100 }
+      ]
+    }
+  }
+]
