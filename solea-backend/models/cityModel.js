@@ -5,7 +5,8 @@ const citySchema = new mongoose.Schema({
   country: { type: String, required: true },
   continent: { type: String, required: true },
   tags: [String],
-  popularSpots: [String], // renamed from "attractions"
+  popularSpots: [String],
+  image: { type: String },
 }, {
   timestamps: true,
 });

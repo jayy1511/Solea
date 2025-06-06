@@ -3,7 +3,12 @@
     "continent": "South America",
     "country": "Argentina",
     "city": "Buenos Aires",
-    "tags": ["historic", "cultural", "tango", "European-style"],
+    "tags": [
+      "historic",
+      "cultural",
+      "tango",
+      "European-style"
+    ],
     "attractions": [
       "Statue of Liberty & Ellis Island",
       "Central Park (Bethesda Terrace, Bow Bridge, Great Lawn)",
@@ -18,30 +23,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Alvear Palace Hotel", "price_per_night": 450 }
+        {
+          "name": "Alvear Palace Hotel",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Buenos Aires", "price_per_night": 350 },
-        { "name": "Palacio Duhau – Park Hyatt Buenos Aires", "price_per_night": 300 },
-        { "name": "Faena Hotel Buenos Aires", "price_per_night": 280 }
+        {
+          "name": "Four Seasons Hotel Buenos Aires",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Palacio Duhau – Park Hyatt Buenos Aires",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Faena Hotel Buenos Aires",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Madero", "price_per_night": 180 },
-        { "name": "Fierro Hotel", "price_per_night": 160 },
-        { "name": "Legado Mitico", "price_per_night": 150 }
+        {
+          "name": "Hotel Madero",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Fierro Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Legado Mitico",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Esplendor by Wyndham Buenos Aires", "price_per_night": 100 },
-        { "name": "Hotel Pulitzer Buenos Aires", "price_per_night": 120 },
-        { "name": "Tango de Mayo Hotel", "price_per_night": 90 }
+        {
+          "name": "Esplendor by Wyndham Buenos Aires",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Pulitzer Buenos Aires",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Tango de Mayo Hotel",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Buenos_Aires.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "Rio de Janeiro",
-    "tags": ["beaches", "carnival", "landmarks", "nature"],
+    "tags": [
+      "beaches",
+      "carnival",
+      "landmarks",
+      "nature"
+    ],
     "attractions": [
       "Christ the Redeemer (Corcovado)",
       "Sugarloaf Mountain (Pão de Açúcar cable car)",
@@ -56,30 +107,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Belmond Copacabana Palace", "price_per_night": 600 }
+        {
+          "name": "Belmond Copacabana Palace",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Fasano Rio de Janeiro", "price_per_night": 500 },
-        { "name": "Hotel Santa Teresa Rio MGallery", "price_per_night": 300 },
-        { "name": "Emiliano Rio", "price_per_night": 400 }
+        {
+          "name": "Fasano Rio de Janeiro",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Santa Teresa Rio MGallery",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Emiliano Rio",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Arena Copacabana Hotel", "price_per_night": 200 },
-        { "name": "Windsor Excelsior Copacabana", "price_per_night": 180 },
-        { "name": "Miramar Hotel by Windsor", "price_per_night": 160 }
+        {
+          "name": "Arena Copacabana Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Windsor Excelsior Copacabana",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Miramar Hotel by Windsor",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Copacabana Posto 2", "price_per_night": 90 },
-        { "name": "Hotel Atlântico Copacabana", "price_per_night": 100 },
-        { "name": "Hotel Regina Rio", "price_per_night": 80 }
+        {
+          "name": "Ibis Copacabana Posto 2",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Atlântico Copacabana",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Regina Rio",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Rio_de_Janeiro.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "São Paulo",
-    "tags": ["business", "cultural", "gastronomy", "art"],
+    "tags": [
+      "business",
+      "cultural",
+      "gastronomy",
+      "art"
+    ],
     "attractions": [
       "Avenida Paulista & MASP (São Paulo Museum of Art)",
       "Ibirapuera Park & Museum of Modern Art",
@@ -94,30 +191,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Hotel Unique", "price_per_night": 400 }
+        {
+          "name": "Hotel Unique",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Fasano São Paulo", "price_per_night": 450 },
-        { "name": "Tivoli Mofarrej São Paulo", "price_per_night": 350 },
-        { "name": "Palácio Tangará", "price_per_night": 380 }
+        {
+          "name": "Fasano São Paulo",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Tivoli Mofarrej São Paulo",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Palácio Tangará",
+          "price_per_night": 380,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Bourbon Convention Ibirapuera", "price_per_night": 200 },
-        { "name": "Radisson Blu São Paulo", "price_per_night": 180 },
-        { "name": "Hilton São Paulo Morumbi", "price_per_night": 160 }
+        {
+          "name": "Bourbon Convention Ibirapuera",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Radisson Blu São Paulo",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hilton São Paulo Morumbi",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis São Paulo Paulista", "price_per_night": 80 },
-        { "name": "Hotel Riazor Paulista", "price_per_night": 100 },
-        { "name": "Ibis Budget São Paulo Paulista", "price_per_night": 70 }
+        {
+          "name": "Ibis São Paulo Paulista",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Riazor Paulista",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Ibis Budget São Paulo Paulista",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/São_Paulo.jpg"
   },
   {
     "continent": "South America",
     "country": "Colombia",
     "city": "Bogotá",
-    "tags": ["historic", "cultural", "museums", "Andean"],
+    "tags": [
+      "historic",
+      "cultural",
+      "museums",
+      "Andean"
+    ],
     "attractions": [
       "Monserrate & Sanctuary (mountain cable car)",
       "Gold Museum (Museo del Oro)",
@@ -132,30 +275,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Hotel Casa Medina Bogotá", "price_per_night": 450 }
+        {
+          "name": "Four Seasons Hotel Casa Medina Bogotá",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Sofitel Legend Santa Clara", "price_per_night": 350 },
-        { "name": "JW Marriott Hotel Bogotá", "price_per_night": 300 },
-        { "name": "The Click Clack Hotel", "price_per_night": 250 }
+        {
+          "name": "Sofitel Legend Santa Clara",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "JW Marriott Hotel Bogotá",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Click Clack Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Morrison 114", "price_per_night": 120 },
-        { "name": "Movich Buro 26", "price_per_night": 150 },
-        { "name": "NH Collection Bogotá Hacienda Royal", "price_per_night": 140 }
+        {
+          "name": "Hotel Morrison 114",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Movich Buro 26",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "NH Collection Bogotá Hacienda Royal",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Bogotá Museo", "price_per_night": 70 },
-        { "name": "Hotel Capital Bogotá", "price_per_night": 80 },
-        { "name": "Hotel bh Bicentenario", "price_per_night": 60 }
+        {
+          "name": "Ibis Bogotá Museo",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Capital Bogotá",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel bh Bicentenario",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Bogotá.jpg"
   },
   {
     "continent": "South America",
     "country": "Peru",
     "city": "Lima",
-    "tags": ["gastronomy", "colonial", "Pacific", "historic"],
+    "tags": [
+      "gastronomy",
+      "colonial",
+      "Pacific",
+      "historic"
+    ],
     "attractions": [
       "Plaza Mayor & Government Palace",
       "Larco Museum (pre-Columbian art)",
@@ -170,30 +359,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Belmond Miraflores Park", "price_per_night": 350 }
+        {
+          "name": "Belmond Miraflores Park",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "JW Marriott Hotel Lima", "price_per_night": 250 },
-        { "name": "Westin Lima Hotel & Convention Center", "price_per_night": 200 },
-        { "name": "Swissôtel Lima", "price_per_night": 230 }
+        {
+          "name": "JW Marriott Hotel Lima",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Westin Lima Hotel & Convention Center",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Swissôtel Lima",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Courtyard by Marriott Lima Miraflores", "price_per_night": 120 },
-        { "name": "Novotel Lima", "price_per_night": 100 },
-        { "name": "Radisson Hotel Decapolis Miraflores", "price_per_night": 110 }
+        {
+          "name": "Courtyard by Marriott Lima Miraflores",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Novotel Lima",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Radisson Hotel Decapolis Miraflores",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Tierra Viva Miraflores Larco", "price_per_night": 80 },
-        { "name": "Ibis Larco Miraflores", "price_per_night": 70 },
-        { "name": "Selina Miraflores Lima", "price_per_night": 60 }
+        {
+          "name": "Tierra Viva Miraflores Larco",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Ibis Larco Miraflores",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Selina Miraflores Lima",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Lima.jpg"
   },
   {
     "continent": "South America",
     "country": "Chile",
     "city": "Santiago",
-    "tags": ["modern", "Andean", "wine", "cultural"],
+    "tags": [
+      "modern",
+      "Andean",
+      "wine",
+      "cultural"
+    ],
     "attractions": [
       "Plaza de Armas & Metropolitan Cathedral",
       "Cerro San Cristóbal & Funicular",
@@ -208,30 +443,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Ritz-Carlton, Santiago", "price_per_night": 500 }
+        {
+          "name": "The Ritz-Carlton, Santiago",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Mandarin Oriental, Santiago", "price_per_night": 300 },
-        { "name": "Santiago Marriott Hotel", "price_per_night": 250 },
-        { "name": "W Santiago", "price_per_night": 280 }
+        {
+          "name": "Mandarin Oriental, Santiago",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Santiago Marriott Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "W Santiago",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Plaza San Francisco", "price_per_night": 180 },
-        { "name": "NH Collection Plaza Santiago", "price_per_night": 160 },
-        { "name": "Hotel Cumbres Lastarria", "price_per_night": 200 }
+        {
+          "name": "Hotel Plaza San Francisco",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "NH Collection Plaza Santiago",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Cumbres Lastarria",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Santiago Estación Central", "price_per_night": 80 },
-        { "name": "Casa Bellavista", "price_per_night": 100 },
-        { "name": "Hotel Luciano K", "price_per_night": 120 }
+        {
+          "name": "Ibis Santiago Estación Central",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Casa Bellavista",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Luciano K",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Santiago.jpg"
   },
   {
     "continent": "South America",
     "country": "Colombia",
     "city": "Cartagena",
-    "tags": ["colonial", "Caribbean", "historic", "beaches"],
+    "tags": [
+      "colonial",
+      "Caribbean",
+      "historic",
+      "beaches"
+    ],
     "attractions": [
       "Walled Old City & Clock Tower Gate",
       "Castillo San Felipe de Barajas",
@@ -246,30 +527,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sofitel Legend Santa Clara Cartagena", "price_per_night": 400 }
+        {
+          "name": "Sofitel Legend Santa Clara Cartagena",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Charleston Santa Teresa Cartagena", "price_per_night": 300 },
-        { "name": "Hotel Charleston Santa Teresa", "price_per_night": 280 },
-        { "name": "Hyatt Regency Cartagena", "price_per_night": 250 }
+        {
+          "name": "Charleston Santa Teresa Cartagena",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Charleston Santa Teresa",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hyatt Regency Cartagena",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Movich Hotel Cartagena de Indias", "price_per_night": 180 },
-        { "name": "Hotel Boutique La Artillería", "price_per_night": 160 },
-        { "name": "Bastión Luxury Hotel", "price_per_night": 200 }
+        {
+          "name": "Movich Hotel Cartagena de Indias",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Boutique La Artillería",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Bastión Luxury Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Boutique Don Pepe", "price_per_night": 120 },
-        { "name": "Ibis Cartagena Marbella", "price_per_night": 80 },
-        { "name": "Hotel 3 Banderas", "price_per_night": 90 }
+        {
+          "name": "Hotel Boutique Don Pepe",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Ibis Cartagena Marbella",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel 3 Banderas",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Cartagena.jpg"
   },
   {
     "continent": "South America",
     "country": "Peru",
     "city": "Cusco",
-    "tags": ["Inca", "historic", "Andean", "archaeological"],
+    "tags": [
+      "Inca",
+      "historic",
+      "Andean",
+      "archaeological"
+    ],
     "attractions": [
       "Plaza de Armas & Cathedral",
       "Sacsayhuamán Ruins",
@@ -284,30 +611,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Belmond Palacio Nazarenas", "price_per_night": 600 }
+        {
+          "name": "Belmond Palacio Nazarenas",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "JW Marriott El Convento Cusco", "price_per_night": 300 },
-        { "name": "Palacio del Inka, a Luxury Collection Hotel", "price_per_night": 250 },
-        { "name": "Novotel Cusco", "price_per_night": 200 }
+        {
+          "name": "JW Marriott El Convento Cusco",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Palacio del Inka, a Luxury Collection Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Novotel Cusco",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Monasterio Hotel Cusco", "price_per_night": 180 },
-        { "name": "Tierra Viva Cusco Plaza", "price_per_night": 120 },
-        { "name": "Antigua Casona San Blas", "price_per_night": 100 }
+        {
+          "name": "Monasterio Hotel Cusco",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Tierra Viva Cusco Plaza",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Antigua Casona San Blas",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hatun Inti Boutique Hotel", "price_per_night": 80 },
-        { "name": "Casa Andina Standard Cusco Plaza", "price_per_night": 90 },
-        { "name": "Hotel Rumi Punku", "price_per_night": 70 }
+        {
+          "name": "Hatun Inti Boutique Hotel",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Casa Andina Standard Cusco Plaza",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Rumi Punku",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Cusco.jpg"
   },
   {
     "continent": "South America",
     "country": "Ecuador",
     "city": "Quito",
-    "tags": ["colonial", "Andean", "historic", "UNESCO"],
+    "tags": [
+      "colonial",
+      "Andean",
+      "historic",
+      "UNESCO"
+    ],
     "attractions": [
       "Old Town (UNESCO site) & Plaza Grande",
       "Mitad del Mundo Monument & Museum",
@@ -322,30 +695,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Casa Gangotena", "price_per_night": 350 }
+        {
+          "name": "Casa Gangotena",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "JW Marriott Hotel Quito", "price_per_night": 250 },
-        { "name": "Hilton Colon Quito", "price_per_night": 200 },
-        { "name": "Swissôtel Quito", "price_per_night": 220 }
+        {
+          "name": "JW Marriott Hotel Quito",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton Colon Quito",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Swissôtel Quito",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "JW Marriott Hotel Quito", "price_per_night": 250 },
-        { "name": "Hilton Colon Quito", "price_per_night": 200 },
-        { "name": "Swissôtel Quito", "price_per_night": 220 }
+        {
+          "name": "JW Marriott Hotel Quito",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton Colon Quito",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Swissôtel Quito",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Quito", "price_per_night": 80 },
-        { "name": "Hotel San Francisco de Quito", "price_per_night": 90 },
-        { "name": "Hotel Boutique Portal del Angel", "price_per_night": 70 }
+        {
+          "name": "Ibis Quito",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel San Francisco de Quito",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Boutique Portal del Angel",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Quito.jpg"
   },
   {
     "continent": "South America",
     "country": "Argentina",
     "city": "Mendoza",
-    "tags": ["wine", "Andean", "gastronomy", "outdoor"],
+    "tags": [
+      "wine",
+      "Andean",
+      "gastronomy",
+      "outdoor"
+    ],
     "attractions": [
       "Avenida Arístides Villanueva (wine bars)",
       "Maipú and Luján de Cuyo wine regions (tours & tastings)",
@@ -360,30 +779,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Park Hyatt Mendoza – Casino & Spa", "price_per_night": 450 }
+        {
+          "name": "Park Hyatt Mendoza – Casino & Spa",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Cavas Wine Lodge", "price_per_night": 300 },
-        { "name": "Entre Cielos Luxury Wine Hotel & Spa", "price_per_night": 350 },
-        { "name": "The Vines Resort & Spa", "price_per_night": 280 }
+        {
+          "name": "Cavas Wine Lodge",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Entre Cielos Luxury Wine Hotel & Spa",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Vines Resort & Spa",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Diplomatic Hotel & Spa", "price_per_night": 180 },
-        { "name": "Sheraton Mendoza Hotel", "price_per_night": 160 },
-        { "name": "Hotel Diplomatic & Spa", "price_per_night": 170 }
+        {
+          "name": "Diplomatic Hotel & Spa",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sheraton Mendoza Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Diplomatic & Spa",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Mendoza", "price_per_night": 80 },
-        { "name": "Hostel Lagares", "price_per_night": 60 },
-        { "name": "Hotel Sol Andino", "price_per_night": 70 }
+        {
+          "name": "Ibis Mendoza",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hostel Lagares",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Sol Andino",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Mendoza.jpg"
   },
   {
     "continent": "South America",
     "country": "Uruguay",
     "city": "Montevideo",
-    "tags": ["coastal", "cultural", "historic", "relaxed"],
+    "tags": [
+      "coastal",
+      "cultural",
+      "historic",
+      "relaxed"
+    ],
     "attractions": [
       "Ciudad Vieja & Plaza Independencia",
       "Rambla of Montevideo (waterfront promenade)",
@@ -398,30 +863,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sofitel Montevideo Casino Carrasco & Spa", "price_per_night": 300 }
+        {
+          "name": "Sofitel Montevideo Casino Carrasco & Spa",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hyatt Centric Montevideo", "price_per_night": 200 },
-        { "name": "Sheraton Montevideo Hotel", "price_per_night": 250 },
-        { "name": "Radisson Montevideo Victoria Plaza Hotel", "price_per_night": 180 }
+        {
+          "name": "Hyatt Centric Montevideo",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sheraton Montevideo Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Radisson Montevideo Victoria Plaza Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Alma Historica Boutique Hotel", "price_per_night": 150 },
-        { "name": "NH Montevideo Columbia", "price_per_night": 120 },
-        { "name": "Four Points by Sheraton Montevideo", "price_per_night": 140 }
+        {
+          "name": "Alma Historica Boutique Hotel",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "NH Montevideo Columbia",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Four Points by Sheraton Montevideo",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Montevideo", "price_per_night": 80 },
-        { "name": "B2B Montevideo", "price_per_night": 70 },
-        { "name": "Hotel Vienna", "price_per_night": 60 }
+        {
+          "name": "Ibis Montevideo",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "B2B Montevideo",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Vienna",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Montevideo.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "Salvador",
-    "tags": ["Afro-Brazilian", "historic", "beaches", "cultural"],
+    "tags": [
+      "Afro-Brazilian",
+      "historic",
+      "beaches",
+      "cultural"
+    ],
     "attractions": [
       "Pelourinho (historic centre)",
       "Elevador Lacerda (city elevator)",
@@ -436,26 +947,60 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Fasano Salvador", "price_per_night": 500 }
+        {
+          "name": "Fasano Salvador",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Catussaba Resort Convention", "price_per_night": 250 },
-        { "name": "Pestana Convento do Carmo", "price_per_night": 220 },
-        { "name": "Zank by Toque Hotel", "price_per_night": 200 }
+        {
+          "name": "Catussaba Resort Convention",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Pestana Convento do Carmo",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Zank by Toque Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [],
       "3_star": [
-        { "name": "Ibis Salvador", "price_per_night": 80 },
-        { "name": "Hotel Sol Bahia", "price_per_night": 70 },
-        { "name": "Hotel Casa do Amarelindo", "price_per_night": 90 }
+        {
+          "name": "Ibis Salvador",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Sol Bahia",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Casa do Amarelindo",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Salvador.jpg"
   },
   {
     "continent": "South America",
     "country": "Uruguay",
     "city": "Punta del Este",
-    "tags": ["beaches", "luxury", "resort", "nightlife"],
+    "tags": [
+      "beaches",
+      "luxury",
+      "resort",
+      "nightlife"
+    ],
     "attractions": [
       "Playa Brava & 'La Mano' sculpture",
       "Playa Mansa (calm-water beach)",
@@ -470,30 +1015,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Grand Hotel Punta del Este", "price_per_night": 400 }
+        {
+          "name": "The Grand Hotel Punta del Este",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Enjoy Punta del Este", "price_per_night": 300 },
-        { "name": "Hotel Fasano Punta del Este", "price_per_night": 350 },
-        { "name": "LE BARON Punta del Este", "price_per_night": 200 }
+        {
+          "name": "Enjoy Punta del Este",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Fasano Punta del Este",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "LE BARON Punta del Este",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Costa Galana", "price_per_night": 180 },
-        { "name": "Barradas Parque Hotel & Spa", "price_per_night": 150 },
-        { "name": "Serena Hotel & Spa", "price_per_night": 160 }
+        {
+          "name": "Hotel Costa Galana",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Barradas Parque Hotel & Spa",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Serena Hotel & Spa",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel America", "price_per_night": 90 },
-        { "name": "Hotel San Marcos", "price_per_night": 80 },
-        { "name": "Hotel Parador", "price_per_night": 70 }
+        {
+          "name": "Hotel America",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel San Marcos",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Parador",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Punta_del_Este.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "Recife",
-    "tags": ["historic", "beaches", "cultural", "colonial"],
+    "tags": [
+      "historic",
+      "beaches",
+      "cultural",
+      "colonial"
+    ],
     "attractions": [
       "Boa Viagem Beach",
       "Recife Antigo (historic quarter)",
@@ -508,30 +1099,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Nannai Resort & Spa", "price_per_night": 350 }
+        {
+          "name": "Nannai Resort & Spa",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hotel Atlante Plaza", "price_per_night": 200 },
-        { "name": "Radisson Recife", "price_per_night": 180 },
-        { "name": "Hotel Manibu Recife", "price_per_night": 160 }
+        {
+          "name": "Hotel Atlante Plaza",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Radisson Recife",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Manibu Recife",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Golden Tower Recife Boa Viagem", "price_per_night": 120 },
-        { "name": "Hotel Luzeiros Recife", "price_per_night": 140 },
-        { "name": "Recife Praia Hotel", "price_per_night": 130 }
+        {
+          "name": "Golden Tower Recife Boa Viagem",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Luzeiros Recife",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Recife Praia Hotel",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Recife", "price_per_night": 80 },
-        { "name": "Hotel Pernambuco", "price_per_night": 70 },
-        { "name": "Hotel Front Mar Recife", "price_per_night": 60 }
+        {
+          "name": "Ibis Recife",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Pernambuco",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Front Mar Recife",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Recife.jpg"
   },
   {
     "continent": "South America",
     "country": "Bolivia",
     "city": "La Paz",
-    "tags": ["Andean", "high-altitude", "cultural", "historic"],
+    "tags": [
+      "Andean",
+      "high-altitude",
+      "cultural",
+      "historic"
+    ],
     "attractions": [
       "Witches' Market (Mercado de las Brujas)",
       "Valle de la Luna (lunar-like rock formations)",
@@ -546,30 +1183,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Atix Hotel", "price_per_night": 250 }
+        {
+          "name": "Atix Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Casa Grande Imperial Hotel", "price_per_night": 200 },
-        { "name": "Stannum Boutique Hotel", "price_per_night": 180 },
-        { "name": "Europa Hotel La Paz", "price_per_night": 150 }
+        {
+          "name": "Casa Grande Imperial Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Stannum Boutique Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Europa Hotel La Paz",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Rosario", "price_per_night": 100 },
-        { "name": "Best Western La Paz", "price_per_night": 90 },
-        { "name": "Hotel Sagarnaga", "price_per_night": 80 }
+        {
+          "name": "Hotel Rosario",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Best Western La Paz",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Sagarnaga",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Presidente", "price_per_night": 70 },
-        { "name": "Qosqo Inn", "price_per_night": 60 },
-        { "name": "Hostal Naira", "price_per_night": 50 }
+        {
+          "name": "Hotel Presidente",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Qosqo Inn",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hostal Naira",
+          "price_per_night": 50,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/La_Paz.jpg"
   },
   {
     "continent": "South America",
     "country": "Chile",
     "city": "Valparaíso",
-    "tags": ["bohemian", "coastal", "street art", "hills"],
+    "tags": [
+      "bohemian",
+      "coastal",
+      "street art",
+      "hills"
+    ],
     "attractions": [
       "Cerro Alegre & street art murals",
       "Cerro Concepción & Victorian houses",
@@ -584,30 +1267,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Palacio Astoreca", "price_per_night": 250 }
+        {
+          "name": "Palacio Astoreca",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hotel Boutique Casa Higueras", "price_per_night": 200 },
-        { "name": "Sheraton Miramar Valparaíso", "price_per_night": 180 },
-        { "name": "Enjoy Viña del Mar (nearby)", "price_per_night": 160 }
+        {
+          "name": "Hotel Boutique Casa Higueras",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sheraton Miramar Valparaíso",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Enjoy Viña del Mar (nearby)",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Diego de Almagro Valparaíso", "price_per_night": 120 },
-        { "name": "Hotel Fauna", "price_per_night": 140 },
-        { "name": "Hotel O (Oceanic Hotel)", "price_per_night": 130 }
+        {
+          "name": "Hotel Diego de Almagro Valparaíso",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Fauna",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel O (Oceanic Hotel)",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hostal de la Barra", "price_per_night": 70 },
-        { "name": "Hotel Porto Alegre", "price_per_night": 60 },
-        { "name": "Hotel Montealegre", "price_per_night": 80 }
+        {
+          "name": "Hostal de la Barra",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Porto Alegre",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Montealegre",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Valparaíso.jpg"
   },
   {
     "continent": "South America",
     "country": "Colombia",
     "city": "Medellín",
-    "tags": ["spring-like", "innovative", "cultural", "urban"],
+    "tags": [
+      "spring-like",
+      "innovative",
+      "cultural",
+      "urban"
+    ],
     "attractions": [
       "Plaza Botero & Botero Museum",
       "Metrocable to Parque Arví",
@@ -622,30 +1351,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Charlee Hotel", "price_per_night": 200 }
+        {
+          "name": "The Charlee Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Points by Sheraton Medellín", "price_per_night": 120 },
-        { "name": "NH Collection Medellín Royal", "price_per_night": 130 },
-        { "name": "Dann Carlton Medellín", "price_per_night": 110 }
+        {
+          "name": "Four Points by Sheraton Medellín",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "NH Collection Medellín Royal",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Dann Carlton Medellín",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Du Parc Royal", "price_per_night": 90 },
-        { "name": "Hotel Estelar Milla de Oro", "price_per_night": 100 },
-        { "name": "Diez Hotel Categoría Colombia", "price_per_night": 80 }
+        {
+          "name": "Hotel Du Parc Royal",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Estelar Milla de Oro",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Diez Hotel Categoría Colombia",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Medellín", "price_per_night": 50 },
-        { "name": "Hotel Nutibara", "price_per_night": 60 },
-        { "name": "Hotel Mozart", "price_per_night": 55 }
+        {
+          "name": "Ibis Medellín",
+          "price_per_night": 50,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Nutibara",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Mozart",
+          "price_per_night": 55,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Medellín.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "Florianópolis",
-    "tags": ["beaches", "island", "nature", "relaxed"],
+    "tags": [
+      "beaches",
+      "island",
+      "nature",
+      "relaxed"
+    ],
     "attractions": [
       "Praia Mole & surfing spots",
       "Lagoa da Conceição & watersports",
@@ -660,30 +1435,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Il Campanario Villaggio Resort", "price_per_night": 300 }
+        {
+          "name": "Il Campanario Villaggio Resort",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Costão do Santinho Resort", "price_per_night": 250 },
-        { "name": "Majestic Palace Hotel", "price_per_night": 200 },
-        { "name": "Infinity Blue Resort & Spa", "price_per_night": 220 }
+        {
+          "name": "Costão do Santinho Resort",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Majestic Palace Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Infinity Blue Resort & Spa",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Slaviero Essential Florianópolis Trindade", "price_per_night": 100 },
-        { "name": "Hotel Porto da Ilha", "price_per_night": 120 },
-        { "name": "Hotel Rieger", "price_per_night": 110 }
+        {
+          "name": "Slaviero Essential Florianópolis Trindade",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Porto da Ilha",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Rieger",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Florianópolis", "price_per_night": 70 },
-        { "name": "Icone Hotel Florianópolis", "price_per_night": 80 },
-        { "name": "Hotel Beira Mar Florianópolis", "price_per_night": 60 }
+        {
+          "name": "Ibis Florianópolis",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Icone Hotel Florianópolis",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Beira Mar Florianópolis",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Florianópolis.jpg"
   },
   {
     "continent": "South America",
     "country": "Argentina",
     "city": "Bariloche",
-    "tags": ["Andean", "lakes", "outdoor", "chocolate"],
+    "tags": [
+      "Andean",
+      "lakes",
+      "outdoor",
+      "chocolate"
+    ],
     "attractions": [
       "Nahuel Huapi Lake & boat tours",
       "Circuito Chico scenic drive",
@@ -698,30 +1519,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Llao Llao Resort, Golf & Spa", "price_per_night": 400 }
+        {
+          "name": "Llao Llao Resort, Golf & Spa",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Charming Luxury Lodge & Private Spa", "price_per_night": 300 },
-        { "name": "Design Suites Bariloche", "price_per_night": 200 },
-        { "name": "Cristal Hotel Bariloche", "price_per_night": 150 }
+        {
+          "name": "Charming Luxury Lodge & Private Spa",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Design Suites Bariloche",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Cristal Hotel Bariloche",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "NH Bariloche Edelweiss", "price_per_night": 120 },
-        { "name": "Hotel Tirol Bariloche", "price_per_night": 100 },
-        { "name": "Bungalows del Cerro", "price_per_night": 110 }
+        {
+          "name": "NH Bariloche Edelweiss",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Tirol Bariloche",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Bungalows del Cerro",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Huemul", "price_per_night": 60 },
-        { "name": "Hostel Inn Bariloche", "price_per_night": 40 },
-        { "name": "Hotel Tronador", "price_per_night": 70 }
+        {
+          "name": "Hotel Huemul",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hostel Inn Bariloche",
+          "price_per_night": 40,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Tronador",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Bariloche.jpg"
   },
   {
     "continent": "South America",
     "country": "Brazil",
     "city": "Fortaleza",
-    "tags": ["beaches", "tropical", "coastal", "vibrant"],
+    "tags": [
+      "beaches",
+      "tropical",
+      "coastal",
+      "vibrant"
+    ],
     "attractions": [
       "Praia do Futuro (beach & barracas)",
       "Meireles Beach & boardwalk",
@@ -736,30 +1603,76 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Carmel Cumbuco Resort", "price_per_night": 250 }
+        {
+          "name": "Carmel Cumbuco Resort",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Gran Mareiro Hotel", "price_per_night": 200 },
-        { "name": "Hotel Sonata de Iracema", "price_per_night": 150 },
-        { "name": "Vila Galé Fortaleza", "price_per_night": 180 }
+        {
+          "name": "Gran Mareiro Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Sonata de Iracema",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Vila Galé Fortaleza",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Luzeiros Fortaleza Hotel", "price_per_night": 120 },
-        { "name": "Mareiro Hotel Fortaleza", "price_per_night": 100 },
-        { "name": "Hotel Beira Mar Fortaleza", "price_per_night": 80 }
+        {
+          "name": "Luzeiros Fortaleza Hotel",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Mareiro Hotel Fortaleza",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Beira Mar Fortaleza",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Fortaleza Praia de Iracema", "price_per_night": 70 },
-        { "name": "Hotel Praia Centro", "price_per_night": 60 },
-        { "name": "Hotel Porto Iracema", "price_per_night": 50 }
+        {
+          "name": "Ibis Fortaleza Praia de Iracema",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Praia Centro",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Porto Iracema",
+          "price_per_night": 50,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Fortaleza.jpg"
   },
   {
     "continent": "South America",
     "country": "Bolivia",
     "city": "Sucre",
-    "tags": ["colonial", "historic", "white city", "UNESCO"],
+    "tags": [
+      "colonial",
+      "historic",
+      "white city",
+      "UNESCO"
+    ],
     "attractions": [
       "Plaza 25 de Mayo & Cathedral",
       "Casa de la Libertad (independence museum)",
@@ -774,23 +1687,64 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Parador Santa María la Real", "price_per_night": 200 }
+        {
+          "name": "Parador Santa María la Real",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hotel Parador Santa María la Real", "price_per_night": 150 },
-        { "name": "Boutique Hotel Villa Antigua", "price_per_night": 120 },
-        { "name": "Hotel Rosario de Sucre", "price_per_night": 130 }
+        {
+          "name": "Hotel Parador Santa María la Real",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Boutique Hotel Villa Antigua",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Rosario de Sucre",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel La Casa de la Abuela", "price_per_night": 90 },
-        { "name": "Amerian Hotel Casino de Sucre", "price_per_night": 80 },
-        { "name": "Hotel Premium Sucre", "price_per_night": 70 }
+        {
+          "name": "Hotel La Casa de la Abuela",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Amerian Hotel Casino de Sucre",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Premium Sucre",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hostal Helena", "price_per_night": 50 },
-        { "name": "Hotel Franco Cari Cari", "price_per_night": 40 },
-        { "name": "Hostal Holanda Sucre", "price_per_night": 45 }
+        {
+          "name": "Hostal Helena",
+          "price_per_night": 50,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Franco Cari Cari",
+          "price_per_night": 40,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hostal Holanda Sucre",
+          "price_per_night": 45,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/South America/Sucre.jpg"
   }
 ]
