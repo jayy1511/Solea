@@ -32,7 +32,8 @@ async function seedCities() {
         continent,
         tags,
         attractions,
-        hotels
+        hotels,
+        image
       } = cityData;
 
       if (!city || !country || !continent) {
@@ -46,7 +47,8 @@ async function seedCities() {
         country,
         continent,
         tags,
-        popularSpots: attractions
+        popularSpots: attractions,
+        image
       });
 
       // Flatten and insert hotels

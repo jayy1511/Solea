@@ -3,7 +3,11 @@
     "continent": "Africa",
     "country": "South Africa",
     "city": "Johannesburg",
-    "tags": ["historic", "cultural", "urban"],
+    "tags": [
+      "historic",
+      "cultural",
+      "urban"
+    ],
     "attractions": [
       "Apartheid Museum",
       "Constitution Hill",
@@ -18,30 +22,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Saxon Hotel, Villas & Spa", "price_per_night": 1200 }
+        {
+          "name": "The Saxon Hotel, Villas & Spa",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel The Westcliff", "price_per_night": 950 },
-        { "name": "The Michelangelo Hotel", "price_per_night": 900 },
-        { "name": "Fairlawns Boutique Hotel & Spa", "price_per_night": 920 }
+        {
+          "name": "Four Seasons Hotel The Westcliff",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Michelangelo Hotel",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Fairlawns Boutique Hotel & Spa",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Protea Hotel by Marriott Johannesburg Balalaika Sandton", "price_per_night": 250 },
-        { "name": "Radisson Blu Gautrain Hotel", "price_per_night": 240 },
-        { "name": "The Capital Empire", "price_per_night": 230 }
+        {
+          "name": "Protea Hotel by Marriott Johannesburg Balalaika Sandton",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Radisson Blu Gautrain Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Capital Empire",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Holiday Inn Rosebank", "price_per_night": 120 },
-        { "name": "City Lodge Hotel Sandton", "price_per_night": 110 },
-        { "name": "Garden Court Milpark", "price_per_night": 100 }
+        {
+          "name": "Holiday Inn Rosebank",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "City Lodge Hotel Sandton",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Garden Court Milpark",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Johannesburg.jpg"
   },
   {
     "continent": "Africa",
     "country": "South Africa",
     "city": "Durban",
-    "tags": ["coastal", "beaches", "cultural"],
+    "tags": [
+      "coastal",
+      "beaches",
+      "cultural"
+    ],
     "attractions": [
       "uShaka Marine World",
       "Durban Botanic Gardens",
@@ -56,30 +105,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Oyster Box", "price_per_night": 1200 }
+        {
+          "name": "The Oyster Box",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Beverly Hills Hotel", "price_per_night": 950 },
-        { "name": "Southern Sun Elangeni & Maharani", "price_per_night": 900 },
-        { "name": "Suncoast Towers", "price_per_night": 920 }
+        {
+          "name": "Beverly Hills Hotel",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Southern Sun Elangeni & Maharani",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Suncoast Towers",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Protea Hotel by Marriott Durban Edward", "price_per_night": 250 },
-        { "name": "Coastlands Musgrave Hotel", "price_per_night": 240 },
-        { "name": "Blue Waters Hotel", "price_per_night": 230 }
+        {
+          "name": "Protea Hotel by Marriott Durban Edward",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Coastlands Musgrave Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Blue Waters Hotel",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "The Royal Hotel", "price_per_night": 120 },
-        { "name": "Road Lodge Durban", "price_per_night": 110 },
-        { "name": "City Lodge Hotel Durban", "price_per_night": 100 }
+        {
+          "name": "The Royal Hotel",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Road Lodge Durban",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "City Lodge Hotel Durban",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Durban.jpg"
   },
   {
     "continent": "Africa",
     "country": "South Africa",
     "city": "Cape Town",
-    "tags": ["scenic", "historic", "coastal"],
+    "tags": [
+      "scenic",
+      "historic",
+      "coastal"
+    ],
     "attractions": [
       "Table Mountain",
       "Robben Island",
@@ -94,30 +188,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Arambrook Boutique Hotel", "price_per_night": 1100 }
+        {
+          "name": "Arambrook Boutique Hotel",
+          "price_per_night": 1100,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Fairmont Cape Grace Hotel", "price_per_night": 820 },
-        { "name": "Mount Nelson, A Belmond Hotel", "price_per_night": 780 },
-        { "name": "One&Only Cape Town", "price_per_night": 850 }
+        {
+          "name": "Fairmont Cape Grace Hotel",
+          "price_per_night": 820,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Mount Nelson, A Belmond Hotel",
+          "price_per_night": 780,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "One&Only Cape Town",
+          "price_per_night": 850,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Parker Cottage", "price_per_night": 125 },
-        { "name": "Atlantic Gold", "price_per_night": 130 },
-        { "name": "Bayview Boutique Guesthouse", "price_per_night": 120 }
+        {
+          "name": "Parker Cottage",
+          "price_per_night": 125,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Atlantic Gold",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Bayview Boutique Guesthouse",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "La Splendida Hotel by Newmark", "price_per_night": 52 },
-        { "name": "Garden Court Nelson Mandela Boulevard", "price_per_night": 75 },
-        { "name": "Protea Hotel by Marriott Cape Town Waterfront Breakwater Lodge", "price_per_night": 85 }
+        {
+          "name": "La Splendida Hotel by Newmark",
+          "price_per_night": 52,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Garden Court Nelson Mandela Boulevard",
+          "price_per_night": 75,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Protea Hotel by Marriott Cape Town Waterfront Breakwater Lodge",
+          "price_per_night": 85,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Cape_Town.jpg"
   },
   {
     "continent": "Africa",
     "country": "Morocco",
     "city": "Casablanca",
-    "tags": ["historic", "coastal", "cultural"],
+    "tags": [
+      "historic",
+      "coastal",
+      "cultural"
+    ],
     "attractions": [
       "Hassan II Mosque",
       "Old Medina",
@@ -132,30 +271,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Royal Mansour Casablanca", "price_per_night": 1200 }
+        {
+          "name": "Royal Mansour Casablanca",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Sofitel Casablanca Tour Blanche", "price_per_night": 950 },
-        { "name": "Hyatt Regency Casablanca", "price_per_night": 900 },
-        { "name": "Kenzi Tower Hotel", "price_per_night": 920 }
+        {
+          "name": "Sofitel Casablanca Tour Blanche",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hyatt Regency Casablanca",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Kenzi Tower Hotel",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Barceló Casablanca", "price_per_night": 250 },
-        { "name": "Novotel Casablanca City Center", "price_per_night": 240 },
-        { "name": "Mövenpick Hotel Casablanca", "price_per_night": 230 }
+        {
+          "name": "Barceló Casablanca",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Novotel Casablanca City Center",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Mövenpick Hotel Casablanca",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Ibis Casablanca City Center", "price_per_night": 120 },
-        { "name": "Hotel Central", "price_per_night": 110 },
-        { "name": "Hotel Moroccan House", "price_per_night": 100 }
+        {
+          "name": "Ibis Casablanca City Center",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Central",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Moroccan House",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Casablanca.jpg"
   },
   {
     "continent": "Africa",
     "country": "Morocco",
     "city": "Fes",
-    "tags": ["historic", "cultural", "medieval"],
+    "tags": [
+      "historic",
+      "cultural",
+      "medieval"
+    ],
     "attractions": [
       "Medina of Fes",
       "Al Quaraouiyine University",
@@ -170,30 +354,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Palais Faraj Suites & Spa", "price_per_night": 1200 }
+        {
+          "name": "Palais Faraj Suites & Spa",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hotel Sahrai", "price_per_night": 950 },
-        { "name": "Riad Fès – Relais & Châteaux", "price_per_night": 900 },
-        { "name": "Palais Amani", "price_per_night": 920 }
+        {
+          "name": "Hotel Sahrai",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Riad Fès – Relais & Châteaux",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Palais Amani",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Riad Laaroussa", "price_per_night": 250 },
-        { "name": "Riad Myra Hotel", "price_per_night": 240 },
-        { "name": "Riad El Amine Fes", "price_per_night": 230 }
+        {
+          "name": "Riad Laaroussa",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Riad Myra Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Riad El Amine Fes",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Dar Hafsa", "price_per_night": 120 },
-        { "name": "Riad Layalina Fes", "price_per_night": 110 },
-        { "name": "Hotel Batha", "price_per_night": 100 }
+        {
+          "name": "Dar Hafsa",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Riad Layalina Fes",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Batha",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Fes.jpg"
   },
   {
     "continent": "Africa",
     "country": "Morocco",
     "city": "Tangier",
-    "tags": ["coastal", "historic", "cultural"],
+    "tags": [
+      "coastal",
+      "historic",
+      "cultural"
+    ],
     "attractions": [
       "Kasbah Museum",
       "American Legation Museum",
@@ -208,30 +437,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Hotel Mirage", "price_per_night": 1000 }
+        {
+          "name": "Hotel Mirage",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Grand Hotel Villa de France", "price_per_night": 200 },
-        { "name": "El Minzah Hotel", "price_per_night": 180 },
-        { "name": "Mövenpick Hotel & Casino Malabata", "price_per_night": 190 }
+        {
+          "name": "Grand Hotel Villa de France",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "El Minzah Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Mövenpick Hotel & Casino Malabata",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Farah Tanger", "price_per_night": 120 },
-        { "name": "Hotel Rembrandt", "price_per_night": 110 },
-        { "name": "Hotel Kenzi Solazur", "price_per_night": 115 }
+        {
+          "name": "Hotel Farah Tanger",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Rembrandt",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Kenzi Solazur",
+          "price_per_night": 115,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Mauritania Centre Tanger", "price_per_night": 60 },
-        { "name": "Hotel Chellah", "price_per_night": 65 },
-        { "name": "Hotel Maram", "price_per_night": 55 }
+        {
+          "name": "Hotel Mauritania Centre Tanger",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Chellah",
+          "price_per_night": 65,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Maram",
+          "price_per_night": 55,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Tangier.jpg"
   },
   {
     "continent": "Africa",
     "country": "Egypt",
     "city": "Alexandria",
-    "tags": ["historic", "coastal", "cultural"],
+    "tags": [
+      "historic",
+      "coastal",
+      "cultural"
+    ],
     "attractions": [
       "Bibliotheca Alexandrina",
       "Citadel of Qaitbay",
@@ -246,30 +520,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Hotel Alexandria at San Stefano", "price_per_night": 1200 }
+        {
+          "name": "Four Seasons Hotel Alexandria at San Stefano",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Helnan Palestine Hotel", "price_per_night": 950 },
-        { "name": "Hilton Alexandria Corniche", "price_per_night": 900 },
-        { "name": "Tolip Hotel Alexandria", "price_per_night": 920 }
+        {
+          "name": "Helnan Palestine Hotel",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton Alexandria Corniche",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Tolip Hotel Alexandria",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Paradise Inn Le Metropole Hotel", "price_per_night": 250 },
-        { "name": "Steigenberger Cecil Hotel", "price_per_night": 240 },
-        { "name": "Cherry Maryski Hotel", "price_per_night": 230 }
+        {
+          "name": "Paradise Inn Le Metropole Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Steigenberger Cecil Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Cherry Maryski Hotel",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Amoun Hotel Alexandria", "price_per_night": 120 },
-        { "name": "Alexander the Great Hotel", "price_per_night": 110 },
-        { "name": "Semiramis Hotel", "price_per_night": 100 }
+        {
+          "name": "Amoun Hotel Alexandria",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Alexander the Great Hotel",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Semiramis Hotel",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Alexandria.jpg"
   },
   {
     "continent": "Africa",
     "country": "Egypt",
     "city": "Luxor",
-    "tags": ["historic", "archaeological", "Nile"],
+    "tags": [
+      "historic",
+      "archaeological",
+      "Nile"
+    ],
     "attractions": [
       "Valley of the Kings",
       "Temple of Karnak",
@@ -284,30 +603,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sofitel Winter Palace Luxor", "price_per_night": 1200 }
+        {
+          "name": "Sofitel Winter Palace Luxor",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hilton Luxor Resort & Spa", "price_per_night": 950 },
-        { "name": "Steigenberger Nile Palace", "price_per_night": 900 },
-        { "name": "Sonesta St. George Hotel Luxor", "price_per_night": 920 }
+        {
+          "name": "Hilton Luxor Resort & Spa",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Steigenberger Nile Palace",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Sonesta St. George Hotel Luxor",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Pavillon Winter Luxor", "price_per_night": 250 },
-        { "name": "Aracan Eatabe Luxor Hotel", "price_per_night": 240 },
-        { "name": "Iberotel Luxor", "price_per_night": 230 }
+        {
+          "name": "Pavillon Winter Luxor",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Aracan Eatabe Luxor Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Iberotel Luxor",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Nefertiti Hotel Luxor", "price_per_night": 120 },
-        { "name": "Pharaohs Hotel", "price_per_night": 110 },
-        { "name": "Lotus Hotel Luxor", "price_per_night": 100 }
+        {
+          "name": "Nefertiti Hotel Luxor",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Pharaohs Hotel",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Lotus Hotel Luxor",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Luxor.jpg"
   },
   {
     "continent": "Africa",
     "country": "Egypt",
     "city": "Cairo",
-    "tags": ["historic", "pyramids", "Nile"],
+    "tags": [
+      "historic",
+      "pyramids",
+      "Nile"
+    ],
     "attractions": [
       "The Great Pyramids of Giza",
       "The Sphinx",
@@ -322,30 +686,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Nile Ritz-Carlton", "price_per_night": 1200 }
+        {
+          "name": "The Nile Ritz-Carlton",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Cairo at Nile Plaza", "price_per_night": 950 },
-        { "name": "Kempinski Nile Hotel", "price_per_night": 900 },
-        { "name": "Fairmont Nile City", "price_per_night": 920 }
+        {
+          "name": "Four Seasons Hotel Cairo at Nile Plaza",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Kempinski Nile Hotel",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Fairmont Nile City",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Steigenberger Hotel El Tahrir", "price_per_night": 250 },
-        { "name": "Novotel Cairo El Borg", "price_per_night": 240 },
-        { "name": "Barcelo Cairo Pyramids", "price_per_night": 230 }
+        {
+          "name": "Steigenberger Hotel El Tahrir",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Novotel Cairo El Borg",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Barcelo Cairo Pyramids",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "City View Hotel", "price_per_night": 120 },
-        { "name": "Osiris Hotel", "price_per_night": 110 },
-        { "name": "Horus House Hotel", "price_per_night": 100 }
+        {
+          "name": "City View Hotel",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Osiris Hotel",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Horus House Hotel",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Cairo.jpg"
   },
   {
     "continent": "Africa",
     "country": "Egypt",
     "city": "Aswan",
-    "tags": ["Nile", "historic", "relaxing"],
+    "tags": [
+      "Nile",
+      "historic",
+      "relaxing"
+    ],
     "attractions": [
       "Philae Temple",
       "Unfinished Obelisk",
@@ -360,30 +769,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sofitel Legend Old Cataract Aswan", "price_per_night": 1000 }
+        {
+          "name": "Sofitel Legend Old Cataract Aswan",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Mövenpick Resort Aswan", "price_per_night": 180 },
-        { "name": "Pyramisa Isis Island Aswan Resort", "price_per_night": 160 },
-        { "name": "Basma Hotel Aswan", "price_per_night": 150 }
+        {
+          "name": "Mövenpick Resort Aswan",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Pyramisa Isis Island Aswan Resort",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Basma Hotel Aswan",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Nile Hotel Aswan", "price_per_night": 100 },
-        { "name": "Philae Hotel Aswan", "price_per_night": 90 },
-        { "name": "Citymax Hotel Aswan", "price_per_night": 95 }
+        {
+          "name": "Nile Hotel Aswan",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Philae Hotel Aswan",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Citymax Hotel Aswan",
+          "price_per_night": 95,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Oscar Hotel Aswan", "price_per_night": 60 },
-        { "name": "Keylany Hotel", "price_per_night": 55 },
-        { "name": "Nuba Nile Hotel Aswan", "price_per_night": 50 }
+        {
+          "name": "Oscar Hotel Aswan",
+          "price_per_night": 60,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Keylany Hotel",
+          "price_per_night": 55,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Nuba Nile Hotel Aswan",
+          "price_per_night": 50,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Aswan.jpg"
   },
   {
     "continent": "Africa",
     "country": "Ethiopia",
     "city": "Addis Ababa",
-    "tags": ["historic", "cultural", "capital"],
+    "tags": [
+      "historic",
+      "cultural",
+      "capital"
+    ],
     "attractions": [
       "National Museum of Ethiopia",
       "Merkato Market",
@@ -398,32 +852,85 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sheraton Addis, a Luxury Collection Hotel", "price_per_night": 600 }
+        {
+          "name": "Sheraton Addis, a Luxury Collection Hotel",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hyatt Regency Addis Ababa", "price_per_night": 550 },
-        { "name": "Radisson Blu Hotel, Addis Ababa", "price_per_night": 530 },
-        { "name": "Hilton Addis Ababa", "price_per_night": 500 },
-        { "name": "Golden Tulip Addis Ababa", "price_per_night": 480 },
-        { "name": "Capital Hotel and Spa", "price_per_night": 460 }
+        {
+          "name": "Hyatt Regency Addis Ababa",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Radisson Blu Hotel, Addis Ababa",
+          "price_per_night": 530,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hilton Addis Ababa",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel13.jpg"
+        },
+        {
+          "name": "Golden Tulip Addis Ababa",
+          "price_per_night": 480,
+          "image": "assets/Hotels/hotel14.jpg"
+        },
+        {
+          "name": "Capital Hotel and Spa",
+          "price_per_night": 460,
+          "image": "assets/Hotels/hotel15.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Elilly International Hotel", "price_per_night": 300 },
-        { "name": "Getfam Hotel", "price_per_night": 280 },
-        { "name": "Marriott Executive Apartments Addis Ababa", "price_per_night": 260 }
+        {
+          "name": "Elilly International Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Getfam Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Marriott Executive Apartments Addis Ababa",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Friendship International Hotel", "price_per_night": 200 },
-        { "name": "Monarch Hotel", "price_per_night": 180 },
-        { "name": "Addissinia Hotel", "price_per_night": 170 }
+        {
+          "name": "Friendship International Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Monarch Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Addissinia Hotel",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Addis_Ababa.jpg"
   },
   {
     "continent": "Africa",
     "country": "Ethiopia",
     "city": "Gondar",
-    "tags": ["historic", "royal", "cultural"],
+    "tags": [
+      "historic",
+      "royal",
+      "cultural"
+    ],
     "attractions": [
       "Fasil Ghebbi (Royal Enclosure)",
       "Debre Berhan Selassie Church",
@@ -438,28 +945,65 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Hotel Bayerischer Hof", "price_per_night": 1200 }
+        {
+          "name": "Hotel Bayerischer Hof",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Florida International Hotel", "price_per_night": 500 }
+        {
+          "name": "Florida International Hotel",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Gondar Hills Resort", "price_per_night": 300 },
-        { "name": "Haile Resort Gondar", "price_per_night": 280 },
-        { "name": "Roseau Hotel and Spa", "price_per_night": 260 }
+        {
+          "name": "Gondar Hills Resort",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Haile Resort Gondar",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Roseau Hotel and Spa",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Inn of the Four Sisters", "price_per_night": 200 },
-        { "name": "Goha Hotel", "price_per_night": 180 },
-        { "name": "Lodge Du Chateau", "price_per_night": 170 }
+        {
+          "name": "Inn of the Four Sisters",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Goha Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Lodge Du Chateau",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Gondar.jpg"
   },
   {
     "continent": "Africa",
     "country": "Nigeria",
     "city": "Lagos",
-    "tags": ["urban", "cultural", "coastal"],
+    "tags": [
+      "urban",
+      "cultural",
+      "coastal"
+    ],
     "attractions": [
       "Nike Centre for Art and Culture",
       "Lekki Conservation Centre",
@@ -474,31 +1018,80 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Eko Hotels & Suites", "price_per_night": 600 },
-        { "name": "The George Hotel", "price_per_night": 580 }
+        {
+          "name": "Eko Hotels & Suites",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The George Hotel",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel12.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Radisson Blu Anchorage Hotel", "price_per_night": 550 },
-        { "name": "Lagos Continental Hotel", "price_per_night": 530 },
-        { "name": "Legend Hotel Lagos Airport", "price_per_night": 500 }
+        {
+          "name": "Radisson Blu Anchorage Hotel",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Lagos Continental Hotel",
+          "price_per_night": 530,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Legend Hotel Lagos Airport",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Nordic Hotel Lagos", "price_per_night": 320 },
-        { "name": "The Wheatbaker", "price_per_night": 300 },
-        { "name": "Ibis Lagos Airport", "price_per_night": 280 }
+        {
+          "name": "Nordic Hotel Lagos",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Wheatbaker",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Ibis Lagos Airport",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Ibis Lagos Ikeja", "price_per_night": 200 },
-        { "name": "De Rembrandt Hotels", "price_per_night": 180 },
-        { "name": "Beni Gold Hotel", "price_per_night": 170 }
+        {
+          "name": "Hotel Ibis Lagos Ikeja",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "De Rembrandt Hotels",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Beni Gold Hotel",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Lagos.jpg"
   },
   {
     "continent": "Africa",
     "country": "Nigeria",
     "city": "Abuja",
-    "tags": ["capital", "modern", "cultural"],
+    "tags": [
+      "capital",
+      "modern",
+      "cultural"
+    ],
     "attractions": [
       "Usuma Dam",
       "Bature Brewery",
@@ -513,31 +1106,80 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Transcorp Hilton Abuja", "price_per_night": 620 },
-        { "name": "Fraser Suites Abuja", "price_per_night": 600 }
+        {
+          "name": "Transcorp Hilton Abuja",
+          "price_per_night": 620,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Fraser Suites Abuja",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel12.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Abuja Continental Hotel", "price_per_night": 580 },
-        { "name": "The Wells Carlton Hotel and Apartments", "price_per_night": 560 },
-        { "name": "Summerset Continental Hotel Maitama", "price_per_night": 540 }
+        {
+          "name": "Abuja Continental Hotel",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Wells Carlton Hotel and Apartments",
+          "price_per_night": 560,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Summerset Continental Hotel Maitama",
+          "price_per_night": 540,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Grand Cubana Hotels", "price_per_night": 320 },
-        { "name": "Nordic Villa", "price_per_night": 300 },
-        { "name": "Sinclair Guest House", "price_per_night": 280 }
+        {
+          "name": "Grand Cubana Hotels",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Nordic Villa",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Sinclair Guest House",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Citilodge Abuja", "price_per_night": 200 },
-        { "name": "Tranquila Hotels and Suites", "price_per_night": 180 },
-        { "name": "Nexus Xpress Hotel", "price_per_night": 170 }
+        {
+          "name": "Citilodge Abuja",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Tranquila Hotels and Suites",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Nexus Xpress Hotel",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Abuja.jpg"
   },
   {
     "continent": "Africa",
     "country": "Nigeria",
     "city": "Calabar",
-    "tags": ["historic", "cultural", "nature"],
+    "tags": [
+      "historic",
+      "cultural",
+      "nature"
+    ],
     "attractions": [
       "Slave History Museum",
       "Kwa Falls",
@@ -552,31 +1194,80 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Calabar Harbour Resort & Spa", "price_per_night": 520 },
-        { "name": "Transcorp Hotels Calabar", "price_per_night": 500 }
+        {
+          "name": "Calabar Harbour Resort & Spa",
+          "price_per_night": 520,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Transcorp Hotels Calabar",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel12.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Monty Suites Calabar", "price_per_night": 480 },
-        { "name": "The Metropolitan Hotel Calabar", "price_per_night": 460 },
-        { "name": "Tinapa Lakeside Hotel", "price_per_night": 440 }
+        {
+          "name": "Monty Suites Calabar",
+          "price_per_night": 480,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Metropolitan Hotel Calabar",
+          "price_per_night": 460,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Tinapa Lakeside Hotel",
+          "price_per_night": 440,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Soft Lodge Hotel", "price_per_night": 300 },
-        { "name": "De Grand Hotel & Rooftop", "price_per_night": 280 },
-        { "name": "Pride Garden Hotel", "price_per_night": 260 }
+        {
+          "name": "Soft Lodge Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "De Grand Hotel & Rooftop",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Pride Garden Hotel",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel 45", "price_per_night": 190 },
-        { "name": "Marian S Limited", "price_per_night": 170 },
-        { "name": "Jacaranda Suites", "price_per_night": 160 }
+        {
+          "name": "Hotel 45",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Marian S Limited",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Jacaranda Suites",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Calabar.jpg"
   },
   {
     "continent": "Africa",
     "country": "Ghana",
     "city": "Accra",
-    "tags": ["historic", "cultural", "coastal"],
+    "tags": [
+      "historic",
+      "cultural",
+      "coastal"
+    ],
     "attractions": [
       "Kwame Nkrumah Mausoleum",
       "Independence Arch",
@@ -591,30 +1282,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Kempinski Hotel Gold Coast City", "price_per_night": 1200 }
+        {
+          "name": "Kempinski Hotel Gold Coast City",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Mövenpick Ambassador Hotel", "price_per_night": 950 },
-        { "name": "Labadi Beach Hotel", "price_per_night": 900 },
-        { "name": "Tang Palace Hotel", "price_per_night": 920 }
+        {
+          "name": "Mövenpick Ambassador Hotel",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Labadi Beach Hotel",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Tang Palace Hotel",
+          "price_per_night": 920,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Best Western Premier Accra Airport Hotel", "price_per_night": 250 },
-        { "name": "African Regent Hotel", "price_per_night": 240 },
-        { "name": "La Palm Royal Beach Hotel", "price_per_night": 230 }
+        {
+          "name": "Best Western Premier Accra Airport Hotel",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "African Regent Hotel",
+          "price_per_night": 240,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "La Palm Royal Beach Hotel",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Alisa Hotel North Ridge", "price_per_night": 120 },
-        { "name": "Oak Plaza Hotel", "price_per_night": 110 },
-        { "name": "Airport View Hotel", "price_per_night": 100 }
+        {
+          "name": "Alisa Hotel North Ridge",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Oak Plaza Hotel",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Airport View Hotel",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Accra.jpg"
   },
   {
     "continent": "Africa",
     "country": "Ghana",
     "city": "Kumasi",
-    "tags": ["historic", "cultural", "royal"],
+    "tags": [
+      "historic",
+      "cultural",
+      "royal"
+    ],
     "attractions": [
       "Manhyia Palace Museum",
       "Kejetia Market",
@@ -629,30 +1365,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Lancaster Kumasi City", "price_per_night": 500 }
+        {
+          "name": "Lancaster Kumasi City",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Golden Tulip Kumasi", "price_per_night": 480 },
-        { "name": "Ridge Condos Hotel", "price_per_night": 460 },
-        { "name": "Frederick’s Lodge", "price_per_night": 440 }
+        {
+          "name": "Golden Tulip Kumasi",
+          "price_per_night": 480,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Ridge Condos Hotel",
+          "price_per_night": 460,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Frederick’s Lodge",
+          "price_per_night": 440,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Royal Park Hotel", "price_per_night": 300 },
-        { "name": "Noble House Hotel", "price_per_night": 280 },
-        { "name": "Vienna City Hotel", "price_per_night": 260 }
+        {
+          "name": "Royal Park Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Noble House Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Vienna City Hotel",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Champion Hotel", "price_per_night": 200 },
-        { "name": "Hotel De Texas", "price_per_night": 180 },
-        { "name": "Asantewaa Premier Guesthouse", "price_per_night": 160 }
+        {
+          "name": "Champion Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel De Texas",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Asantewaa Premier Guesthouse",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Kumasi.jpg"
   },
   {
     "continent": "Africa",
     "country": "Rwanda",
     "city": "Kigali",
-    "tags": ["historic", "cultural", "urban"],
+    "tags": [
+      "historic",
+      "cultural",
+      "urban"
+    ],
     "attractions": [
       "Kigali Genocide Memorial",
       "Inema Arts Centre",
@@ -667,30 +1448,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Retreat by Heaven", "price_per_night": 600 }
+        {
+          "name": "The Retreat by Heaven",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Kigali Marriott Hotel", "price_per_night": 580 },
-        { "name": "Hotel des Mille Collines", "price_per_night": 560 },
-        { "name": "Radisson Blu Hotel & Convention Centre", "price_per_night": 540 }
+        {
+          "name": "Kigali Marriott Hotel",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel des Mille Collines",
+          "price_per_night": 560,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Radisson Blu Hotel & Convention Centre",
+          "price_per_night": 540,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Park Inn by Radisson Kigali", "price_per_night": 310 },
-        { "name": "Ubumwe Grande Hotel", "price_per_night": 290 },
-        { "name": "Onomo Hotel Kigali", "price_per_night": 270 }
+        {
+          "name": "Park Inn by Radisson Kigali",
+          "price_per_night": 310,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Ubumwe Grande Hotel",
+          "price_per_night": 290,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Onomo Hotel Kigali",
+          "price_per_night": 270,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Heaven Boutique Hotel", "price_per_night": 200 },
-        { "name": "5 Swiss Hotel", "price_per_night": 180 },
-        { "name": "Step Town Hotel", "price_per_night": 160 }
+        {
+          "name": "Heaven Boutique Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "5 Swiss Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Step Town Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Kigali.jpg"
   },
   {
     "continent": "Africa",
     "country": "Rwanda",
     "city": "Musanze",
-    "tags": ["nature", "adventure", "gorillas"],
+    "tags": [
+      "nature",
+      "adventure",
+      "gorillas"
+    ],
     "attractions": [
       "Volcanoes National Park",
       "Gorilla Trekking",
@@ -705,30 +1531,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "One&Only Gorilla’s Nest", "price_per_night": 1600 }
+        {
+          "name": "One&Only Gorilla’s Nest",
+          "price_per_night": 1600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Bisate Lodge", "price_per_night": 1300 },
-        { "name": "Sabyinyo Silverback Lodge", "price_per_night": 1100 },
-        { "name": "Five Volcanoes Boutique Hotel", "price_per_night": 950 }
+        {
+          "name": "Bisate Lodge",
+          "price_per_night": 1300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sabyinyo Silverback Lodge",
+          "price_per_night": 1100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Five Volcanoes Boutique Hotel",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Mountain Gorilla View Lodge", "price_per_night": 400 },
-        { "name": "Tiloreza Volcanoes Ecolodge", "price_per_night": 370 },
-        { "name": "La Locanda", "price_per_night": 340 }
+        {
+          "name": "Mountain Gorilla View Lodge",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Tiloreza Volcanoes Ecolodge",
+          "price_per_night": 370,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "La Locanda",
+          "price_per_night": 340,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Fatima Hotel", "price_per_night": 200 },
-        { "name": "Amahoro Guest House", "price_per_night": 180 },
-        { "name": "La Palme Hotel", "price_per_night": 170 }
+        {
+          "name": "Fatima Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Amahoro Guest House",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "La Palme Hotel",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Musanze.jpg"
   },
   {
     "continent": "Africa",
     "country": "Kenya",
     "city": "Nairobi",
-    "tags": ["urban", "wildlife", "cultural"],
+    "tags": [
+      "urban",
+      "wildlife",
+      "cultural"
+    ],
     "attractions": [
       "Nairobi National Park",
       "Giraffe Centre",
@@ -743,30 +1614,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Villa Rosa Kempinski", "price_per_night": 600 }
+        {
+          "name": "Villa Rosa Kempinski",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hemingways Nairobi", "price_per_night": 580 },
-        { "name": "Sankara Nairobi", "price_per_night": 560 },
-        { "name": "Tribe Hotel", "price_per_night": 540 }
+        {
+          "name": "Hemingways Nairobi",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sankara Nairobi",
+          "price_per_night": 560,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Tribe Hotel",
+          "price_per_night": 540,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Sarova Panafric", "price_per_night": 320 },
-        { "name": "Four Points by Sheraton Nairobi Airport", "price_per_night": 300 },
-        { "name": "Fairview Hotel", "price_per_night": 280 }
+        {
+          "name": "Sarova Panafric",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Points by Sheraton Nairobi Airport",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Fairview Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Swiss Lenana Mount Hotel", "price_per_night": 200 },
-        { "name": "Best Western Plus Meridian Hotel", "price_per_night": 180 },
-        { "name": "Ibis Styles Nairobi", "price_per_night": 170 }
+        {
+          "name": "Swiss Lenana Mount Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Best Western Plus Meridian Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Ibis Styles Nairobi",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Nairobi.jpg"
   },
   {
     "continent": "Africa",
     "country": "Kenya",
     "city": "Mombasa",
-    "tags": ["coastal", "historic", "beaches"],
+    "tags": [
+      "coastal",
+      "historic",
+      "beaches"
+    ],
     "attractions": [
       "Fort Jesus",
       "Old Town",
@@ -781,30 +1697,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Serena Beach Resort & Spa", "price_per_night": 520 }
+        {
+          "name": "Serena Beach Resort & Spa",
+          "price_per_night": 520,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Voyager Beach Resort", "price_per_night": 500 },
-        { "name": "Sarova Whitesands Beach Resort", "price_per_night": 480 },
-        { "name": "PrideInn Paradise Beach Resort", "price_per_night": 460 }
+        {
+          "name": "Voyager Beach Resort",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sarova Whitesands Beach Resort",
+          "price_per_night": 480,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "PrideInn Paradise Beach Resort",
+          "price_per_night": 460,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "CityBlue Creekside Hotel", "price_per_night": 300 },
-        { "name": "Bahari Beach Hotel", "price_per_night": 280 },
-        { "name": "Severin Sea Lodge", "price_per_night": 260 }
+        {
+          "name": "CityBlue Creekside Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Bahari Beach Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Severin Sea Lodge",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Mombasa Beach Hotel", "price_per_night": 190 },
-        { "name": "Kahama Hotel", "price_per_night": 170 },
-        { "name": "Royal Court Hotel", "price_per_night": 160 }
+        {
+          "name": "Mombasa Beach Hotel",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Kahama Hotel",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Royal Court Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Mombasa.jpg"
   },
   {
     "continent": "Africa",
     "country": "Kenya",
     "city": "Nakuru",
-    "tags": ["wildlife", "nature", "lakes"],
+    "tags": [
+      "wildlife",
+      "nature",
+      "lakes"
+    ],
     "attractions": [
       "Lake Nakuru National Park",
       "Hyrax Hill Museum",
@@ -819,30 +1780,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Sarova Woodlands Hotel", "price_per_night": 500 }
+        {
+          "name": "Sarova Woodlands Hotel",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Ziwa Bush Lodge", "price_per_night": 480 },
-        { "name": "The Alps Hotel Nakuru", "price_per_night": 460 },
-        { "name": "Legacy Hotel and Suites", "price_per_night": 440 }
+        {
+          "name": "Ziwa Bush Lodge",
+          "price_per_night": 480,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Alps Hotel Nakuru",
+          "price_per_night": 460,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Legacy Hotel and Suites",
+          "price_per_night": 440,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Eagle Palace Hotel", "price_per_night": 300 },
-        { "name": "Merica Hotel", "price_per_night": 280 },
-        { "name": "Midland Hotel", "price_per_night": 260 }
+        {
+          "name": "Eagle Palace Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Merica Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Midland Hotel",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Cathay", "price_per_night": 190 },
-        { "name": "Sleepway Cottages", "price_per_night": 170 },
-        { "name": "Bontana Hotel", "price_per_night": 160 }
+        {
+          "name": "Hotel Cathay",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Sleepway Cottages",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Bontana Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Nakuru.jpg"
   },
   {
     "continent": "Africa",
     "country": "Algeria",
     "city": "Algiers",
-    "tags": ["historic", "coastal", "cultural"],
+    "tags": [
+      "historic",
+      "coastal",
+      "cultural"
+    ],
     "attractions": [
       "Casbah of Algiers",
       "Notre-Dame d’Afrique",
@@ -857,30 +1863,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "El Djazaïr Hotel (Ex-Saint George)", "price_per_night": 600 }
+        {
+          "name": "El Djazaïr Hotel (Ex-Saint George)",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Sofitel Algiers Hamma Garden", "price_per_night": 570 },
-        { "name": "Radisson Blu Hotel, Algiers Hydra", "price_per_night": 550 },
-        { "name": "Hotel Aurassi", "price_per_night": 530 }
+        {
+          "name": "Sofitel Algiers Hamma Garden",
+          "price_per_night": 570,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Radisson Blu Hotel, Algiers Hydra",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Aurassi",
+          "price_per_night": 530,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Oasis", "price_per_night": 320 },
-        { "name": "ABC Hotel", "price_per_night": 300 },
-        { "name": "Hotel Africa Nova", "price_per_night": 280 }
+        {
+          "name": "Hotel Oasis",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "ABC Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Africa Nova",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Samir", "price_per_night": 190 },
-        { "name": "Hotel Suisse", "price_per_night": 170 },
-        { "name": "Hotel El Marsa", "price_per_night": 160 }
+        {
+          "name": "Hotel Samir",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Suisse",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel El Marsa",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Algiers.jpg"
   },
   {
     "continent": "Africa",
     "country": "Algeria",
     "city": "Oran",
-    "tags": ["coastal", "historic", "cultural"],
+    "tags": [
+      "coastal",
+      "historic",
+      "cultural"
+    ],
     "attractions": [
       "Santa Cruz Fort",
       "Place du 1er Novembre",
@@ -895,30 +1946,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Le Méridien Oran Hotel & Convention Centre", "price_per_night": 580 }
+        {
+          "name": "Le Méridien Oran Hotel & Convention Centre",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Royal Hotel Oran – MGallery", "price_per_night": 560 },
-        { "name": "Four Points by Sheraton Oran", "price_per_night": 540 },
-        { "name": "Hotel Eden Phoenix", "price_per_night": 520 }
+        {
+          "name": "Royal Hotel Oran – MGallery",
+          "price_per_night": 560,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Points by Sheraton Oran",
+          "price_per_night": 540,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Eden Phoenix",
+          "price_per_night": 520,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Liberté Oran", "price_per_night": 300 },
-        { "name": "Hotel Montparnasse", "price_per_night": 280 },
-        { "name": "Hotel Timgad", "price_per_night": 260 }
+        {
+          "name": "Hotel Liberté Oran",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Montparnasse",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Timgad",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Medina", "price_per_night": 180 },
-        { "name": "Hotel Es-Salem", "price_per_night": 170 },
-        { "name": "Hotel Les Ambassadeurs", "price_per_night": 160 }
+        {
+          "name": "Hotel Medina",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Es-Salem",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Les Ambassadeurs",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Oran.jpg"
   },
   {
     "continent": "Africa",
     "country": "Algeria",
     "city": "Constantine",
-    "tags": ["historic", "scenic", "cultural"],
+    "tags": [
+      "historic",
+      "scenic",
+      "cultural"
+    ],
     "attractions": [
       "Sidi M’Cid Bridge",
       "Emir Abdelkader Mosque",
@@ -933,23 +2029,64 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Marriott Constantine", "price_per_night": 620 }
+        {
+          "name": "Marriott Constantine",
+          "price_per_night": 620,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hotel Cirta", "price_per_night": 580 },
-        { "name": "Novotel Constantine", "price_per_night": 560 },
-        { "name": "Hotel Hocine", "price_per_night": 540 }
+        {
+          "name": "Hotel Cirta",
+          "price_per_night": 580,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Novotel Constantine",
+          "price_per_night": 560,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Hocine",
+          "price_per_night": 540,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel El Bey", "price_per_night": 310 },
-        { "name": "Hotel Ibis Constantine", "price_per_night": 290 },
-        { "name": "Protea Hotel", "price_per_night": 270 }
+        {
+          "name": "Hotel El Bey",
+          "price_per_night": 310,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Ibis Constantine",
+          "price_per_night": 290,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Protea Hotel",
+          "price_per_night": 270,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel El Khayem", "price_per_night": 190 },
-        { "name": "Hotel El Tarf", "price_per_night": 170 },
-        { "name": "Hotel Sahara", "price_per_night": 160 }
+        {
+          "name": "Hotel El Khayem",
+          "price_per_night": 190,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel El Tarf",
+          "price_per_night": 170,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Sahara",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/Africa/Constantine.jpg"
   }
 ]

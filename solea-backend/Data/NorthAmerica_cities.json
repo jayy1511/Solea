@@ -3,7 +3,11 @@
     "continent": "North America",
     "country": "USA",
     "city": "New York City",
-    "tags": ["cosmopolitan", "cultural", "historic"],
+    "tags": [
+      "cosmopolitan",
+      "cultural",
+      "historic"
+    ],
     "attractions": [
       "Statue of Liberty & Ellis Island",
       "Central Park (Bethesda Terrace, Bow Bridge, Great Lawn)",
@@ -18,30 +22,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Mark (Upper East Side)", "price_per_night": 2400 }
+        {
+          "name": "The Mark (Upper East Side)",
+          "price_per_night": 2400,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "The Ritz-Carlton New York, Central Park", "price_per_night": 1200 },
-        { "name": "Four Seasons Hotel New York Downtown", "price_per_night": 950 },
-        { "name": "The St. Regis New York", "price_per_night": 1100 }
+        {
+          "name": "The Ritz-Carlton New York, Central Park",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Seasons Hotel New York Downtown",
+          "price_per_night": 950,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The St. Regis New York",
+          "price_per_night": 1100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "The Westin New York at Times Square", "price_per_night": 450 },
-        { "name": "citizenM New York Bowery", "price_per_night": 300 },
-        { "name": "Club Quarters Hotel, Grand Central", "price_per_night": 350 }
+        {
+          "name": "The Westin New York at Times Square",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "citizenM New York Bowery",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Club Quarters Hotel, Grand Central",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Pod 39 Hotel", "price_per_night": 180 },
-        { "name": "Arlo NoMad", "price_per_night": 200 },
-        { "name": "Hotel Edison (Times Square)", "price_per_night": 220 }
+        {
+          "name": "Pod 39 Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Arlo NoMad",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Edison (Times Square)",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/New_York_City.jpg"
   },
   {
     "continent": "North America",
     "country": "Canada",
     "city": "Vancouver",
-    "tags": ["scenic", "outdoors", "cosmopolitan"],
+    "tags": [
+      "scenic",
+      "outdoors",
+      "cosmopolitan"
+    ],
     "attractions": [
       "Stanley Park & Seawall",
       "Granville Island Public Market",
@@ -56,30 +105,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Fairmont Pacific Rim", "price_per_night": 1500 }
+        {
+          "name": "Fairmont Pacific Rim",
+          "price_per_night": 1500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Vancouver", "price_per_night": 800 },
-        { "name": "The Ritz-Carlton, Vancouver", "price_per_night": 900 },
-        { "name": "Fairmont Hotel Vancouver", "price_per_night": 700 }
+        {
+          "name": "Four Seasons Hotel Vancouver",
+          "price_per_night": 800,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Ritz-Carlton, Vancouver",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Fairmont Hotel Vancouver",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Pan Pacific Vancouver", "price_per_night": 350 },
-        { "name": "Rosewood Hotel Georgia", "price_per_night": 400 },
-        { "name": "Hyatt Regency Vancouver", "price_per_night": 300 }
+        {
+          "name": "Pan Pacific Vancouver",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Rosewood Hotel Georgia",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hyatt Regency Vancouver",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "The Burrard", "price_per_night": 180 },
-        { "name": "Moda Hotel", "price_per_night": 160 },
-        { "name": "Wall Centre Vancouver", "price_per_night": 200 }
+        {
+          "name": "The Burrard",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Moda Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Wall Centre Vancouver",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Vancouver.jpg"
   },
   {
     "continent": "North America",
     "country": "Canada",
     "city": "Montreal",
-    "tags": ["historic", "cultural", "bilingual"],
+    "tags": [
+      "historic",
+      "cultural",
+      "bilingual"
+    ],
     "attractions": [
       "Old Montreal & Place Jacques-Cartier",
       "Mount Royal Park (lookout)",
@@ -94,30 +188,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Ritz-Carlton, Montreal", "price_per_night": 1000 }
+        {
+          "name": "The Ritz-Carlton, Montreal",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Montreal", "price_per_night": 700 },
-        { "name": "Hotel Le St-James", "price_per_night": 650 },
-        { "name": "Le Mount Stephen", "price_per_night": 600 }
+        {
+          "name": "Four Seasons Hotel Montreal",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Le St-James",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Le Mount Stephen",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Bonaventure Montreal", "price_per_night": 250 },
-        { "name": "Delta Hotels by Marriott Montreal", "price_per_night": 200 },
-        { "name": "Le Centre Sheraton Montreal Hotel", "price_per_night": 220 }
+        {
+          "name": "Hotel Bonaventure Montreal",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Delta Hotels by Marriott Montreal",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Le Centre Sheraton Montreal Hotel",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Faubourg Montreal", "price_per_night": 150 },
-        { "name": "Hotel Quartier des Spectacles", "price_per_night": 140 },
-        { "name": "Hotel Chrome Montreal Centre-Ville", "price_per_night": 130 }
+        {
+          "name": "Hotel Faubourg Montreal",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Quartier des Spectacles",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Chrome Montreal Centre-Ville",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Montreal.jpg"
   },
   {
     "continent": "North America",
     "country": "Mexico",
     "city": "Mexico City",
-    "tags": ["historic", "cultural", "cosmopolitan"],
+    "tags": [
+      "historic",
+      "cultural",
+      "cosmopolitan"
+    ],
     "attractions": [
       "Zócalo (Plaza de la Constitución)",
       "Frida Kahlo Museum (La Casa Azul)",
@@ -132,30 +271,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The St. Regis Mexico City", "price_per_night": 700 }
+        {
+          "name": "The St. Regis Mexico City",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Mexico City", "price_per_night": 600 },
-        { "name": "JW Marriott Hotel Mexico City", "price_per_night": 500 },
-        { "name": "Hyatt Regency Mexico City", "price_per_night": 450 }
+        {
+          "name": "Four Seasons Hotel Mexico City",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "JW Marriott Hotel Mexico City",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hyatt Regency Mexico City",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Sheraton Mexico City Maria Isabel Hotel", "price_per_night": 220 },
-        { "name": "Hilton Mexico City Reforma", "price_per_night": 230 },
-        { "name": "Fiesta Americana Reforma", "price_per_night": 200 }
+        {
+          "name": "Sheraton Mexico City Maria Isabel Hotel",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton Mexico City Reforma",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Fiesta Americana Reforma",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Catedral", "price_per_night": 100 },
-        { "name": "Zócalo Central Mexico City", "price_per_night": 120 },
-        { "name": "Hotel Casa Pepe Guesthouse", "price_per_night": 80 }
+        {
+          "name": "Hotel Catedral",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Zócalo Central Mexico City",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Casa Pepe Guesthouse",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Mexico_City.jpg"
   },
   {
     "continent": "North America",
     "country": "Mexico",
     "city": "Cancún",
-    "tags": ["beach", "resort", "archeological"],
+    "tags": [
+      "beach",
+      "resort",
+      "archeological"
+    ],
     "attractions": [
       "White-sand Beaches (Playa Delfines, Playa Tortugas)",
       "Isla Mujeres (day-trip ferry)",
@@ -170,30 +354,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "NIZUC Resort & Spa", "price_per_night": 1200 }
+        {
+          "name": "NIZUC Resort & Spa",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "The Ritz-Carlton, Cancún", "price_per_night": 1000 },
-        { "name": "JW Marriott Cancún Resort & Spa", "price_per_night": 900 },
-        { "name": "Hyatt Zilara Cancun (adults only)", "price_per_night": 800 }
+        {
+          "name": "The Ritz-Carlton, Cancún",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "JW Marriott Cancún Resort & Spa",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hyatt Zilara Cancun (adults only)",
+          "price_per_night": 800,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Park Royal Beach Cancún", "price_per_night": 350 },
-        { "name": "Oasis Palm", "price_per_night": 300 },
-        { "name": "NYX Hotel Cancún", "price_per_night": 250 }
+        {
+          "name": "Park Royal Beach Cancún",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Oasis Palm",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "NYX Hotel Cancún",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Smart Cancún by Oasis", "price_per_night": 150 },
-        { "name": "City Express Cancún", "price_per_night": 120 },
-        { "name": "Selina Cancún Laguna Hotel Zone", "price_per_night": 100 }
+        {
+          "name": "Smart Cancún by Oasis",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "City Express Cancún",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Selina Cancún Laguna Hotel Zone",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Cancún.jpg"
   },
   {
     "continent": "North America",
     "country": "Mexico",
     "city": "Puerto Vallarta",
-    "tags": ["beach", "historic", "adventure"],
+    "tags": [
+      "beach",
+      "historic",
+      "adventure"
+    ],
     "attractions": [
       "El Malecón (boardwalk & sculptures)",
       "Old Town (Zona Romántica)",
@@ -208,30 +437,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Resort Punta Mita", "price_per_night": 1100 }
+        {
+          "name": "Four Seasons Resort Punta Mita",
+          "price_per_night": 1100,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Grand Velas Riviera Nayarit", "price_per_night": 800 },
-        { "name": "Hyatt Ziva Puerto Vallarta", "price_per_night": 400 },
-        { "name": "Marival Distinct Luxury Residences", "price_per_night": 350 }
+        {
+          "name": "Grand Velas Riviera Nayarit",
+          "price_per_night": 800,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hyatt Ziva Puerto Vallarta",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Marival Distinct Luxury Residences",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Villa Premiere Boutique Hotel & Spa", "price_per_night": 300 },
-        { "name": "Hotel Porto Allegro", "price_per_night": 200 },
-        { "name": "Plaza Pelicanos Club Beach Resort", "price_per_night": 250 }
+        {
+          "name": "Villa Premiere Boutique Hotel & Spa",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Porto Allegro",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Plaza Pelicanos Club Beach Resort",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Posada de Roger", "price_per_night": 100 },
-        { "name": "Hotel Eloisa", "price_per_night": 80 },
-        { "name": "Hotel Rio Malecon", "price_per_night": 90 }
+        {
+          "name": "Hotel Posada de Roger",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Eloisa",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Rio Malecon",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Puerto_Vallarta.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Las Vegas",
-    "tags": ["entertainment", "casinos", "desert"],
+    "tags": [
+      "entertainment",
+      "casinos",
+      "desert"
+    ],
     "attractions": [
       "The Strip (Bellagio Fountains, The Venetian's canals)",
       "\"Welcome to Fabulous Las Vegas\" sign",
@@ -246,30 +520,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Palazzo at The Venetian", "price_per_night": 650 }
+        {
+          "name": "The Palazzo at The Venetian",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Wynn Las Vegas", "price_per_night": 550 },
-        { "name": "Four Seasons Hotel Las Vegas", "price_per_night": 600 },
-        { "name": "The Cosmopolitan of Las Vegas", "price_per_night": 450 }
+        {
+          "name": "Wynn Las Vegas",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Seasons Hotel Las Vegas",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Cosmopolitan of Las Vegas",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "MGM Grand", "price_per_night": 200 },
-        { "name": "Paris Las Vegas", "price_per_night": 180 },
-        { "name": "Treasure Island", "price_per_night": 160 }
+        {
+          "name": "MGM Grand",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Paris Las Vegas",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Treasure Island",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Excalibur Hotel & Casino", "price_per_night": 80 },
-        { "name": "Circus Circus Hotel & Casino", "price_per_night": 70 },
-        { "name": "The STRAT Hotel, Casino & SkyPod", "price_per_night": 90 }
+        {
+          "name": "Excalibur Hotel & Casino",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Circus Circus Hotel & Casino",
+          "price_per_night": 70,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The STRAT Hotel, Casino & SkyPod",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Las_Vegas.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Miami",
-    "tags": ["beach", "art deco", "latin"],
+    "tags": [
+      "beach",
+      "art deco",
+      "latin"
+    ],
     "attractions": [
       "South Beach & Art Deco Historic District",
       "Vizcaya Museum & Gardens",
@@ -284,30 +603,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Faena Hotel Miami Beach", "price_per_night": 1200 }
+        {
+          "name": "Faena Hotel Miami Beach",
+          "price_per_night": 1200,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "The Ritz-Carlton South Beach", "price_per_night": 650 },
-        { "name": "Four Seasons Hotel at The Surf Club", "price_per_night": 700 },
-        { "name": "Mandarin Oriental, Miami", "price_per_night": 550 }
+        {
+          "name": "The Ritz-Carlton South Beach",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Seasons Hotel at The Surf Club",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Mandarin Oriental, Miami",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "1 Hotel South Beach", "price_per_night": 400 },
-        { "name": "The Confidante Miami Beach", "price_per_night": 300 },
-        { "name": "Loews Miami Beach Hotel", "price_per_night": 350 }
+        {
+          "name": "1 Hotel South Beach",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Confidante Miami Beach",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Loews Miami Beach Hotel",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "The Redbury South Beach", "price_per_night": 220 },
-        { "name": "Hotel Breakwater South Beach", "price_per_night": 180 },
-        { "name": "Pod Miami", "price_per_night": 150 }
+        {
+          "name": "The Redbury South Beach",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Breakwater South Beach",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Pod Miami",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Miami.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Orlando",
-    "tags": ["theme parks", "family", "sunshine"],
+    "tags": [
+      "theme parks",
+      "family",
+      "sunshine"
+    ],
     "attractions": [
       "Walt Disney World Resort (Magic Kingdom, EPCOT)",
       "Universal Orlando Resort (Islands of Adventure)",
@@ -322,30 +686,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Resort Orlando at Walt Disney World®", "price_per_night": 1000 }
+        {
+          "name": "Four Seasons Resort Orlando at Walt Disney World®",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Waldorf Astoria Orlando", "price_per_night": 600 },
-        { "name": "The Ritz-Carlton Orlando, Grande Lakes", "price_per_night": 550 },
-        { "name": "JW Marriott Orlando, Grande Lakes", "price_per_night": 500 }
+        {
+          "name": "Waldorf Astoria Orlando",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Ritz-Carlton Orlando, Grande Lakes",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "JW Marriott Orlando, Grande Lakes",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hyatt Regency Grand Cypress", "price_per_night": 300 },
-        { "name": "Hilton Orlando Bonnet Creek", "price_per_night": 250 },
-        { "name": "Rosen Shingle Creek", "price_per_night": 220 }
+        {
+          "name": "Hyatt Regency Grand Cypress",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton Orlando Bonnet Creek",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Rosen Shingle Creek",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Fairfield Inn & Suites by Marriott Orlando Lakeside", "price_per_night": 130 },
-        { "name": "La Quinta by Wyndham Orlando Universal Area", "price_per_night": 120 },
-        { "name": "Best Western Orlando Gateway Hotel", "price_per_night": 110 }
+        {
+          "name": "Fairfield Inn & Suites by Marriott Orlando Lakeside",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "La Quinta by Wyndham Orlando Universal Area",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Best Western Orlando Gateway Hotel",
+          "price_per_night": 110,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Orlando.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "San Francisco",
-    "tags": ["hilly", "tech", "historic"],
+    "tags": [
+      "hilly",
+      "tech",
+      "historic"
+    ],
     "attractions": [
       "Golden Gate Bridge & Vista Point",
       "Alcatraz Island & Prison Tour",
@@ -360,30 +769,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Ritz-Carlton, San Francisco", "price_per_night": 1000 }
+        {
+          "name": "The Ritz-Carlton, San Francisco",
+          "price_per_night": 1000,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel San Francisco", "price_per_night": 700 },
-        { "name": "Fairmont San Francisco", "price_per_night": 650 },
-        { "name": "St. Regis San Francisco", "price_per_night": 600 }
+        {
+          "name": "Four Seasons Hotel San Francisco",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Fairmont San Francisco",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "St. Regis San Francisco",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Grand Hyatt San Francisco", "price_per_night": 350 },
-        { "name": "The Westin St. Francis San Francisco on Union Square", "price_per_night": 330 },
-        { "name": "Hilton San Francisco Union Square", "price_per_night": 300 }
+        {
+          "name": "Grand Hyatt San Francisco",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Westin St. Francis San Francisco on Union Square",
+          "price_per_night": 330,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hilton San Francisco Union Square",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Nikko San Francisco", "price_per_night": 250 },
-        { "name": "Argonaut Hotel, A Noble House Hotel", "price_per_night": 220 },
-        { "name": "The Mosser Hotel", "price_per_night": 200 }
+        {
+          "name": "Hotel Nikko San Francisco",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Argonaut Hotel, A Noble House Hotel",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Mosser Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/San_Francisco.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Washington, D.C.",
-    "tags": ["political", "historic", "monuments"],
+    "tags": [
+      "political",
+      "historic",
+      "monuments"
+    ],
     "attractions": [
       "National Mall (Lincoln Memorial, Washington Monument)",
       "Smithsonian National Museum of Natural History",
@@ -398,30 +852,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Hay-Adams", "price_per_night": 650 }
+        {
+          "name": "The Hay-Adams",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Washington, DC", "price_per_night": 700 },
-        { "name": "The Jefferson, Washington, DC", "price_per_night": 650 },
-        { "name": "Mandarin Oriental, Washington DC", "price_per_night": 600 }
+        {
+          "name": "Four Seasons Hotel Washington, DC",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Jefferson, Washington, DC",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Mandarin Oriental, Washington DC",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "The Modern Honolulu", "price_per_night": 350 },
-        { "name": "Prince Waikiki", "price_per_night": 300 },
-        { "name": "Sheraton Waikiki", "price_per_night": 320 }
+        {
+          "name": "The Modern Honolulu",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Prince Waikiki",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Sheraton Waikiki",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Club Quarters Hotel, Washington DC", "price_per_night": 160 },
-        { "name": "Holiday Inn Washington Capitol–Nat'l Mall", "price_per_night": 180 },
-        { "name": "The Liaison Capitol Hill", "price_per_night": 150 }
+        {
+          "name": "Club Quarters Hotel, Washington DC",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Holiday Inn Washington Capitol–Nat'l Mall",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Liaison Capitol Hill",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Washington,_D.C..jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Honolulu",
-    "tags": ["tropical", "beach", "volcanic"],
+    "tags": [
+      "tropical",
+      "beach",
+      "volcanic"
+    ],
     "attractions": [
       "Waikiki Beach & Kuhio Beach Park",
       "Diamond Head State Monument (crater hike)",
@@ -436,26 +935,59 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Royal Hawaiian, a Luxury Collection", "price_per_night": 900 }
+        {
+          "name": "The Royal Hawaiian, a Luxury Collection",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Halekulani", "price_per_night": 800 },
-        { "name": "Moana Surfrider, A Westin Resort", "price_per_night": 700 },
-        { "name": "The Kahala Hotel & Resort", "price_per_night": 650 }
+        {
+          "name": "Halekulani",
+          "price_per_night": 800,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Moana Surfrider, A Westin Resort",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Kahala Hotel & Resort",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [],
       "3_star": [
-        { "name": "Aqua Aloha Surf Waikiki", "price_per_night": 180 },
-        { "name": "Ohia Waikiki Studio Suites", "price_per_night": 160 },
-        { "name": "Ilima Hotel Waikiki", "price_per_night": 150 }
+        {
+          "name": "Aqua Aloha Surf Waikiki",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Ohia Waikiki Studio Suites",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Ilima Hotel Waikiki",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Honolulu.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "San Diego",
-    "tags": ["beach", "military", "zoo"],
+    "tags": [
+      "beach",
+      "military",
+      "zoo"
+    ],
     "attractions": [
       "Balboa Park & San Diego Zoo",
       "USS Midway Museum",
@@ -470,30 +1002,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Hotel del Coronado", "price_per_night": 900 }
+        {
+          "name": "Hotel del Coronado",
+          "price_per_night": 900,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Fairmont Grand Del Mar", "price_per_night": 600 },
-        { "name": "Park Hyatt Aviara Resort", "price_per_night": 550 },
-        { "name": "Pendry San Diego", "price_per_night": 500 }
+        {
+          "name": "Fairmont Grand Del Mar",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Park Hyatt Aviara Resort",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Pendry San Diego",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Manchester Grand Hyatt San Diego", "price_per_night": 300 },
-        { "name": "Hilton San Diego Bayfront", "price_per_night": 280 },
-        { "name": "The Westin San Diego Gaslamp Quarter", "price_per_night": 250 }
+        {
+          "name": "Manchester Grand Hyatt San Diego",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hilton San Diego Bayfront",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Westin San Diego Gaslamp Quarter",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Best Western Plus Bayside Inn", "price_per_night": 180 },
-        { "name": "Kings Inn San Diego", "price_per_night": 150 },
-        { "name": "Old Town Inn", "price_per_night": 140 }
+        {
+          "name": "Best Western Plus Bayside Inn",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Kings Inn San Diego",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Old Town Inn",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/San_Diego.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Boston",
-    "tags": ["historic", "educational", "seafood"],
+    "tags": [
+      "historic",
+      "educational",
+      "seafood"
+    ],
     "attractions": [
       "Freedom Trail (16 historic sites)",
       "Faneuil Hall & Quincy Market",
@@ -508,30 +1085,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Hotel Boston", "price_per_night": 800 }
+        {
+          "name": "Four Seasons Hotel Boston",
+          "price_per_night": 800,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Boston Harbor Hotel", "price_per_night": 600 },
-        { "name": "The Ritz-Carlton, Boston", "price_per_night": 650 },
-        { "name": "Mandarin Oriental, Boston", "price_per_night": 550 }
+        {
+          "name": "Boston Harbor Hotel",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Ritz-Carlton, Boston",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Mandarin Oriental, Boston",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Omni Parker House", "price_per_night": 300 },
-        { "name": "The Westin Copley Place", "price_per_night": 320 },
-        { "name": "Hyatt Regency Boston", "price_per_night": 280 }
+        {
+          "name": "Omni Parker House",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Westin Copley Place",
+          "price_per_night": 320,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hyatt Regency Boston",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Holiday Inn Boston Hotel-Commonwealth", "price_per_night": 180 },
-        { "name": "HI Boston Hostel (former Seaman's Bethel)", "price_per_night": 100 },
-        { "name": "Charlesmark Hotel", "price_per_night": 160 }
+        {
+          "name": "Holiday Inn Boston Hotel-Commonwealth",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "HI Boston Hostel (former Seaman's Bethel)",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Charlesmark Hotel",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Boston.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Seattle",
-    "tags": ["coffee", "tech", "waterfront"],
+    "tags": [
+      "coffee",
+      "tech",
+      "waterfront"
+    ],
     "attractions": [
       "Pike Place Market & the Original Starbucks",
       "Space Needle & Chihuly Garden and Glass",
@@ -546,30 +1168,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Four Seasons Hotel Seattle", "price_per_night": 700 }
+        {
+          "name": "Four Seasons Hotel Seattle",
+          "price_per_night": 700,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Fairmont Olympic Hotel", "price_per_night": 450 },
-        { "name": "Thompson Seattle", "price_per_night": 400 },
-        { "name": "The Edgewater", "price_per_night": 350 }
+        {
+          "name": "Fairmont Olympic Hotel",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Thompson Seattle",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Edgewater",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hyatt at Olive 8", "price_per_night": 250 },
-        { "name": "Kimpton Hotel Vintage Seattle", "price_per_night": 280 },
-        { "name": "Motif Seattle", "price_per_night": 230 }
+        {
+          "name": "Hyatt at Olive 8",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Kimpton Hotel Vintage Seattle",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Motif Seattle",
+          "price_per_night": 230,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Staypineapple at The Maxwell Hotel", "price_per_night": 180 },
-        { "name": "Hotel Theodore", "price_per_night": 200 },
-        { "name": "The Belltown Inn", "price_per_night": 160 }
+        {
+          "name": "Staypineapple at The Maxwell Hotel",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Theodore",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Belltown Inn",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Seattle.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Atlanta",
-    "tags": ["business", "historic", "southern"],
+    "tags": [
+      "business",
+      "historic",
+      "southern"
+    ],
     "attractions": [
       "Georgia Aquarium",
       "World of Coca-Cola",
@@ -584,30 +1251,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The St. Regis Atlanta", "price_per_night": 650 }
+        {
+          "name": "The St. Regis Atlanta",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Atlanta", "price_per_night": 400 },
-        { "name": "Waldorf Astoria Atlanta Buckhead", "price_per_night": 450 },
-        { "name": "The Whitley, a Luxury Collection Hotel", "price_per_night": 350 }
+        {
+          "name": "Four Seasons Hotel Atlanta",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Waldorf Astoria Atlanta Buckhead",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Whitley, a Luxury Collection Hotel",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Loews Atlanta Hotel", "price_per_night": 300 },
-        { "name": "The Georgian Terrace", "price_per_night": 250 },
-        { "name": "Hotel Clermont", "price_per_night": 200 }
+        {
+          "name": "Loews Atlanta Hotel",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Georgian Terrace",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Clermont",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Irini", "price_per_night": 180 },
-        { "name": "Hotel Lena", "price_per_night": 160 },
-        { "name": "Hotel Rea", "price_per_night": 140 }
+        {
+          "name": "Hotel Irini",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hotel Lena",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Rea",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Atlanta.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "New Orleans",
-    "tags": ["jazz", "historic", "culinary"],
+    "tags": [
+      "jazz",
+      "historic",
+      "culinary"
+    ],
     "attractions": [
       "French Quarter (Bourbon Street & Jackson Square)",
       "St. Louis Cathedral & Jackson Square",
@@ -622,30 +1334,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Roosevelt New Orleans, A Waldorf Astoria Hotel", "price_per_night": 550 }
+        {
+          "name": "The Roosevelt New Orleans, A Waldorf Astoria Hotel",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Windsor Court Hotel", "price_per_night": 400 },
-        { "name": "The Ritz-Carlton, New Orleans", "price_per_night": 450 },
-        { "name": "Hotel Monteleone", "price_per_night": 350 }
+        {
+          "name": "Windsor Court Hotel",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Ritz-Carlton, New Orleans",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Monteleone",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "The Pontchartrain Hotel", "price_per_night": 280 },
-        { "name": "Hyatt Regency New Orleans", "price_per_night": 260 },
-        { "name": "Omni Royal Orleans", "price_per_night": 300 }
+        {
+          "name": "The Pontchartrain Hotel",
+          "price_per_night": 280,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hyatt Regency New Orleans",
+          "price_per_night": 260,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Omni Royal Orleans",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Holiday Inn New Orleans-Downtown", "price_per_night": 150 },
-        { "name": "Best Western Plus French Quarter Landmark", "price_per_night": 140 },
-        { "name": "Drury Plaza Hotel New Orleans", "price_per_night": 160 }
+        {
+          "name": "Holiday Inn New Orleans-Downtown",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Best Western Plus French Quarter Landmark",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Drury Plaza Hotel New Orleans",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/New_Orleans.jpg"
   },
   {
     "continent": "North America",
     "country": "Canada",
     "city": "Ottawa",
-    "tags": ["political", "historic", "bilingual"],
+    "tags": [
+      "political",
+      "historic",
+      "bilingual"
+    ],
     "attractions": [
       "Parliament Hill & Changing of the Guard",
       "Rideau Canal (boat tour & skating in winter)",
@@ -660,30 +1417,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Fairmont Château Laurier", "price_per_night": 650 }
+        {
+          "name": "Fairmont Château Laurier",
+          "price_per_night": 650,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "The Westin Ottawa", "price_per_night": 300 },
-        { "name": "Andaz Ottawa ByWard Market", "price_per_night": 350 },
-        { "name": "Brookstreet Hotel (Kanata)", "price_per_night": 250 }
+        {
+          "name": "The Westin Ottawa",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Andaz Ottawa ByWard Market",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Brookstreet Hotel (Kanata)",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Sheraton Ottawa Hotel", "price_per_night": 220 },
-        { "name": "Delta Hotels by Marriott Ottawa City Centre", "price_per_night": 200 },
-        { "name": "Hotel Monera", "price_per_night": 180 }
+        {
+          "name": "Sheraton Ottawa Hotel",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Delta Hotels by Marriott Ottawa City Centre",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Monera",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Best Western Plus Ottawa City Centre", "price_per_night": 140 },
-        { "name": "Novotel Ottawa", "price_per_night": 150 },
-        { "name": "Comfort Inn Downtown Ottawa", "price_per_night": 130 }
+        {
+          "name": "Best Western Plus Ottawa City Centre",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Novotel Ottawa",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Comfort Inn Downtown Ottawa",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Ottawa.jpg"
   },
   {
     "continent": "North America",
     "country": "Canada",
     "city": "Quebec City",
-    "tags": ["french", "historic", "charming"],
+    "tags": [
+      "french",
+      "historic",
+      "charming"
+    ],
     "attractions": [
       "Old Québec (UNESCO World Heritage) & Château Frontenac",
       "Terrasse Dufferin & Funicular",
@@ -698,30 +1500,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Fairmont Le Château Frontenac", "price_per_night": 600 }
+        {
+          "name": "Fairmont Le Château Frontenac",
+          "price_per_night": 600,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Hôtel Le Germain Québec", "price_per_night": 350 },
-        { "name": "Auberge Saint-Antoine", "price_per_night": 400 },
-        { "name": "Hôtel 71", "price_per_night": 300 }
+        {
+          "name": "Hôtel Le Germain Québec",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Auberge Saint-Antoine",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hôtel 71",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Delta Hotels by Marriott Quebec", "price_per_night": 200 },
-        { "name": "Hôtel Port Royal", "price_per_night": 220 },
-        { "name": "Hôtel Palace Royal", "price_per_night": 180 }
+        {
+          "name": "Delta Hotels by Marriott Quebec",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hôtel Port Royal",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hôtel Palace Royal",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel Manoir Victoria", "price_per_night": 140 },
-        { "name": "Le Champlain Hotel", "price_per_night": 130 },
-        { "name": "Hotel Sainte-Anne", "price_per_night": 120 }
+        {
+          "name": "Hotel Manoir Victoria",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Le Champlain Hotel",
+          "price_per_night": 130,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Sainte-Anne",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Quebec_City.jpg"
   },
   {
     "continent": "North America",
     "country": "Mexico",
     "city": "Guadalajara",
-    "tags": ["cultural", "historic", "tequila"],
+    "tags": [
+      "cultural",
+      "historic",
+      "tequila"
+    ],
     "attractions": [
       "Historic Center (Plaza de Armas & Catedral)",
       "Hospicio Cabañas (UNESCO site)",
@@ -736,30 +1583,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "Hotel Demetria", "price_per_night": 300 }
+        {
+          "name": "Hotel Demetria",
+          "price_per_night": 300,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Quinta Real Guadalajara", "price_per_night": 250 },
-        { "name": "NH Collection Guadalajara Centro Histórico", "price_per_night": 200 },
-        { "name": "Hilton Guadalajara", "price_per_night": 180 }
+        {
+          "name": "Quinta Real Guadalajara",
+          "price_per_night": 250,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "NH Collection Guadalajara Centro Histórico",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hilton Guadalajara",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Hotel Morales Historical & Colonial", "price_per_night": 150 },
-        { "name": "Marriott Guadalajara", "price_per_night": 160 },
-        { "name": "Plaza Diana Business & Executives Hotel", "price_per_night": 140 }
+        {
+          "name": "Hotel Morales Historical & Colonial",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Marriott Guadalajara",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Plaza Diana Business & Executives Hotel",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Hotel San Francisco", "price_per_night": 100 },
-        { "name": "One Guadalajara Chapalita", "price_per_night": 90 },
-        { "name": "Hotel Real Maestranza", "price_per_night": 80 }
+        {
+          "name": "Hotel San Francisco",
+          "price_per_night": 100,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "One Guadalajara Chapalita",
+          "price_per_night": 90,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel Real Maestranza",
+          "price_per_night": 80,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Guadalajara.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Dallas",
-    "tags": ["business", "historic", "western"],
+    "tags": [
+      "business",
+      "historic",
+      "western"
+    ],
     "attractions": [
       "The Sixth Floor Museum at Dealey Plaza",
       "Dallas Museum of Art & Klyde Warren Park",
@@ -774,30 +1666,75 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Crescent at The Crescent Hotel Dallas", "price_per_night": 550 }
+        {
+          "name": "The Crescent at The Crescent Hotel Dallas",
+          "price_per_night": 550,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "The Ritz-Carlton, Dallas", "price_per_night": 400 },
-        { "name": "Four Seasons Resort and Club Dallas at Las Colinas", "price_per_night": 450 },
-        { "name": "Rosewood Mansion on Turtle Creek", "price_per_night": 500 }
+        {
+          "name": "The Ritz-Carlton, Dallas",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Four Seasons Resort and Club Dallas at Las Colinas",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Rosewood Mansion on Turtle Creek",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Omni Dallas Hotel", "price_per_night": 200 },
-        { "name": "Hyatt Regency Dallas", "price_per_night": 180 },
-        { "name": "Hotel ZaZa Dallas", "price_per_night": 220 }
+        {
+          "name": "Omni Dallas Hotel",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hyatt Regency Dallas",
+          "price_per_night": 180,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Hotel ZaZa Dallas",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Magnolia Hotel Dallas Downtown", "price_per_night": 160 },
-        { "name": "Hampton Inn & Suites Dallas Downtown", "price_per_night": 150 },
-        { "name": "Holiday Inn Express & Suites Dallas Downtown West", "price_per_night": 140 }
+        {
+          "name": "Magnolia Hotel Dallas Downtown",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hampton Inn & Suites Dallas Downtown",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Holiday Inn Express & Suites Dallas Downtown West",
+          "price_per_night": 140,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Dallas.jpg"
   },
   {
     "continent": "North America",
     "country": "USA",
     "city": "Philadelphia",
-    "tags": ["historic", "cultural", "cheesesteak"],
+    "tags": [
+      "historic",
+      "cultural",
+      "cheesesteak"
+    ],
     "attractions": [
       "Independence National Historical Park",
       "Philadelphia Museum of Art (\"Rocky\" steps)",
@@ -812,23 +1749,64 @@
     ],
     "hotels": {
       "7_star": [
-        { "name": "The Rittenhouse Hotel", "price_per_night": 500 }
+        {
+          "name": "The Rittenhouse Hotel",
+          "price_per_night": 500,
+          "image": "assets/Hotels/hotel11.jpg"
+        }
       ],
       "5_star": [
-        { "name": "Four Seasons Hotel Philadelphia at Comcast Center", "price_per_night": 450 },
-        { "name": "The Ritz-Carlton, Philadelphia", "price_per_night": 400 },
-        { "name": "The Logan Philadelphia, Curio Collection", "price_per_night": 350 }
+        {
+          "name": "Four Seasons Hotel Philadelphia at Comcast Center",
+          "price_per_night": 450,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "The Ritz-Carlton, Philadelphia",
+          "price_per_night": 400,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "The Logan Philadelphia, Curio Collection",
+          "price_per_night": 350,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "4_star": [
-        { "name": "Kimpton Hotel Monaco Philadelphia", "price_per_night": 220 },
-        { "name": "Hyatt at The Bellevue", "price_per_night": 200 },
-        { "name": "Loews Philadelphia Hotel", "price_per_night": 210 }
+        {
+          "name": "Kimpton Hotel Monaco Philadelphia",
+          "price_per_night": 220,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hyatt at The Bellevue",
+          "price_per_night": 200,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Loews Philadelphia Hotel",
+          "price_per_night": 210,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ],
       "3_star": [
-        { "name": "Alexander Inn", "price_per_night": 160 },
-        { "name": "Hampton Inn Philadelphia Center City-Convention Center", "price_per_night": 150 },
-        { "name": "Rodeway Inn Center City", "price_per_night": 120 }
+        {
+          "name": "Alexander Inn",
+          "price_per_night": 160,
+          "image": "assets/Hotels/hotel11.jpg"
+        },
+        {
+          "name": "Hampton Inn Philadelphia Center City-Convention Center",
+          "price_per_night": 150,
+          "image": "assets/Hotels/hotel12.jpg"
+        },
+        {
+          "name": "Rodeway Inn Center City",
+          "price_per_night": 120,
+          "image": "assets/Hotels/hotel13.jpg"
+        }
       ]
-    }
+    },
+    "image": "assets/North America/Philadelphia.jpg"
   }
 ]
