@@ -9,7 +9,7 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 - **Node.js + Express** — API server
 - **MongoDB + Mongoose** — Core data storage
 - **Neo4j (AuraDB)** — Graph-based city & recommendation system
-- **Redis (Redis Cloud)** — Session caching and draft trip storage
+- **Redis (Redis Cloud)** — Session caching, draft storage, and real-time data
 - **JWT Authentication** — Secure user sessions
 - **Bcrypt** — Password hashing
 - **CORS + Dotenv + Nodemon** — Dev & security helpers
@@ -25,9 +25,11 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 ## 👤 User Routes
 
-- GET /api/users/profile — Get logged-in user profile (🔒 JWT required)
+- GET /api/users/profile — Get logged-in user profile (JWT required)
 - PUT /api/users/preferences — Update preferences
 - GET /api/users/:id/trips — Fetch user's trips
+
+Users can save their travel preferences (tags such as "romantic", "historic", "beach", etc.). These preferences are used for personalized city recommendations.
 
 ---
 
@@ -47,6 +49,13 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 - GET /api/cities/continent/:continent — Cities in a continent
 - GET /api/cities/:cityId — Details of a city
 
+Each city includes:
+- Continent, country, and city name
+- Tags for personalization
+- Top attractions
+- Hotels (3-star to 7-star)
+- Local image path (for frontend use)
+
 ---
 
 ## 📝 Blog Routes
@@ -55,67 +64,84 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 ---
 
-## 🤖 Recommendation Routes (Neo4j)
+## 📈 Recommendation Routes (Neo4j)
 
 Neo4j is used to model cities, tags, and relationships for smarter travel suggestions.
 
-- GET /api/recommendations/city/:cityId — Get similar city recommendations based on tags and relationships
-- GET /api/recommendations/user/:userId — Get personalized suggestions based on user's trip history
+- GET /api/recommendations/city/:cityId — Get cities with shared tags
+- GET /api/recommendations/user/:userId — Recommend cities based on user's past trips and preferences
 
-Neo4j is connected via the official Neo4j JavaScript driver using a secure `neo4j+s://` AuraDB URI.
+Enhancements:
+- Cities are prioritized by number of matching tags
+- Recommendations exclude cities the user has already visited
 
 Graph structure:
-- City nodes with TAGGED_AS relationships to Tag
-- User connected to City through VISITED relationship
+- `City` nodes linked to `Tag` and `Continent`
+- `User` nodes linked to `City` through `BOOKED` → `Trip` → `CONTAINS` → `City`
+
+Neo4j seed script auto-generates nodes for all cities and their tags.
 
 ---
 
-## 🧠 Redis Routes (Trip Draft Caching)
+## 🧠 Redis Routes (Multi-purpose Usage)
 
-Redis is used to temporarily store in-progress trip drafts per user.
+Redis is used for caching and real-time data storage:
 
+### Trip Draft Caching
 - POST /api/redis/draft/:userId — Save a draft trip
 - GET /api/redis/draft/:userId — Load a saved draft
 - DELETE /api/redis/draft/:userId — Clear a saved draft
 
-The backend uses `cacheService.js` to interact with Redis using the `tripDraft:<userId>` key format.
+### Recently Viewed Cities
+- POST /api/redis/recent/:userId — Add a city to user's recently viewed list
+- GET /api/redis/recent/:userId — Get list of user's recently viewed cities
+
+### Popular Cities Cache
+- POST /api/redis/popular — Admin route to cache popular cities
+- GET /api/redis/popular — Get cached list of popular cities
+
+The backend uses `cacheService.js` to manage Redis keys like:
+- `tripDraft:<userId>`
+- `recentCities:<userId>`
+- `popularCities`
 
 ---
 
 ## 🧬 Seeding Setup
 
-1. Make sure all city JSON files (Africa.json, Asia.json, Europe.json, etc.) are inside the `data/` directory.
-2. From the root of your backend project, run the following command to populate the database:
+### MongoDB Seeding
 
-→ node scripts/seedCities.js
+1. Ensure all city JSON files (Africa.json, Asia.json, etc.) are in the `/data` folder.
+2. Run:
+```bash
+node scripts/addImages.js   # Adds image paths to JSON
+node scripts/seedCities.js  # Seeds MongoDB with cities and hotels
+```
+
+### Neo4j Seeding
+
+1. Run:
+```bash
+node scripts/neo4jSeed.js
+```
 
 This script will:
-
-- Connect to your MongoDB instance using `.env` config.
-- Clear existing cities and hotels (optional behavior).
-- Insert all cities along with their tagged attractions and categorized hotels (7-star to 3-star).
-- Automatically establish references between cities and hotels using ObjectId.
-
-Each city entry includes:
-- continent, country, city
-- tags for personalization
-- attractions (top 10 spots)
-- hotels with pricePerNight and star category
-
-Each hotel is stored as a separate document and linked to its respective city.
+- Seed all `City` nodes from JSON data
+- Link `Tag` nodes to cities (based on `tags[]` array)
+- Connect each city to a `Continent` node
 
 ---
 
 ## 🚀 Deployment
 
-- MongoDB hosted on MongoDB Atlas
-- Redis hosted on Redis Cloud
-- Neo4j hosted on Neo4j AuraDB
-- Backend deployed on Render
-- .env used to manage secure secrets
+- MongoDB: MongoDB Atlas
+- Redis: Redis Cloud
+- Neo4j: Neo4j AuraDB
+- Backend: Render.com
+- Secrets: .env file
 
 ---
 
-## 🧾 Author
+## 👨‍💼 Author
 
-Made with 💙 for Solea Project — *Your next-level travel companion.*
+Made with care for the Solea Project — *Your next-level travel companion.*

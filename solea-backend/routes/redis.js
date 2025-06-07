@@ -1,36 +1,34 @@
-// routes/redis.js
 const express = require('express');
 const router = express.Router();
-const { saveDraft, loadDraft, clearDraft } = require('../services/cacheService');
+const {
+  saveDraftTrip,
+  getDraftTrip,
+  saveRecentCity,
+  getRecentCities,
+  updatePopularCities,
+  getPopularCities
+} = require('../controllers/redisController');
 
-// Save trip draft
-router.post('/draft/:userId', async (req, res) => {
-  try {
-    await saveDraft(req.params.userId, req.body);
-    res.json({ message: 'Trip draft saved ✅' });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
-// Load trip draft
-router.get('/draft/:userId', async (req, res) => {
-  try {
-    const draft = await loadDraft(req.params.userId);
-    res.json({ draft });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
-// Clear trip draft
+// Trip Drafts
+router.post('/draft/:userId', saveDraftTrip);
+router.get('/draft/:userId', getDraftTrip);
 router.delete('/draft/:userId', async (req, res) => {
+  const { userId } = req.params;
   try {
-    await clearDraft(req.params.userId);
+    const { clearDraft } = require('../services/cacheService');
+    await clearDraft(userId);
     res.json({ message: 'Trip draft cleared ❌' });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
+
+// Recently Viewed Cities
+router.post('/recent/:userId', saveRecentCity);
+router.get('/recent/:userId', getRecentCities);
+
+// Popular Cities
+router.post('/popular', updatePopularCities);
+router.get('/popular', getPopularCities);
 
 module.exports = router;
