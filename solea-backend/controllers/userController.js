@@ -4,7 +4,7 @@ const User = require('../models/userModel');
 // @route   GET /api/users/profile
 const getUserProfile = async (req, res) => {
   try {
-    const userId = req.user.id; // ✅ Secure: use ID from verified token
+    const userId = req.user.id;
 
     const user = await User.findById(userId).select('-password');
     if (!user) return res.status(404).json({ message: 'User not found' });
@@ -19,16 +19,16 @@ const getUserProfile = async (req, res) => {
 // @route   PUT /api/users/preferences
 const updateUserPreferences = async (req, res) => {
   try {
-    const userId = req.user.id; // ✅ also from token
-    const { preferences } = req.body;
+    const userId = req.user.id;
+    const { tags } = req.body;
 
-    if (!preferences) {
-      return res.status(400).json({ message: 'Preferences are required' });
+    if (!tags || !Array.isArray(tags) || tags.length === 0) {
+      return res.status(400).json({ message: 'Preferences tags are required' });
     }
 
     const updatedUser = await User.findByIdAndUpdate(
       userId,
-      { preferences },
+      { preferences: { tags } },
       { new: true }
     ).select('-password');
 
@@ -57,5 +57,5 @@ const getUserTrips = async (req, res) => {
 module.exports = {
   getUserProfile,
   updateUserPreferences,
-  getUserTrips
+  getUserTrips,
 };
