@@ -24,6 +24,9 @@ const userSchema = new mongoose.Schema(
         ref: 'Trip',
       },
     ],
+    preferences: {
+      tags: [String], 
+    },
   },
   {
     timestamps: true,
