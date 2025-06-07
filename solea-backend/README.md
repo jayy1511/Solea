@@ -9,7 +9,7 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 - **Node.js + Express** — API server
 - **MongoDB + Mongoose** — Core data storage
 - **Neo4j (AuraDB)** — Graph-based city & recommendation system
-- **Redis (Redis Cloud)** — Session caching and draft trip storage
+- **Redis (Redis Cloud)** — Session caching, draft storage, and real-time data
 - **JWT Authentication** — Secure user sessions
 - **Bcrypt** — Password hashing
 - **CORS + Dotenv + Nodemon** — Dev & security helpers
@@ -64,15 +64,15 @@ Each city includes:
 
 ---
 
-## Recommendation Routes (Neo4j)
+## 📈 Recommendation Routes (Neo4j)
 
 Neo4j is used to model cities, tags, and relationships for smarter travel suggestions.
 
 - GET /api/recommendations/city/:cityId — Get cities with shared tags
 - GET /api/recommendations/user/:userId — Recommend cities based on user's past trips and preferences
 
-**Enhancements:**
-- Cities are now prioritized based on number of matching tags
+Enhancements:
+- Cities are prioritized by number of matching tags
 - Recommendations exclude cities the user has already visited
 
 Graph structure:
@@ -83,19 +83,31 @@ Neo4j seed script auto-generates nodes for all cities and their tags.
 
 ---
 
-## Redis Routes (Trip Draft Caching)
+## 🧠 Redis Routes (Multi-purpose Usage)
 
-Redis is used to temporarily store in-progress trip drafts per user.
+Redis is used for caching and real-time data storage:
 
+### Trip Draft Caching
 - POST /api/redis/draft/:userId — Save a draft trip
 - GET /api/redis/draft/:userId — Load a saved draft
 - DELETE /api/redis/draft/:userId — Clear a saved draft
 
-The backend uses `cacheService.js` to interact with Redis using the `tripDraft:<userId>` key format.
+### Recently Viewed Cities
+- POST /api/redis/recent/:userId — Add a city to user's recently viewed list
+- GET /api/redis/recent/:userId — Get list of user's recently viewed cities
+
+### Popular Cities Cache
+- POST /api/redis/popular — Admin route to cache popular cities
+- GET /api/redis/popular — Get cached list of popular cities
+
+The backend uses `cacheService.js` to manage Redis keys like:
+- `tripDraft:<userId>`
+- `recentCities:<userId>`
+- `popularCities`
 
 ---
 
-## Seeding Setup
+## 🧬 Seeding Setup
 
 ### MongoDB Seeding
 
@@ -120,7 +132,7 @@ This script will:
 
 ---
 
-## Deployment
+## 🚀 Deployment
 
 - MongoDB: MongoDB Atlas
 - Redis: Redis Cloud
@@ -130,6 +142,6 @@ This script will:
 
 ---
 
-## Author
+## 👨‍💼 Author
 
 Made with care for the Solea Project — *Your next-level travel companion.*
