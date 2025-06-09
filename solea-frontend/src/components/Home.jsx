@@ -25,7 +25,7 @@ const Home = () => {
           </h4>
 
           <div className="w-full md:w-2/4 mt-5 flex flex-row justify-center">
-            <Button title="Checkout Plans" scrollTo="Plans" />
+            <Button title="Explore Now" scrollTo="Plans" />
           </div>
         </div>
       </div>

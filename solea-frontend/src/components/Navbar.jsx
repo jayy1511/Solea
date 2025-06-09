@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiOutlineMenuUnfold } from "react-icons/ai";
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo2.png';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -20,14 +20,14 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <nav className="hidden md:flex items-center gap-6">
-                    <Link to="home" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">Home</Link>
-                    <Link to="subscriptions" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
-                    <Link to="activities" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">Activities</Link>
-                    <Link to="clubs" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
-                    <Link to="about" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">About</Link>
-                    <Link to="contact" spy={true} smooth={true} duration={500} className="oswald hover:text-brightRed transition-all cursor-pointer">Contact</Link>
+                    <Link to="home" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Home</Link>
+                    <Link to="subscriptions" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Destinations</Link>
+                    <Link to="activities" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Hotels</Link>
+                    <Link to="clubs" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Blogs</Link>
+                    <Link to="about" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Partnership</Link>
+                    <Link to="contact" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Contact</Link>
                     <RouterLink to="/login">
-                        <button className="oswald bg-brightRed text-white px-4 py-2 rounded-full hover:bg-[#F4A261] transition-all">Sign In</button>
+                        <button className="oswald bg-brightRed text-white px-4 py-2 rounded-full hover:bg-white hover:text-[#222] transition-all">Sign In</button>
                     </RouterLink>
                 </nav>
                 <div className="md:hidden flex items-center" onClick={handleChange}>
@@ -38,14 +38,14 @@ const Navbar = () => {
                 className={`${menu ? "translate-x-0" : "-translate-x-full"
                     } md:hidden flex flex-col absolute bg-[#222] text-white left-0 top-20 font-semibold text-xl text-center pt-8 pb-4 gap-6 w-full h-auto transition-transform duration-300`}
             >
-                <Link to="home" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">Home</Link>
-                <Link to="subscriptions" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">Subscriptions</Link>
-                <Link to="activities" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">Activities</Link>
-                <Link to="clubs" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">Clubs</Link>
-                <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">About</Link>
-                <Link to="contact" spy={true} smooth={true} duration={500} className="hover:text-brightRed transition-all cursor-pointer">Contact</Link>
+                <Link to="home" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Home</Link>
+                <Link to="subscriptions" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Destinations</Link>
+                <Link to="activities" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Hotels</Link>
+                <Link to="clubs" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Blogs</Link>
+                <Link to="about" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Partnership</Link>
+                <Link to="contact" spy={true} smooth={true} duration={500} className="oswald hover:text-white transition-all cursor-pointer">Contact</Link>
                 <RouterLink to="/login">
-                    <button className="bg-brightRed text-white px-4 py-2 rounded-full hover:bg-red-600 transition-all">Sign In</button>
+                    <button className="oswald bg-brightRed text-white px-4 py-2 rounded-full hover:bg-white hover:text-[#222] transition-all">Sign In</button>
                 </RouterLink>
             </div>
         </div>
