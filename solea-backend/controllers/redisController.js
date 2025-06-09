@@ -8,7 +8,8 @@ const {
   getCachedPopularCities
 } = require('../services/cacheService');
 
-// 🔄 Draft Trip
+
+// Draft Trip
 const saveDraftTrip = async (req, res) => {
   const { userId, draft } = req.body;
   if (!userId || !draft) return res.status(400).json({ message: 'userId and draft are required' });
@@ -31,7 +32,8 @@ const getDraftTrip = async (req, res) => {
   }
 };
 
-// 🕒 Recently Viewed
+
+// Recently Viewed
 const saveRecentCity = async (req, res) => {
   const { userId } = req.params;
   const { cityId } = req.body;
@@ -54,7 +56,8 @@ const getRecentCities = async (req, res) => {
   }
 };
 
-// 🔥 Popular Cities
+
+// Popular Cities
 const updatePopularCities = async (req, res) => {
   const { cities } = req.body;
   if (!cities || !Array.isArray(cities)) {

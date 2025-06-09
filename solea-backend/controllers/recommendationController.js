@@ -1,6 +1,7 @@
 const driver = require('../utils/neo4jClient');
 
-// 🔍 City-based: Get cities that share similar tags
+
+// City-based: Get cities that share similar tags
 const getCityRecommendations = async (req, res) => {
   const { cityId } = req.params;
   const session = driver.session();
@@ -31,7 +32,8 @@ const getCityRecommendations = async (req, res) => {
   }
 };
 
-// 👤 User-based: Recommend based on tags in user's trip history
+
+// User-based: Recommend based on tags in user's trip history
 const getUserRecommendations = async (req, res) => {
   const { userId } = req.params;
   const session = driver.session();
