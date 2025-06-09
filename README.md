@@ -34,4 +34,4 @@ solea/
 
 ---
 
-Created with ❤️ for modern explorers 🌍
+Created with ❤️ for modern explorers
