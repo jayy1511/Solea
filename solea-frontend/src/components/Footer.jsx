@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="bg-[#222] rounded-t-3xl">
+    <div className="bg-[#111] rounded-t-3xl">
       <div className="flex flex-col md:flex-row justify-between md:px-32 px-5 p-5">
         <div className="w-full md:w-1/4">
           <Link to="/">
