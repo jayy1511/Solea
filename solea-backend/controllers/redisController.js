@@ -8,6 +8,7 @@ const {
   getCachedPopularCities
 } = require('../services/cacheService');
 
+
 // Draft Trip
 const saveDraftTrip = async (req, res) => {
   const { userId, draft } = req.body;
@@ -31,6 +32,7 @@ const getDraftTrip = async (req, res) => {
   }
 };
 
+
 // Recently Viewed
 const saveRecentCity = async (req, res) => {
   const { userId } = req.params;
@@ -53,6 +55,7 @@ const getRecentCities = async (req, res) => {
     res.status(500).json({ message: 'Redis error', error: err.message });
   }
 };
+
 
 // Popular Cities
 const updatePopularCities = async (req, res) => {
