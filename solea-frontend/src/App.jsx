@@ -1,32 +1,41 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
-// other components
 import Home from './components/Home';
-
+import Login from './components/Login';
 
 const MainPage = () => (
-  <div>
-    <div id="home">
-      <Home />
-    </div>
+  <div id="home">
+    <Home />
   </div>
 );
+
+// Conditional layout wrapper
+const LayoutWrapper = ({ children }) => {
+  const location = useLocation();
+  const isLoginPage = location.pathname === '/login';
+
+  return (
+    <>
+      <Navbar isLoginPage={isLoginPage} />
+      {children}
+      {!isLoginPage && <Footer />}
+    </>
+  );
+};
 
 const App = () => {
   return (
     <Router>
-      <div>
-        <Navbar />
+      <LayoutWrapper>
         <main>
           <Routes>
             <Route path="/" element={<MainPage />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
-          <Footer />
         </main>
-      </div>
+      </LayoutWrapper>
     </Router>
   );
 };
