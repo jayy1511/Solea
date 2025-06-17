@@ -4,10 +4,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Login from './components/Login';
+import Hero2 from './components/Hero2';
+import Hero3 from './components/hero3';
 
 const MainPage = () => (
   <div id="home">
     <Home />
+    <Hero2 />
+    <Hero3 />
   </div>
 );
 
