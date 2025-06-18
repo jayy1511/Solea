@@ -6,12 +6,16 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Hero2 from './components/Hero2';
 import Hero3 from './components/hero3';
+import Hero4 from './components/hero4';
+import Blog from './components/Blog';
 
 const MainPage = () => (
   <div id="home">
     <Home />
     <Hero2 />
     <Hero3 />
+    <Hero4 />
+    <Blog />
   </div>
 );
 
