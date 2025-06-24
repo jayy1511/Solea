@@ -2,7 +2,8 @@
 
 Welcome to the **Solea** backend API — a RESTful travel planning server built with Node.js, Express.js, MongoDB, Neo4j, and Redis. This backend powers everything from user authentication and trip planning to graph-based recommendations and session-based caching.
 
-![Solea Backend Architecture](./solea-backend/assets/Others/solea_workflow.png)
+![Solea Backend Architecture](https://i.ibb.co/nN0KbFzk/Sol-a-Workflow.png)
+
 
 ---
 
