@@ -8,6 +8,7 @@ import Hero2 from './components/Hero2';
 import Hero3 from './components/hero3';
 import Hero4 from './components/hero4';
 import Blog from './components/Blog';
+import Destinations from './components/Destinations';
 
 const MainPage = () => (
   <div id="home">
@@ -15,6 +16,7 @@ const MainPage = () => (
     <Hero2 />
     <Hero3 />
     <Hero4 />
+    <Destinations />
     <Blog />
   </div>
 );
