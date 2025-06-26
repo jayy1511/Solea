@@ -30,7 +30,7 @@ const Hero3 = () => {
         style={{ borderRadius: "40% 60% 60% 40% / 60% 40% 60% 40%" }}
       />
       <div className="bg-black/40 p-6 rounded-xl backdrop-blur-md text-white max-w-xl text-right">
-        <h1 className="oswald text-6xl md:text-7xl font-light leading-snug">
+        <h1 className="oswald text-7xl font-extralight md:text-right text-center text-white mb-10 tracking-normal reduce-word-spacing">
           Where the <span className="italic">Sky</span> <br /> Meets the Earth
         </h1>
         <p className="oswald mt-6 text-sm md:text-base">

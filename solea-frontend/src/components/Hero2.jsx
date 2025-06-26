@@ -23,8 +23,8 @@ const Hero2 = () => {
     <div className="relative min-h-screen w-full px-5 md:px-32 flex items-center justify-between">
       {/* Text */}
       <div className="bg-black/40 p-6 rounded-xl backdrop-blur-md text-white max-w-xl">
-        <h1 className="oswald text-6xl md:text-7xl font-light leading-snug">
-          A <span className="italic">Window</span> to <br /> New Adventures
+        <h1 className="oswald text-7xl font-extralight md:text-start text-center text-white mb-10 tracking-normal reduce-word-spacing">
+          A <span className="italic">W </span>indow to <br /> New Adventures
         </h1>
         <p className="oswald mt-6 text-sm md:text-base">
           The path to discovery is limitless, offering views of landscapes yet to be explored. Every journey starts with curiosity, and Soléa is here to turn that curiosity into unforgettable experiences.
