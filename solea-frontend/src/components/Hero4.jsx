@@ -7,7 +7,7 @@ const Hero4 = () => {
   return (
     <div className="w-full bg-[#f2f2f2] py-20 px-5 md:px-20">
       <div className="max-w-screen-xl mx-auto">
-        <h1 className="oswald text-6xl md:text-7xl font-light leading-snug text-black mb-4">
+        <h1 className="oswald text-8xl font-extralight md:text-start text-center text-black mb-10 tracking-normal reduce-word-spacing">
           Explore <span className="italic">Worlds</span>
           <br />
           Beyond Imagination
