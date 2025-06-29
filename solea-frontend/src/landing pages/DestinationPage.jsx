@@ -56,8 +56,8 @@ const DestinationPage = () => {
         }
       );
 
-      const tripId = response.data.tripId;
-      navigate(`/hotels/${cityId}?tripId=${tripId}`);
+      const tripId = response.data._id; // ✅ FIXED
+      navigate(`/hotels/${cityId}?tripId=${tripId}`); // ✅ Correct URL
     } catch (error) {
       console.error("Failed to create trip draft:", error);
       alert("Something went wrong while creating your trip.");
