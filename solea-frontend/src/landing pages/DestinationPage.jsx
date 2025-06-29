@@ -5,13 +5,21 @@ import axios from "axios";
 const DestinationPage = () => {
   const { continent } = useParams();
   const [cities, setCities] = useState([]);
+  const [visibleCount, setVisibleCount] = useState(6); //  initial 9 cities
 
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/cities/continent/${continent}`)
-      .then((res) => setCities(res.data))
+      .then((res) => {
+        setCities(res.data);
+        setVisibleCount(6); // reset on continent change
+      })
       .catch((err) => console.error("Failed to fetch cities:", err));
   }, [continent]);
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + 6); //  load 9 more on each click
+  };
 
   return (
     <div className="w-full bg-[#f2f2f2] py-20 px-5 md:px-20 min-h-screen">
@@ -25,9 +33,9 @@ const DestinationPage = () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {cities.map((city) => {
-            const formattedContinent = city.continent; // Preserve spaces like "North America"
-            const formattedCityName = encodeURIComponent(city.name); // Encodes "New York" to "New%20York"
+          {cities.slice(0, visibleCount).map((city) => {
+            const formattedContinent = city.continent;
+            const formattedCityName = encodeURIComponent(city.name);
             const imageUrl = `http://localhost:5000/assets/${formattedContinent}/${formattedCityName}.jpg`;
 
             return (
@@ -38,9 +46,10 @@ const DestinationPage = () => {
                 <img
                   src={imageUrl}
                   alt={city.name}
+                  loading="lazy" // lazy load
                   className="w-full h-64 object-cover"
                   onError={(e) => {
-                    e.target.src = "/fallback.jpg"; // Optional: use a local fallback image
+                    e.target.src = "/fallback.jpg";
                   }}
                 />
                 <div className="absolute top-4 left-4 text-white font-bold text-sm oswald bg-black/50 px-2 py-1 rounded">
@@ -53,6 +62,17 @@ const DestinationPage = () => {
             );
           })}
         </div>
+
+        {visibleCount < cities.length && (
+          <div className="flex justify-center mt-10">
+            <button
+              onClick={handleLoadMore}
+              className="px-6 py-3 bg-black text-white rounded hover:bg-gray-800 transition"
+            >
+              Load More
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
