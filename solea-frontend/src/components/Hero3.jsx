@@ -20,7 +20,7 @@ const borderRadiusVariants = {
 
 const Hero3 = () => {
   return (
-    <div className="relative min-h-screen w-full px-5 md:px-32 flex items-center justify-between">
+    <div id="hero3" className="relative min-h-screen w-full px-5 md:px-32 flex items-center justify-between">
       <motion.img
         src={hero2}
         alt="Hero Visual"

@@ -20,7 +20,7 @@ const borderRadiusVariants = {
 
 const Hero2 = () => {
   return (
-    <div className="relative min-h-screen w-full px-5 md:px-32 flex items-center justify-between">
+    <div id="hero2" className="relative min-h-screen w-full px-5 md:px-32 flex items-center justify-between">
       {/* Text */}
       <div className="bg-black/40 p-6 rounded-xl backdrop-blur-md text-white max-w-xl">
         <h1 className="oswald text-7xl font-extralight md:text-start text-center text-white mb-10 tracking-normal reduce-word-spacing">
