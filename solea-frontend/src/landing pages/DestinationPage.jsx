@@ -5,30 +5,30 @@ import axios from "axios";
 const DestinationPage = () => {
   const { continent } = useParams();
   const [cities, setCities] = useState([]);
-  const [visibleCount, setVisibleCount] = useState(6); //  initial 9 cities
+  const [visibleCount, setVisibleCount] = useState(9);
 
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/cities/continent/${continent}`)
       .then((res) => {
         setCities(res.data);
-        setVisibleCount(6); // reset on continent change
+        setVisibleCount(9);
       })
       .catch((err) => console.error("Failed to fetch cities:", err));
   }, [continent]);
 
   const handleLoadMore = () => {
-    setVisibleCount((prev) => prev + 6); //  load 9 more on each click
+    setVisibleCount((prev) => prev + 9);
   };
 
   return (
-    <div className="w-full bg-[#f2f2f2] py-20 px-5 md:px-20 min-h-screen">
+    <div className="w-full bg-black py-20 px-5 md:px-20 min-h-screen text-white mt-12">
       <div className="max-w-screen-xl mx-auto">
-        <h1 className="oswald text-5xl font-extralight md:text-start text-center text-black mb-10 tracking-normal capitalize">
+        <h1 className="oswald text-5xl font-extralight md:text-start text-center mb-10 tracking-normal capitalize">
           Explore {continent}
         </h1>
 
-        <p className="oswald mt-2 text-sm md:text-base text-black max-w-xl mb-12">
+        <p className="oswald mt-2 text-sm md:text-base max-w-xl mb-12">
           Discover cities in {continent} filled with vibrant culture, history, and adventure.
         </p>
 
@@ -46,7 +46,7 @@ const DestinationPage = () => {
                 <img
                   src={imageUrl}
                   alt={city.name}
-                  loading="lazy" // lazy load
+                  loading="lazy"
                   className="w-full h-64 object-cover"
                   onError={(e) => {
                     e.target.src = "/fallback.jpg";
@@ -63,11 +63,12 @@ const DestinationPage = () => {
           })}
         </div>
 
+        {/* Load More Button */}
         {visibleCount < cities.length && (
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-12">
             <button
               onClick={handleLoadMore}
-              className="px-6 py-3 bg-black text-white rounded hover:bg-gray-800 transition"
+              className="oswald px-6 py-3 text-white border-2 border-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 rounded-md"
             >
               Load More
             </button>
