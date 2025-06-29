@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
@@ -18,6 +19,8 @@ const redisRoutes = require('./routes/redis');
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
+
 
 // Custom Middleware — attach timestamp to request object
 app.use((req, res, next) => {

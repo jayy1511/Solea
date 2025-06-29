@@ -9,6 +9,7 @@ import Hero3 from './components/hero3';
 import Hero4 from './components/hero4';
 import Blog from './components/Blog';
 import ContinentCarousel from './components/ContinentCrousel';
+import DestinationPage from "./landing pages/DestinationPage";
 
 
 
@@ -45,6 +46,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/destinations/:continent" element={<DestinationPage />} />
             
           </Routes>
         </main>
