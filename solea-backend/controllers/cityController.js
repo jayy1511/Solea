@@ -13,9 +13,13 @@ exports.getAllCities = async (req, res) => {
 // Get cities by continent
 exports.getCitiesByContinent = async (req, res) => {
   try {
-    const continent = req.params.continent.toLowerCase();
-    const cities = await City.find({ continent: new RegExp(`^${continent}$`, 'i') });
-    res.status(200).json(cities);
+    const slug = req.params.continent.toLowerCase().replace(/\s/g, "");
+    const allCities = await City.find();
+    const filteredCities = allCities.filter(city =>
+      city.continent &&
+      city.continent.toLowerCase().replace(/\s/g, "") === slug
+    );
+    res.status(200).json(filteredCities);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

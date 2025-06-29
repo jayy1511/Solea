@@ -26,8 +26,8 @@ const DestinationPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {cities.map((city) => {
-            const formattedContinent = city.continent.replace(/\s/g, "");
-            const formattedCityName = city.name.replace(/\s/g, "");
+            const formattedContinent = city.continent; // Preserve spaces like "North America"
+            const formattedCityName = encodeURIComponent(city.name); // Encodes "New York" to "New%20York"
             const imageUrl = `http://localhost:5000/assets/${formattedContinent}/${formattedCityName}.jpg`;
 
             return (
@@ -39,6 +39,9 @@ const DestinationPage = () => {
                   src={imageUrl}
                   alt={city.name}
                   className="w-full h-64 object-cover"
+                  onError={(e) => {
+                    e.target.src = "/fallback.jpg"; // Optional: use a local fallback image
+                  }}
                 />
                 <div className="absolute top-4 left-4 text-white font-bold text-sm oswald bg-black/50 px-2 py-1 rounded">
                   {city.name.toUpperCase()}
