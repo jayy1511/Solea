@@ -1,11 +1,14 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
 const DestinationPage = () => {
   const { continent } = useParams();
+  const navigate = useNavigate();
+
   const [cities, setCities] = useState([]);
   const [visibleCount, setVisibleCount] = useState(9);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     axios
@@ -17,8 +20,48 @@ const DestinationPage = () => {
       .catch((err) => console.error("Failed to fetch cities:", err));
   }, [continent]);
 
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+  }, []);
+
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 9);
+  };
+
+  const handleAddToTrip = async (cityId, cityName) => {
+    if (!user) {
+      alert("Please login or sign up to start building your trip.");
+      navigate("/login");
+      return;
+    }
+
+    const title = prompt("Name your trip:");
+    if (!title || title.trim().length === 0) {
+      alert("Trip name is required.");
+      return;
+    }
+
+    try {
+      const token = localStorage.getItem("token");
+      const response = await axios.post(
+        "http://localhost:5000/api/trips",
+        { cityId, title },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      const tripId = response.data.tripId;
+      navigate(`/hotels/${cityId}?tripId=${tripId}`);
+    } catch (error) {
+      console.error("Failed to create trip draft:", error);
+      alert("Something went wrong while creating your trip.");
+    }
   };
 
   return (
@@ -58,6 +101,14 @@ const DestinationPage = () => {
                 <div className="absolute bottom-4 left-4 text-white font-medium text-xs oswald bg-black/40 px-2 py-1 rounded">
                   {city.country}
                 </div>
+
+                {/* Add to Trip Button */}
+                <button
+                  onClick={() => handleAddToTrip(city._id, city.name)}
+                  className="absolute bottom-4 right-4 text-xs bg-white text-black font-semibold py-1 px-3 rounded-full shadow hover:bg-black hover:text-white transition-all duration-300"
+                >
+                  Add to Trip
+                </button>
               </div>
             );
           })}
