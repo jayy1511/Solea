@@ -13,6 +13,7 @@ import DestinationPage from "./landing pages/DestinationPage";
 import UserProfile from "./components/UserProfile";
 import SelectHotelPage from "./landing pages/SelectHotelPage";
 import TripSummary from "./components/TripSummary";
+import Recommendation from "./components/Recommendation";
 
 
 const MainPage = () => (
@@ -22,6 +23,7 @@ const MainPage = () => (
     <Hero3 />
     <Hero4 />
     <ContinentCarousel />
+    <Recommendation />
     <Blog />
   </div>
 );
@@ -52,6 +54,8 @@ const App = () => {
             <Route path="/profile" element={<UserProfile />} />
             <Route path="/hotels/:cityId" element={<SelectHotelPage />} />
             <Route path="/trip-summary/:tripId" element={<TripSummary />} />
+            
+
           </Routes>
         </main>
       </LayoutWrapper>
