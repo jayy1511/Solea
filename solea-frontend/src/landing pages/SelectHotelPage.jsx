@@ -6,32 +6,52 @@ const HotelPage = () => {
   const { cityId } = useParams();
   const [searchParams] = useSearchParams();
   const [hotels, setHotels] = useState([]);
+  const [cityName, setCityName] = useState("");
   const navigate = useNavigate();
   const tripId = searchParams.get("tripId");
 
   useEffect(() => {
+    // Fetch hotels for this city
     axios
       .get(`http://localhost:5000/api/hotels/city/${cityId}`)
       .then((res) => setHotels(res.data))
       .catch((err) => console.error("Failed to fetch hotels:", err));
+
+    // Fetch city name
+    axios
+      .get(`http://localhost:5000/api/cities/${cityId}`)
+      .then((res) => setCityName(res.data.name))
+      .catch((err) => console.error("Failed to fetch city info:", err));
   }, [cityId]);
 
   const handleHotelSelect = async (hotelId) => {
     const token = localStorage.getItem("token");
+
+    if (!tripId || !token) {
+      alert("Missing trip ID or authentication. Please log in again.");
+      navigate("/login");
+      return;
+    }
+
     try {
-      await axios.post(
+      // Fetch full hotel details
+      const hotelRes = await axios.get(`http://localhost:5000/api/hotels/${hotelId}`);
+      const hotel = hotelRes.data;
+
+      const res = await axios.post(
         `http://localhost:5000/api/trips/${tripId}/hotels`,
-        { hotelId },
+        { cityName, hotel },
         {
           headers: {
             Authorization: `Bearer ${token}`,
           },
         }
       );
+      console.log("✅ Hotel added:", res.data);
       navigate(`/trip-summary/${tripId}`);
     } catch (error) {
-      console.error("Error selecting hotel:", error);
-      alert("Failed to add hotel to trip.");
+      console.error("❌ Error selecting hotel:", error.response?.data || error.message);
+      alert("Failed to add hotel to trip. Please try again.");
     }
   };
 
@@ -45,6 +65,7 @@ const HotelPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {hotels.map((hotel, index) => {
             const imageUrl = `http://localhost:5000/assets/Hotels/hotel${(index % 10) + 11}.jpg`;
+
             return (
               <div
                 key={hotel._id}
