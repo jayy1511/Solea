@@ -46,20 +46,29 @@ const DestinationPage = () => {
 
     try {
       const token = localStorage.getItem("token");
-      const response = await axios.post(
+
+      // Step 1: Create Trip
+      const tripResponse = await axios.post(
         "http://localhost:5000/api/trips",
         { cityId, title },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
+        { headers: { Authorization: `Bearer ${token}` } }
       );
 
-      const tripId = response.data._id; // ✅ FIXED
-      navigate(`/hotels/${cityId}?tripId=${tripId}`); // ✅ Correct URL
+      const tripId = tripResponse.data._id;
+
+      // Step 2: Add City to Trip
+      const cityResponse = await axios.get(`http://localhost:5000/api/cities/${cityId}`);
+      const { name, country, activities } = cityResponse.data;
+
+      await axios.post(
+        `http://localhost:5000/api/trips/${tripId}/cities`,
+        { name, country, activities },
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+
+      navigate(`/hotels/${cityId}?tripId=${tripId}`);
     } catch (error) {
-      console.error("Failed to create trip draft:", error);
+      console.error("Trip creation error:", error);
       alert("Something went wrong while creating your trip.");
     }
   };
@@ -77,9 +86,8 @@ const DestinationPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {cities.slice(0, visibleCount).map((city) => {
-            const formattedContinent = city.continent;
             const formattedCityName = encodeURIComponent(city.name);
-            const imageUrl = `http://localhost:5000/assets/${formattedContinent}/${formattedCityName}.jpg`;
+            const imageUrl = `http://localhost:5000/assets/${city.continent}/${formattedCityName}.jpg`;
 
             return (
               <div
@@ -89,7 +97,6 @@ const DestinationPage = () => {
                 <img
                   src={imageUrl}
                   alt={city.name}
-                  loading="lazy"
                   className="w-full h-64 object-cover"
                   onError={(e) => {
                     e.target.src = "/fallback.jpg";
@@ -102,7 +109,6 @@ const DestinationPage = () => {
                   {city.country}
                 </div>
 
-                {/* Add to Trip Button */}
                 <button
                   onClick={() => handleAddToTrip(city._id, city.name)}
                   className="absolute bottom-4 right-4 text-xs bg-white text-black font-semibold py-1 px-3 rounded-full shadow hover:bg-black hover:text-white transition-all duration-300"
@@ -114,7 +120,6 @@ const DestinationPage = () => {
           })}
         </div>
 
-        {/* Load More Button */}
         {visibleCount < cities.length && (
           <div className="flex justify-center mt-12">
             <button

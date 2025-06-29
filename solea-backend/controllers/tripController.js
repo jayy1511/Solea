@@ -3,17 +3,32 @@ const Trip = require('../models/tripModel');
 //  Create a new trip
 exports.createTrip = async (req, res) => {
   try {
-    const { title } = req.body;
+    const { title, cityId } = req.body;
     const userId = req.user?.id;
 
     if (!userId) {
       return res.status(400).json({ message: "User ID is missing from token" });
     }
 
+    // Fetch city details from DB (assuming you have a City model)
+    const City = require('../models/cityModel');
+    const city = await City.findById(cityId);
+    if (!city) {
+      return res.status(404).json({ message: "City not found" });
+    }
+
     const trip = new Trip({
       title,
       user: userId,
-      status: 'draft'
+      status: 'draft',
+      cities: [
+        {
+          name: city.name,
+          country: city.country,
+          activities: city.activities || [],
+          hotels: []
+        }
+      ]
     });
 
     const savedTrip = await trip.save();
@@ -23,6 +38,7 @@ exports.createTrip = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
 
 //  Add a city to the trip
 exports.addCityToTrip = async (req, res) => {
