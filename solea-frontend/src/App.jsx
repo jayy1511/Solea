@@ -11,7 +11,7 @@ import Blog from './components/Blog';
 import ContinentCarousel from './components/ContinentCrousel';
 import DestinationPage from "./landing pages/DestinationPage";
 import UserProfile from "./components/UserProfile";
-import HotelPage from "./components/HotelPage";
+import SelectHotelPage from "./landing pages/SelectHotelPage";
 
 
 const MainPage = () => (
@@ -49,7 +49,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/destinations/:continent" element={<DestinationPage />} />
             <Route path="/profile" element={<UserProfile />} />
-            <Route path="/hotels/:cityId" element={<HotelPage />} />
+            <Route path="/hotels/:cityId" element={<SelectHotelPage />} />
             
           </Routes>
         </main>
