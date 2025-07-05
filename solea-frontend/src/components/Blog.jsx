@@ -18,7 +18,7 @@ const Blog = () => {
   }, []);
 
   return (
-    <div className="bg-black text-white px-5 md:px-32 py-16">
+    <div id="blog" className="bg-black text-white px-5 md:px-32 py-16">
       <div className="flex justify-between items-center mb-10">
         <h1 className="oswald text-6xl font-bold">Blogs</h1>
         <button className="oswald bg-white text-black px-5 py-2 rounded-md font-semibold hover:bg-brightRed hover:text-[#757575] transition">

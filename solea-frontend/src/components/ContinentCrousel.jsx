@@ -38,6 +38,7 @@ const ContinentCarousel = () => {
 
   return (
     <div
+      id ="ContinentCarousel"
       className="relative w-full h-[90vh] bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url(${continents[index].image})` }}
     >

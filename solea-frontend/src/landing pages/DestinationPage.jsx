@@ -1,27 +1,135 @@
-import { useParams, useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 const DestinationPage = () => {
   const { continent } = useParams();
+  const navigate = useNavigate();
+
   const [cities, setCities] = useState([]);
+  const [visibleCount, setVisibleCount] = useState(9);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/cities/continent/${continent}`)
-      .then((res) => setCities(res.data))
-      .catch((err) => console.error(err));
+      .then((res) => {
+        setCities(res.data);
+        setVisibleCount(9);
+      })
+      .catch((err) => console.error("Failed to fetch cities:", err));
   }, [continent]);
 
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+  }, []);
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + 9);
+  };
+
+  const handleAddToTrip = async (cityId, cityName) => {
+    if (!user) {
+      alert("Please login or sign up to start building your trip.");
+      navigate("/login");
+      return;
+    }
+
+    const title = prompt("Name your trip:");
+    if (!title || title.trim().length === 0) {
+      alert("Trip name is required.");
+      return;
+    }
+
+    try {
+      const token = localStorage.getItem("token");
+
+      // Step 1: Create Trip
+      const tripResponse = await axios.post(
+        "http://localhost:5000/api/trips",
+        { cityId, title },
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+
+      const tripId = tripResponse.data._id;
+
+      // Step 2: Add City to Trip
+      const cityResponse = await axios.get(`http://localhost:5000/api/cities/${cityId}`);
+      const { name, country, activities } = cityResponse.data;
+
+      await axios.post(
+        `http://localhost:5000/api/trips/${tripId}/cities`,
+        { name, country, activities },
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+
+      navigate(`/hotels/${cityId}?tripId=${tripId}`);
+    } catch (error) {
+      console.error("Trip creation error:", error);
+      alert("Something went wrong while creating your trip.");
+    }
+  };
+
   return (
-    <div className="p-8 text-white">
-      <h2 className="text-4xl oswald mb-6 capitalize">{continent} Cities</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {cities.map((city) => (
-          <div key={city._id} className="bg-black/30 p-4 rounded shadow">
-            <h3 className="text-xl oswald">{city.name}</h3>
-            <p>{city.description}</p>
+    <div className="w-full bg-black py-20 px-5 md:px-20 min-h-screen text-white mt-12">
+      <div className="max-w-screen-xl mx-auto">
+        <h1 className="oswald text-5xl font-extralight md:text-start text-center mb-10 tracking-normal capitalize">
+          Explore {continent}
+        </h1>
+
+        <p className="oswald mt-2 text-sm md:text-base max-w-xl mb-12">
+          Discover cities in {continent} filled with vibrant culture, history, and adventure.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {cities.slice(0, visibleCount).map((city) => {
+            const formattedCityName = encodeURIComponent(city.name);
+            const imageUrl = `http://localhost:5000/assets/${city.continent}/${formattedCityName}.jpg`;
+
+            return (
+              <div
+                key={city._id}
+                className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:scale-[1.02] transition-transform"
+              >
+                <img
+                  src={imageUrl}
+                  alt={city.name}
+                  className="w-full h-64 object-cover"
+                  onError={(e) => {
+                    e.target.src = "/fallback.jpg";
+                  }}
+                />
+                <div className="absolute top-4 left-4 text-white font-bold text-sm oswald bg-black/50 px-2 py-1 rounded">
+                  {city.name.toUpperCase()}
+                </div>
+                <div className="absolute bottom-4 left-4 text-white font-medium text-xs oswald bg-black/40 px-2 py-1 rounded">
+                  {city.country}
+                </div>
+
+                <button
+                  onClick={() => handleAddToTrip(city._id, city.name)}
+                  className="absolute bottom-4 right-4 text-xs bg-white text-black font-semibold py-1 px-3 rounded-full shadow hover:bg-black hover:text-white transition-all duration-300"
+                >
+                  Add to Trip
+                </button>
+              </div>
+            );
+          })}
+        </div>
+
+        {visibleCount < cities.length && (
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={handleLoadMore}
+              className="oswald px-6 py-3 text-white border-2 border-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 rounded-md"
+            >
+              Load More
+            </button>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

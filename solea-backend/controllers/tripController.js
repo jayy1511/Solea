@@ -3,72 +3,131 @@ const Trip = require('../models/tripModel');
 // Create a new trip
 exports.createTrip = async (req, res) => {
   try {
-    const trip = new Trip({ ...req.body });
+    const { title, cityId } = req.body;
+    const userId = req.user?.id;
+
+    if (!userId) {
+      return res.status(400).json({ message: "User ID is missing from token" });
+    }
+
+    // Fetch city details from DB (assuming you have a City model)
+    const City = require('../models/cityModel');
+    const city = await City.findById(cityId);
+    if (!city) {
+      return res.status(404).json({ message: "City not found" });
+    }
+
+    const trip = new Trip({
+      title,
+      user: userId,
+      status: 'draft',
+      cities: [
+        {
+          name: city.name,
+          country: city.country,
+          continent: city.continent,
+          activities: city.activities || [],
+          hotels: []
+        }
+      ]
+    });
+
     const savedTrip = await trip.save();
     res.status(201).json(savedTrip);
   } catch (error) {
+    console.error("Trip creation error:", error.message);
     res.status(500).json({ message: error.message });
   }
 };
 
-// Add a city
+// Add a city to the trip
 exports.addCityToTrip = async (req, res) => {
   try {
     const { tripId } = req.params;
-    const { name, country, activities } = req.body;
+    const { name, country, continent, activities } = req.body;
 
     const trip = await Trip.findById(tripId);
-    if (!trip) return res.status(404).json({ message: 'Trip not found' });
+    if (!trip) {
+      return res.status(404).json({ message: 'Trip not found' });
+    }
 
-    trip.cities.push({ name, country, activities });
+    // prevent duplicate city
+    const cityExists = trip.cities.some(c => c.name === name && c.country === country);
+    if (cityExists) {
+      return res.status(400).json({ message: 'City already exists in the trip' });
+    }
+
+    trip.cities.push({
+      name,
+      country,
+      continent,
+      activities: activities || []
+    });
+
     await trip.save();
     res.status(200).json(trip);
   } catch (error) {
+    console.error("Add city error:", error.message);
     res.status(500).json({ message: error.message });
   }
 };
 
-// Add a hotel
+
+// Add a hotel to a city inside the trip
 exports.addHotelToTrip = async (req, res) => {
   try {
     const { tripId } = req.params;
     const { cityName, hotel } = req.body;
 
     const trip = await Trip.findById(tripId);
-    if (!trip) return res.status(404).json({ message: 'Trip not found' });
+    if (!trip) {
+      return res.status(404).json({ message: 'Trip not found' });
+    }
 
     const city = trip.cities.find(c => c.name === cityName);
-    if (!city) return res.status(404).json({ message: 'City not found in trip' });
+    if (!city) {
+      return res.status(404).json({ message: 'City not found in trip' });
+    }
 
     city.hotels.push(hotel);
     await trip.save();
     res.status(200).json(trip);
   } catch (error) {
+    console.error("Add hotel error:", error.message);
     res.status(500).json({ message: error.message });
   }
 };
 
-// Get trip details
+// Get full trip by ID
 exports.getTripById = async (req, res) => {
   try {
     const trip = await Trip.findById(req.params.tripId).populate('user');
-    if (!trip) return res.status(404).json({ message: 'Trip not found' });
+    if (!trip) {
+      return res.status(404).json({ message: 'Trip not found' });
+    }
+
     res.status(200).json(trip);
   } catch (error) {
+    console.error("Get trip error:", error.message);
     res.status(500).json({ message: error.message });
   }
 };
 
-// Confirm trip
+// Confirm and finalize trip
 exports.confirmTrip = async (req, res) => {
   try {
     const trip = await Trip.findById(req.params.tripId);
-    if (!trip) return res.status(404).json({ message: 'Trip not found' });
+    if (!trip) {
+      return res.status(404).json({ message: 'Trip not found' });
+    }
 
     trip.isConfirmed = true;
     await trip.save();
-    res.status(200).json({ message: 'Trip confirmed', trip });
+
+    // You could trigger email here later if needed
+    res.status(200).json({ message: 'Trip confirmed successfully', trip });
   } catch (error) {
+    console.error("Confirm trip error:", error.message);
     res.status(500).json({ message: error.message });
   }
 };
