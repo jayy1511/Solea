@@ -71,7 +71,14 @@ const TripSummary = () => {
 
         <div className="flex gap-4 mt-10">
           <button
-            onClick={() => navigate(`/destinations`)}
+            onClick={() => {
+              const firstCity = trip.cities[0];
+              if (firstCity && firstCity.continent) {
+                navigate(`/destinations/${firstCity.continent}`);
+              } else {
+                alert("No city or continent info found in this trip.");
+              }
+            }}
             className="oswald px-6 py-2 border border-white text-white hover:bg-white hover:text-black transition rounded"
           >
             Add Another City

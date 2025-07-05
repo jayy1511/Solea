@@ -1,6 +1,7 @@
 const Trip = require('../models/tripModel');
+const City = require('../models/cityModel'); // ✅ Make sure this is at the top
 
-//  Create a new trip
+// Create a new trip
 exports.createTrip = async (req, res) => {
   try {
     const { title, cityId } = req.body;
@@ -10,8 +11,6 @@ exports.createTrip = async (req, res) => {
       return res.status(400).json({ message: "User ID is missing from token" });
     }
 
-    // Fetch city details from DB (assuming you have a City model)
-    const City = require('../models/cityModel');
     const city = await City.findById(cityId);
     if (!city) {
       return res.status(404).json({ message: "City not found" });
@@ -25,6 +24,7 @@ exports.createTrip = async (req, res) => {
         {
           name: city.name,
           country: city.country,
+          continent: city.continent, // ✅ ADDED
           activities: city.activities || [],
           hotels: []
         }
@@ -39,8 +39,7 @@ exports.createTrip = async (req, res) => {
   }
 };
 
-
-//  Add a city to the trip
+// Add a city to the trip
 exports.addCityToTrip = async (req, res) => {
   try {
     const { tripId } = req.params;
@@ -51,10 +50,17 @@ exports.addCityToTrip = async (req, res) => {
       return res.status(404).json({ message: 'Trip not found' });
     }
 
+    const city = await City.findOne({ name, country });
+    if (!city) {
+      return res.status(404).json({ message: 'City not found in database' });
+    }
+
     trip.cities.push({
       name,
       country,
-      activities: activities || []
+      continent: city.continent, // ✅ ADDED
+      activities: activities || [],
+      hotels: []
     });
 
     await trip.save();
@@ -65,7 +71,7 @@ exports.addCityToTrip = async (req, res) => {
   }
 };
 
-//  Add a hotel to a city inside the trip
+// Add a hotel to a city inside the trip
 exports.addHotelToTrip = async (req, res) => {
   try {
     const { tripId } = req.params;
@@ -105,7 +111,7 @@ exports.getTripById = async (req, res) => {
   }
 };
 
-//  Confirm and finalize trip
+// Confirm and finalize trip
 exports.confirmTrip = async (req, res) => {
   try {
     const trip = await Trip.findById(req.params.tripId);
@@ -116,7 +122,6 @@ exports.confirmTrip = async (req, res) => {
     trip.isConfirmed = true;
     await trip.save();
 
-    // You could trigger email here later if needed
     res.status(200).json({ message: 'Trip confirmed successfully', trip });
   } catch (error) {
     console.error("Confirm trip error:", error.message);
