@@ -56,8 +56,6 @@ const Hero4 = () => {
             </div>
             <div className="absolute bottom-4 left-4 text-white font-medium text-xs oswald">
               Alberta, Canada
-              <br />
-              6,641 km
             </div>
           </div>
         </div>

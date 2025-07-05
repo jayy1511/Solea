@@ -1,14 +1,21 @@
 import React from "react";
 import Button from "../layouts/Button";
-import bgImage from "../assets/images/bg.jpg";
+import bgVideo from "../assets/videos/video_bg2.mp4";
 
 const Home = () => {
   return (
-    <div
-      className="relative min-h-screen w-full overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
-      {/* Content Overlay */}
+    <div className="relative min-h-screen w-full overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        src={bgVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+
+      {/* Overlay Content */}
       <div className="relative z-10 flex flex-row justify-between min-h-screen md:px-32 px-5 bg-black/60">
         <div className="flex flex-col justify-center md:w-2/3 w-full">
           <h5 className="oswald text-8xl font-extralight md:text-start text-center text-white mb-25 tracking-normal reduce-word-spacing">

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
+import { scroller } from 'react-scroll';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
@@ -59,6 +59,23 @@ const Navbar = () => {
     navigate("/login");
   };
 
+  const scrollToSection = (id) => {
+    scroller.scrollTo(id, {
+      duration: 500,
+      smooth: true,
+      offset: -80,
+    });
+  };
+
+  const handleHomeClick = () => {
+    if (location.pathname === '/') {
+      scrollToSection('home');
+    } else {
+      navigate('/');
+      setTimeout(() => scrollToSection('home'), 300);
+    }
+  };
+
   const isLoginPage = location.pathname === '/login';
   const linkColorClass = isOnHero4 ? 'text-black hover:text-gray-700' : 'text-white hover:text-white';
 
@@ -73,20 +90,25 @@ const Navbar = () => {
   return (
     <div className={`fixed top-0 left-0 w-full z-50 shadow-lg transition-transform duration-700 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
       <div className="flex flex-row justify-between px-5 md:px-32 py-4">
+        {/* Logo */}
         <div className="flex items-center">
-          <ScrollLink to="home" smooth duration={500} className="cursor-pointer">
+          <span onClick={handleHomeClick} className="cursor-pointer">
             <img src={logo} alt="Logo" style={{ width: '60px', height: '40px' }} />
-          </ScrollLink>
+          </span>
         </div>
 
+        {/* Main Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          <ScrollLink to="home" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>Home</ScrollLink>
-          <ScrollLink to="ContinentCrousel" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>Destinations</ScrollLink>
-          <ScrollLink to="hero2" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>Activities</ScrollLink>
-          <ScrollLink to="blog" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>Blogs</ScrollLink>
-          <ScrollLink to="about" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>About</ScrollLink>
-          <ScrollLink to="contact" smooth duration={500} className={`oswald cursor-pointer ${linkColorClass}`}>Contact</ScrollLink>
+          <span onClick={handleHomeClick} className={`oswald cursor-pointer ${linkColorClass}`}>
+            Home
+          </span>
+          <span onClick={() => scrollToSection('ContinentCrousel')} className={`oswald cursor-pointer ${linkColorClass}`}>Destinations</span>
+          <span onClick={() => scrollToSection('hero2')} className={`oswald cursor-pointer ${linkColorClass}`}>Activities</span>
+          <span onClick={() => scrollToSection('blog')} className={`oswald cursor-pointer ${linkColorClass}`}>Blogs</span>
+          <span onClick={() => scrollToSection('about')} className={`oswald cursor-pointer ${linkColorClass}`}>About</span>
+          <span onClick={() => scrollToSection('contact')} className={`oswald cursor-pointer ${linkColorClass}`}>Contact</span>
 
+          {/* Search Input */}
           <div className="relative w-full max-w-[180px] min-w-[150px]">
             <FiSearch className={`absolute w-5 h-5 top-2.5 left-2.5 ${isOnHero4 ? 'text-black' : 'text-white'}`} />
             <input
@@ -99,18 +121,34 @@ const Navbar = () => {
             />
           </div>
 
+          {/* User Dropdown */}
           {user ? (
-            <div className="relative" ref={dropdownRef}>
+            <div className="relative font-oswald" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen(prev => !prev)}
-                className={`border-2 px-4 py-1 rounded-full transition-all ${isOnHero4 ? 'text-black border-black' : 'text-white border-white'}`}
+                className={`oswald px-4 py-1 rounded-full border text-sm tracking-wide transition-all duration-300
+                  ${isOnHero4
+                    ? 'text-black border-black hover:bg-black hover:text-white'
+                    : 'text-white border-white hover:bg-white hover:text-black'
+                  }`}
               >
-                {user.name.split(" ")[0]} ⌄
+                {user.name.split(" ")[0]} 🇻
               </button>
+
               {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg z-50">
-                  <a href="/profile" className="block px-4 py-2 hover:bg-gray-100">Profile</a>
-                  <button onClick={handleLogout} className="block px-4 py-2 w-full text-left hover:bg-gray-100">Logout</button>
+                <div className="absolute right-0 mt-2 w-44 bg-zinc-900 border border-zinc-700 text-white rounded-xl shadow-xl z-50 overflow-hidden animate-fadeIn">
+                  <a
+                    href="/profile"
+                    className="oswald block px-4 py-3 hover:bg-zinc-800 text-md font-oswald transition"
+                  >
+                    Profile
+                  </a>
+                  <button
+                    onClick={handleLogout}
+                    className="oswald block w-full text-left px-4 py-3 hover:bg-zinc-800 text-md font-oswald transition"
+                  >
+                    Logout
+                  </button>
                 </div>
               )}
             </div>
@@ -119,6 +157,7 @@ const Navbar = () => {
           )}
         </nav>
 
+        {/* Hamburger Menu */}
         <div className="md:hidden flex items-center" onClick={handleChange}>
           <AiOutlineMenuUnfold size={28} className={isOnHero4 ? 'text-black' : 'text-white'} />
         </div>

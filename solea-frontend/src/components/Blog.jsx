@@ -21,7 +21,7 @@ const Blog = () => {
     <div id="blog" className="bg-black text-white px-5 md:px-32 py-16">
       <div className="flex justify-between items-center mb-10">
         <h1 className="oswald text-6xl font-bold">Blogs</h1>
-        <button className="oswald bg-white text-black px-5 py-2 rounded-md font-semibold hover:bg-brightRed hover:text-[#757575] transition">
+        <button className="oswald px-6 py-3 text-white border-2 border-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 rounded-md">
           View All
         </button>
       </div>
