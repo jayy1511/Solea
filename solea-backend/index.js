@@ -16,7 +16,7 @@ const recommendationRoutes = require('./routes/recommendations');
 const blogRoutes = require('./routes/blogs');
 const redisRoutes = require('./routes/redis');
 
-// Middleware
+// CORS Middleware
 app.use(cors({
   origin: (origin, callback) => {
     const allowedOrigins = [
@@ -33,6 +33,9 @@ app.use(cors({
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
+
+// Handle preflight requests
+app.options('*', cors());
 
 app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
