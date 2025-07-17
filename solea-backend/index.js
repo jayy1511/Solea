@@ -16,16 +16,28 @@ const recommendationRoutes = require('./routes/recommendations');
 const blogRoutes = require('./routes/blogs');
 const redisRoutes = require('./routes/redis');
 
-// ✅ Middleware
+// Middleware
 app.use(cors({
-  origin: 'https://voluble-scone-617f6ee.netlify.app', // ✅ your Netlify frontend domain
+  origin: (origin, callback) => {
+    const allowedOrigins = [
+      'https://voluble-scone-617f6ee.netlify.app',
+      'http://localhost:5173',
+      undefined // allow curl/Postman or same-origin
+    ];
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS: ' + origin));
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
+
 app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-// ✅ Optional debug log for CORS origin (can remove later)
+// Optional debug log for CORS origin (can remove later)
 app.use((req, res, next) => {
   console.log("🔥 Request from:", req.headers.origin);
   next();
