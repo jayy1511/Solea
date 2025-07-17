@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { BASE_URL } from '../config';
 
 const Recommendation = () => {
   const [userPreferences, setUserPreferences] = useState([]);
@@ -9,14 +10,15 @@ const Recommendation = () => {
     const fetchRecommendations = async () => {
       try {
         const token = localStorage.getItem('token');
-        const userRes = await axios.get('http://localhost:5000/api/users/profile', {
+        const userRes = await axios.get(`${BASE_URL}/api/users/profile`, {
           headers: { Authorization: `Bearer ${token}` },
         });
 
         const tags = userRes.data.preferences?.tags || [];
         setUserPreferences(tags);
 
-        const citiesRes = await axios.get('http://localhost:5000/api/cities');
+        const citiesRes = await axios.get(`${BASE_URL}/api/cities`);
+
         const cities = citiesRes.data;
 
         const scored = cities.map(city => {
@@ -44,7 +46,7 @@ const Recommendation = () => {
       {recommendedCities.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {recommendedCities.map(city => {
-            const imageUrl = `http://localhost:5000/${city.image}`; // uses value like assets/Europe/Barcelona.jpg
+            const imageUrl = `${BASE_URL}/${city.image}`; // uses value like assets/Europe/Barcelona.jpg
 
             return (
               <div key={city._id} className="bg-zinc-800 rounded shadow-md overflow-hidden hover:scale-[1.02] transition-transform">

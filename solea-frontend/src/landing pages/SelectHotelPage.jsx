@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useSearchParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { BASE_URL } from "../config";
 
 const HotelPage = () => {
   const { cityId } = useParams();
@@ -13,13 +14,13 @@ const HotelPage = () => {
   useEffect(() => {
     // Fetch hotels for this city
     axios
-      .get(`http://localhost:5000/api/hotels/city/${cityId}`)
+      .get(`${BASE_URL}/api/hotels/city/${cityId}`)
       .then((res) => setHotels(res.data))
       .catch((err) => console.error("Failed to fetch hotels:", err));
 
     // Fetch city name
     axios
-      .get(`http://localhost:5000/api/cities/${cityId}`)
+      .get(`${BASE_URL}/api/cities/${cityId}`)
       .then((res) => setCityName(res.data.name))
       .catch((err) => console.error("Failed to fetch city info:", err));
   }, [cityId]);
@@ -35,11 +36,11 @@ const HotelPage = () => {
 
     try {
       // Fetch full hotel details
-      const hotelRes = await axios.get(`http://localhost:5000/api/hotels/${hotelId}`);
+      const hotelRes = await axios.get(`${BASE_URL}/api/hotels/${hotelId}`);
       const hotel = hotelRes.data;
 
       const res = await axios.post(
-        `http://localhost:5000/api/trips/${tripId}/hotels`,
+        `${BASE_URL}/api/trips/${tripId}/hotels`,
         { cityName, hotel },
         {
           headers: {
@@ -64,7 +65,7 @@ const HotelPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {hotels.map((hotel, index) => {
-            const imageUrl = `http://localhost:5000/assets/Hotels/hotel${(index % 10) + 11}.jpg`;
+            const imageUrl = `${BASE_URL}/assets/Hotels/hotel${(index % 10) + 11}.jpg`; // ✅ Updated
 
             return (
               <div

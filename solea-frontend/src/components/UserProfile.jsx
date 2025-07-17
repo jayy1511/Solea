@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import TripDraft from '../components/TripDraft';
+import { BASE_URL } from '../config';
+
 
 const preferenceCategories = {
   "Adventure & Outdoors": ["adventure", "hiking", "diving", "wildlife", "outdoor", "water sports"],
@@ -25,7 +28,7 @@ const UserProfile = () => {
       if (!token) return navigate('/login');
 
       try {
-        const res = await axios.get('http://localhost:5000/api/users/profile', {
+        const res = await axios.get(`${BASE_URL}/api/users/profile`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setUser(res.data);
@@ -54,7 +57,7 @@ const UserProfile = () => {
   const savePreferences = async () => {
     const token = localStorage.getItem('token');
     try {
-      await axios.put('http://localhost:5000/api/users/preferences', {
+      await axios.put(`${BASE_URL}/api/users/preferences`, {
         tags: selectedTags,
       }, {
         headers: { Authorization: `Bearer ${token}` }
@@ -120,6 +123,12 @@ const UserProfile = () => {
         ) : (
           <p className="text-gray-400">No confirmed trips yet.</p>
         )}
+      </div>
+
+      {/* 🔁 Redis Trip Draft Feature */}
+      <div className="oswald mt-12">
+        <h2 className="text-2xl font-semibold mb-4">📌 Continue Your Draft</h2>
+        <TripDraft userId={user._id} />
       </div>
 
       <button

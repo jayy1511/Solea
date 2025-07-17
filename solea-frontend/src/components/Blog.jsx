@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { BASE_URL } from '../config';
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
@@ -7,7 +8,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/blogs");
+        const response = await axios.get(`${BASE_URL}/api/blogs`);
         setBlogs(response.data);
       } catch (error) {
         console.error("Failed to fetch blogs:", error);

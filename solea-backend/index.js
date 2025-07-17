@@ -16,11 +16,20 @@ const recommendationRoutes = require('./routes/recommendations');
 const blogRoutes = require('./routes/blogs');
 const redisRoutes = require('./routes/redis');
 
-// Middleware
-app.use(cors());
+// ✅ Middleware
+app.use(cors({
+  origin: 'https://voluble-scone-617f6ee.netlify.app', // ✅ your Netlify frontend domain
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
+}));
 app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
+// ✅ Optional debug log for CORS origin (can remove later)
+app.use((req, res, next) => {
+  console.log("🔥 Request from:", req.headers.origin);
+  next();
+});
 
 // Custom Middleware — attach timestamp to request object
 app.use((req, res, next) => {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import airplaneBg from "../assets/images/airplane_bg.jpg";
 import axios from "axios";
+import { BASE_URL } from '../config';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -19,8 +20,7 @@ const Login = () => {
 
 
     try {
-      const res = await axios.post(`http://localhost:5000${endpoint}`, form);
-
+      const res = await axios.post(`${BASE_URL}${endpoint}`, form);
       if (isLogin) {
         const { token, user } = res.data;
         localStorage.setItem("token", token);

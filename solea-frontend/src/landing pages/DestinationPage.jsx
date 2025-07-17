@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { BASE_URL } from '../config';
 
 const DestinationPage = () => {
   const { continent } = useParams();
@@ -12,7 +13,7 @@ const DestinationPage = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/cities/continent/${continent}`)
+      .get(`${BASE_URL}/api/cities/continent/${continent}`)
       .then((res) => {
         setCities(res.data);
         setVisibleCount(9);
@@ -49,7 +50,7 @@ const DestinationPage = () => {
 
       // Step 1: Create Trip
       const tripResponse = await axios.post(
-        "http://localhost:5000/api/trips",
+        `${BASE_URL}/api/trips`,
         { cityId, title },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -57,11 +58,11 @@ const DestinationPage = () => {
       const tripId = tripResponse.data._id;
 
       // Step 2: Add City to Trip
-      const cityResponse = await axios.get(`http://localhost:5000/api/cities/${cityId}`);
+      const cityResponse = await axios.get(`${BASE_URL}/api/cities/${cityId}`);
       const { name, country, activities } = cityResponse.data;
 
       await axios.post(
-        `http://localhost:5000/api/trips/${tripId}/cities`,
+        `${BASE_URL}/api/trips/${tripId}/cities`,
         { name, country, activities },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -87,7 +88,7 @@ const DestinationPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {cities.slice(0, visibleCount).map((city) => {
             const formattedCityName = encodeURIComponent(city.name);
-            const imageUrl = `http://localhost:5000/assets/${city.continent}/${formattedCityName}.jpg`;
+            const imageUrl = `${BASE_URL}/assets/${city.continent}/${formattedCityName}.jpg`; // updated
 
             return (
               <div

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { BASE_URL } from '../config';
 
 const TripSummary = () => {
   const { tripId } = useParams();
@@ -11,7 +12,7 @@ const TripSummary = () => {
     const fetchTrip = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get(`http://localhost:5000/api/trips/${tripId}`, {
+        const res = await axios.get(`${BASE_URL}/api/trips/${tripId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -88,7 +89,8 @@ const TripSummary = () => {
             onClick={async () => {
               try {
                 const token = localStorage.getItem("token");
-                await axios.post(`http://localhost:5000/api/trips/${tripId}/confirm`, {}, {
+                await axios.post(`${BASE_URL}/api/trips/${tripId}/confirm`, {}, {
+
                   headers: { Authorization: `Bearer ${token}` },
                 });
                 alert("Trip confirmed successfully.");
