@@ -1,15 +1,15 @@
-# ✨ Solea — Travel Planner Project
+# Solea — Travel Planner Project
 
 Solea is a modern travel planning web application designed to help users discover cities, plan personalized trips, manage preferences, and get real-time recommendations.
 
-## 🧭 Project Overview
+## Project Overview
 
-- 🔧 Backend: Node.js, Express, MongoDB
-- 💅 Frontend: React + TailwindCSS (to be implemented)
-- 🎨 Design: Figma wireframes + components
-- 🔐 Auth: JWT-based secure login
+- Backend: Node.js, Express, MongoDB
+- Frontend: React + TailwindCSS (to be implemented)
+- Design: Figma wireframes + components
+- Auth: JWT-based secure login
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 solea/
@@ -18,7 +18,7 @@ solea/
 ├── README.md           # Project overview
 ```
 
-## 🚀 Features (Planned)
+## Features (Planned)
 
 - User authentication and profiles
 - Trip creation with city and hotel linking
@@ -26,7 +26,7 @@ solea/
 - Smart recommendation engine
 - Interactive UI with smooth UX
 
-## 🔜 What's Next?
+## What's Next?
 
 - Build UI in Figma
 - Develop frontend based on wireframes
@@ -34,4 +34,4 @@ solea/
 
 ---
 
-Created with ❤️ for modern explorers
+Created with ❤️ for explorers
