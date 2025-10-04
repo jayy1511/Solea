@@ -5,7 +5,7 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Node.js + Express** — API server
 - **MongoDB + Mongoose** — Core data storage
@@ -17,14 +17,14 @@ Welcome to the **Solea** backend API — a RESTful travel planning server built 
 
 ---
 
-## 🔐 Auth Routes
+## Auth Routes
 
 - POST /api/auth/register — Register a new user
 - POST /api/auth/login — Login and receive JWT token
 
 ---
 
-## 👤 User Routes
+## User Routes
 
 - GET /api/users/profile — Get logged-in user profile (JWT required)
 - PUT /api/users/preferences — Update preferences
@@ -34,7 +34,7 @@ Users can save their travel preferences (tags such as "romantic", "historic", "b
 
 ---
 
-## ✈️ Trip Routes
+## Trip Routes
 
 - POST /api/trips — Create a trip
 - POST /api/trips/:tripId/cities — Add city to trip
@@ -44,7 +44,7 @@ Users can save their travel preferences (tags such as "romantic", "historic", "b
 
 ---
 
-## 🏙️ City Routes
+## City Routes
 
 - GET /api/cities — All cities
 - GET /api/cities/continent/:continent — Cities in a continent
@@ -59,13 +59,13 @@ Each city includes:
 
 ---
 
-## 📝 Blog Routes
+## Blog Routes
 
 - GET /api/blogs — Fetch all blog posts
 
 ---
 
-## 📈 Recommendation Routes (Neo4j)
+## Recommendation Routes (Neo4j)
 
 Neo4j is used to model cities, tags, and relationships for smarter travel suggestions.
 
@@ -84,7 +84,7 @@ Neo4j seed script auto-generates nodes for all cities and their tags.
 
 ---
 
-## 🧠 Redis Routes (Multi-purpose Usage)
+## Redis Routes (Multi-purpose Usage)
 
 Redis is used for caching and real-time data storage:
 
@@ -108,7 +108,7 @@ The backend uses `cacheService.js` to manage Redis keys like:
 
 ---
 
-## 🧬 Seeding Setup
+## Seeding Setup
 
 ### MongoDB Seeding
 
@@ -133,7 +133,7 @@ This script will:
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - MongoDB: MongoDB Atlas
 - Redis: Redis Cloud
@@ -146,6 +146,6 @@ This script will:
 ![Solea Backend Architecture](https://i.ibb.co/nN0KbFzk/Sol-a-Workflow.png)
 
 
-## 👨‍💼 Author
+##  Author
 
 Made with care for the Solea Project — *Your next-level travel companion.*
