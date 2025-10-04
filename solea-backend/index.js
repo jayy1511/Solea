@@ -16,15 +16,15 @@ const recommendationRoutes = require('./routes/recommendations');
 const blogRoutes = require('./routes/blogs');
 const redisRoutes = require('./routes/redis');
 
-// CORS Middleware
+// Middleware
 app.use(cors({
   origin: (origin, callback) => {
     const allowedOrigins = [
       'https://voluble-scone-617f6ee.netlify.app',
       'http://localhost:5173',
-      undefined // allow tools like curl/Postman
+      undefined // allow curl/Postman or same-origin
     ];
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS: ' + origin));
@@ -34,22 +34,16 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 
-// Optional: explicit handling of OPTIONS preflight requests
-app.options('*', (req, res) => {
-  res.sendStatus(204); // OK with no content
-});
-
-// Body Parser & Static Assets
 app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-// Debug log for origin
+// Optional debug log for CORS origin (can remove later)
 app.use((req, res, next) => {
   console.log("🔥 Request from:", req.headers.origin);
   next();
 });
 
-// Attach timestamp
+// Custom Middleware — attach timestamp to request object
 app.use((req, res, next) => {
   const now = Date.now();
   req.requestTime = now;
@@ -62,7 +56,7 @@ app.get('/', (req, res) => {
   res.send(`Solea Backend is running 🚀 — Request Time: ${new Date(req.requestTime).toLocaleString()}`);
 });
 
-// API Routes
+// Register API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/trips', tripRoutes);
@@ -72,7 +66,7 @@ app.use('/api/recommendations', recommendationRoutes);
 app.use('/api/blogs', blogRoutes);
 app.use('/api/redis', redisRoutes);
 
-// Connect to MongoDB
+// MongoDB connection
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
